@@ -1,0 +1,22 @@
+.label {
+    font-family: $normal-font;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 10pt;
+    line-height: 14pt;
+    text-align: left;
+    border: none;
+    border-radius: 0;
+    border-left: 4px solid #efeeed;
+    background-color: #efeeed;
+    color: #414042;
+    height: 25px;
+    width: 100px;
+    padding-left: 5px;
+}
+
+h1 .label {
+    font-size: 20pt;
+    margin-left: 26px;
+    vertical-align: middle;
+}

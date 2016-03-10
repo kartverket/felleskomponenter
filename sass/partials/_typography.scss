@@ -1,0 +1,40 @@
+h3.article-h3 {
+  :after {
+        padding-bottom: 50px;
+        width: 50px;
+        border-bottom: 2.5px solid $orange;
+        content: "";
+        left: 15px;
+        position: absolute;
+  }
+}
+
+h1.small-h1 {
+    font-size: 48pt;
+}
+
+p.article-p {
+  font-size: 14pt;
+  line-height: 24pt;
+  font-weight: 500;
+  font-family: $normal-font;
+  color: #000;
+}
+
+
+p.keyword-header {
+    width: 60%;
+    border-bottom: solid 1px black;
+}
+
+a {
+    color: $dark-blue;
+    :hover {
+        color: $dark-blue;
+        cursor: pointer;
+    }
+}
+
+.control-text {
+    padding-top: 7px;
+}

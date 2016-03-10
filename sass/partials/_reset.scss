@@ -1,0 +1,33 @@
+body {
+    font-size: 12pt;
+    font-family: $normal-font;
+    background-image: none;
+}
+
+    body.dev {
+        background-image: url(img/background-dev.png);
+    }
+
+    body.test {
+        background-image: url(img/background-test.png);
+    }
+
+    body.prod {
+        background-image: none;
+    }
+
+.no-border-radius{
+  border-radius: 0;
+}
+
+.help-text {
+  @extend .no-border-radius;
+}
+
+.panel {
+    @extend .no-border-radius;
+}
+
+.panel-heading {
+    @extend .no-border-radius;
+}

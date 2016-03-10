@@ -1,0 +1,22 @@
+.search-result-navigation {
+    min-height: 44px;
+    p {
+        font-size: 12pt;
+        display: inline;
+        position: relative;
+        bottom: -5px;
+        line-height: 25pt;
+    }
+    .save-as-menu {
+      .save-as-label {
+      }
+      .save-as-dropdown {
+          padding-left: 5px;
+          padding-right: 5px;
+      }
+      .save-as-buttons {
+          padding-left: 5px;
+          text-align: right;
+      }
+    }
+}

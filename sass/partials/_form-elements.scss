@@ -1,0 +1,16 @@
+input[readonly] {
+    cursor: default !important;
+}
+
+.form-group.required .control-label:after, .panel-heading.required:after {
+    content: " *";
+    color: red;
+}
+
+.form-group.has-feedback .form-control-feedback {
+    display: none;
+}
+
+.form-group.has-feedback.has-error .form-control-feedback {
+    display: block;
+}
