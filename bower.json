@@ -1,0 +1,28 @@
+{
+  "name": "felleskomponenter",
+  "homepage": "https://github.com/kartverket/felleskomponenter",
+  "authors": [
+    "Kartverket <post@kartverket.no>"
+  ],
+  "description": "Felleskomponenter for Geonorge",
+  "main": [
+    "js/*.js",
+    "css/*.css",
+    "images/*.png",
+    "images/*.svg"
+  ],
+  "moduleType": [],
+  "keywords": [
+    "kartverket",
+    "geonorge"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
