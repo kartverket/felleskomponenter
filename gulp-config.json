@@ -4,7 +4,17 @@
 			"bower_components/bootstrap/dist/css/bootstrap.css",
       "bower_components/jquery-ui/themes/base/core.css",
 			"bower_components/jquery-ui/themes/base/datepicker.css",
-			"bower_components/jquery-ui/themes/base/theme.css"
+			"bower_components/jquery-ui/themes/base/theme.css",
+			"bower_components/components-font-awesome/css/font-awesome.min.css"
+		],
+		"vendorjs": [
+			"bower_components/angular/angular.min.js",
+			"bower_components/jquery/dist/jquery.min.js",
+			"bower_components/bootstrap/dist/js/bootstrap.min.js",
+			"bower_components/angular-bootstrap/ui-bootstrap.min.js",
+			"bower_components/jquery-ui/ui/minified/datepicker.min.js",
+			"bower_components/js-cookie/src/js.cookie.js"
+
 
 		]
 	}

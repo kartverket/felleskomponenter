@@ -11,7 +11,6 @@ var rename = require('gulp-rename');
 var del = require('del');
 
 var config = require('./gulp-config.json');
-console.log(config);
 
 gulp.task('vendorcss', function(){
     return gulp.src(config.paths.vendorcss)
@@ -20,18 +19,30 @@ gulp.task('vendorcss', function(){
         .pipe(gulp.dest('./dist/css/'));
 });
 
+gulp.task('vendorjs', function(){
+    return gulp.src(config.paths.vendorjs)
+        .pipe(concat('vendor.min.js'))
+        .pipe(uglify())
+        .pipe(gulp.dest('./dist/js/'));
+});
+
 // Lint Task
 gulp.task('scripts', function() {
     return gulp.src('js/*.js')
         .pipe(jshint())
-        .pipe(jshint.reporter('default'));
+        .pipe(jshint.reporter('default'))
+        .pipe(concat('main.js'))
+        .pipe(gulp.dest('./dist/js/'))
+        .pipe(rename({ suffix: '.min' }))
+        .pipe(uglify())
+        .pipe(gulp.dest('./dist/js/'));
 });
 
 gulp.task('styles', function() {
     gulp.src('sass/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./dist/css/'))
-        .pipe(rename({suffix: '.min'}))
+        .pipe(rename({ suffix: '.min' }))
         .pipe(cssnano())
         .pipe(gulp.dest('./dist/css/'));
 });
@@ -39,15 +50,16 @@ gulp.task('styles', function() {
 
 // Clean
 gulp.task('clean', function() {
-    return del(['css', 'js']);
+    return del(['dist/css', 'dist/js']);
 });
 
 //Default task
 gulp.task('default', ['clean'], function() {
-    gulp.start('vendorcss', 'styles', 'scripts');
+    gulp.start('styles', 'scripts');
 });
 
 //Watch
 gulp.task('default',function() {
     gulp.watch('sass/**/*.scss',['styles']);
+    gulp.watch('js/**/*.js', ['scripts']);
 });
