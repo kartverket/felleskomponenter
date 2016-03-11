@@ -17,7 +17,7 @@ gulp.task('vendorcss', function(){
     return gulp.src(config.paths.vendorcss)
         .pipe(concat('vendor.min.css'))
         .pipe(cssnano())
-        .pipe(gulp.dest('./css/'));
+        .pipe(gulp.dest('./dist/css/'));
 });
 
 // Lint Task
@@ -30,10 +30,10 @@ gulp.task('scripts', function() {
 gulp.task('styles', function() {
     gulp.src('sass/**/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./css/'))
+        .pipe(gulp.dest('./dist/css/'))
         .pipe(rename({suffix: '.min'}))
         .pipe(cssnano())
-        .pipe(gulp.dest('./css/'));
+        .pipe(gulp.dest('./dist/css/'));
 });
 
 
