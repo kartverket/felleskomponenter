@@ -31,6 +31,7 @@
     "jquery-ui": "^1.11.4",
     "components-font-awesome": "^4.5.0",
     "chosen": "^1.5.1",
-    "angular-bootstrap": "^1.2.4"
+    "angular-bootstrap": "^1.2.4",
+    "js-cookie": "^2.1.0"
   }
 }
