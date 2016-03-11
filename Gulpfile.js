@@ -10,6 +10,16 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var del = require('del');
 
+var config = require('./gulp-config.json');
+console.log(config);
+
+gulp.task('vendorcss', function(){
+    return gulp.src(config.paths.vendorcss)
+        .pipe(concat('vendor.min.css'))
+        .pipe(cssnano())
+        .pipe(gulp.dest('./css/'));
+});
+
 // Lint Task
 gulp.task('scripts', function() {
     return gulp.src('js/*.js')
@@ -34,7 +44,7 @@ gulp.task('clean', function() {
 
 //Default task
 gulp.task('default', ['clean'], function() {
-    gulp.start('styles', 'scripts');
+    gulp.start('vendorcss', 'styles', 'scripts');
 });
 
 //Watch

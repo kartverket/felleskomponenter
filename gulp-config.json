@@ -1,0 +1,11 @@
+{
+	"paths": {
+		"vendorcss": [
+			"bower_components/bootstrap/dist/css/bootstrap.css",
+      "bower_components/jquery-ui/themes/base/core.css",
+			"bower_components/jquery-ui/themes/base/datepicker.css",
+			"bower_components/jquery-ui/themes/base/theme.css"
+
+		]
+	}
+}
