@@ -27,3 +27,50 @@
         display: block;
     }
 }
+
+
+.btn, .col-actions .btn {
+    background-color: #7DA1C4;
+    transition: all 0.35s linear 0s;
+    color: #FFF;
+    border: none;
+    font-style: normal;
+}
+
+    .btn.btn-purple {
+        background-color: #5d4777;
+    }
+
+    .btn:hover, .btn:focus {
+        background-color: #FE5000;
+        color: #FFF;
+        border: none;
+        font-style: normal;
+    }
+
+    .btn.disabled {
+        background-color: #FFF !important;
+        color: #cfcfcf;
+        border: 1px solid #cfcfcf;
+        opacity: 1;
+        cursor: not-allowed;
+    }
+
+        .btn.disabled:hover {
+            color: #cfcfcf;
+        }
+
+.btn-xs {
+    font-size: 10pt !important;
+    padding: 3px;
+    height: 22px !important;
+}
+
+.input-group-btn > .btn {
+    padding: 6px 12px;
+    height: 34px;
+}
+
+.btn-group > .btn {
+    float: none !important;
+}

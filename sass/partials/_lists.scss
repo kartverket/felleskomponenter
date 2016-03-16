@@ -1,4 +1,5 @@
 .pagination {
+  margin: 0;
   li{
     a {
       height: 34px;
@@ -6,21 +7,32 @@
     }
   }
   > li {
-    > a{
+    > a, > span{
       background-color: #7DA1C4;
       border: 1px solid #FFF;
       transition: all 0.35s linear 0s;
       color: #FFF;
       border-radius: 0px !important;
       font-size: 12pt;
-      :hover{
-
+      &:hover{
+        background-color: #FE5000;
+        color: #FFF;
+        border: 1px solid #FFF;
       }
     }
   }
   > .active{
     > a{
       z-index: 1;
+      background-color: #FE5000;
+      color: #FFF;
+      border: 1px solid #FFF;
+      transition: all 0.35s linear 0s;
+      &:hover{
+        background-color: #FE5000;
+        color: #FFF;
+        border: 1px solid #FFF;
+      }
     }
   }
 }
@@ -29,11 +41,11 @@
 .nav {
   > li{
     > a{
-      :hover, :focus{
+      transition: all 0.35s linear 0s;
+      &:hover, &:focus{
         background-color: #FE5000;
         color: #FFF;
         border: 1px solid #FE5000;
-        transition: all 0.35s linear 0s;
       }
     }
   }
@@ -49,7 +61,7 @@
 .nav-pills{
   > li{
     > a{
-      :hover{
+      &:hover{
         @extend .nav-pill-active;
       }
     }
@@ -85,7 +97,7 @@
   > li.active{
     > a{
       @extend .nav-tab-active;
-      :hover, :focus{
+      &:hover, &:focus{
         @extend .nav-tab-active;
       }
     }
@@ -133,12 +145,12 @@
             display: inline-block;
             width: 23px;
             transition: all 0.35s linear 0s;
-            :hover {
+            &:hover {
                 text-decoration: none;
                 color: #FFF;
                 background-color: #FE5000;
             }
-            :before {
+            &:before {
                 font-family: "Glyphicons Halflings";
                 content: "\e014";
             }

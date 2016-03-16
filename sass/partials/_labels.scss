@@ -1,10 +1,12 @@
 .label {
     font-family: $normal-font;
     display: inline-block;
-    font-weight: normal;
+    font-weight: 600;
     font-size: 10pt;
     line-height: 14pt;
+    text-indent: 10px;
     text-align: left;
+    vertical-align: middle;
     border: none;
     border-radius: 0;
     border-left: 4px solid #efeeed;
@@ -19,4 +21,148 @@ h1 .label {
     font-size: 20pt;
     margin-left: 26px;
     vertical-align: middle;
+}
+
+.label-datasett {
+    border-color: #5d4777;
+}
+
+.label-applikasjon {
+    border-color: #7da1c4;
+}
+
+.label-tjeneste {
+    border-color: #a9c47f;
+}
+
+.label-tjenestelag {
+    border-color: #f0b323;
+}
+
+.label-datasettserie {
+    border-color: #968c84;
+}
+
+.label-danger{
+    border-color: #fe5000;
+}
+
+.label-warning{
+    border-color: #f0b323;
+}
+
+.label-success{
+    border-color: #a9c47f;
+}
+
+.label-info{
+    border-color: #7da1c4;
+}
+
+input[type="text"],
+textarea,
+input.form-control {
+    border-radius: 0;
+    border: 1px solid #CFCFCF;
+    box-shadow: none;
+    font-family: "Open Sans",sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    color: #000000;
+    font-size: 12pt !important;
+    font-weight: 400;
+    min-height: 30px;
+    width: 100%;
+    min-height: 34px;
+    padding: 0px 15px;
+}
+
+    input:focus,
+    textarea:focus,
+    .form-control:focus {
+        border: 1px solid #CFCFCF;
+        outline: none;
+        box-shadow: none;
+    }
+
+
+    textarea, textarea.form-control {
+        border: 1px solid #CFCFCF;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12pt;
+        min-height: 180px;
+        padding: 6px 15px;
+        width: 100%;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+
+    .custom-select {
+    background-color: #FFF;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("/Content/img/arrow-down.svg");
+    background-size: 16px 16px;
+    background-position: right 8px center;
+    border-radius: 0;
+}
+
+    .custom-select:hover {
+        background-image: url("/Content/img/arrow-down.svg");
+    }
+
+    .custom-select select, .custom-select select.form-control {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+        border: none;
+        box-shadow: none;
+        font-family: "Open Sans",sans-serif;
+        background: none;
+        font-size: 12pt;
+        padding: 0 8px;
+        height: 34px;
+        border: 1px solid #CFCFCF;
+        border-radius: 0;
+        margin-bottom: 10px;
+    }
+
+        .custom-select select::-ms-expand {
+            display: none;
+        }
+
+    .custom-select.input-group select {
+        margin-bottom: 0;
+    }
+
+.container .searchbar input {
+    border-radius: 0px !important;
+    font-size: 14pt !important;
+}
+
+    .container .searchbar input:focus {
+        border: none;
+    }
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group-addon {
+    border-radius: 0;
+}
+
+.form-horizontal .form-group {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.required-indicator::after,
+.form-group.required .control-label::after,
+.panel-heading.required::after {
+    content: "*";
+    color: #ED1C24;
 }
