@@ -82,11 +82,11 @@
     }
 
     #tableView .active-orderby.orderby-desc .orderby-indicator {
-        background-image: url("/Content/img/arrow-up.svg");
+        background-image: url($assets-directory+"/images/arrow-up.svg");
     }
 
     #tableView .active-orderby.orderby-asc .orderby-indicator {
-        background-image: url("/Content/img/arrow-down.svg");
+        background-image: url($assets-directory+"/images/arrow-down.svg");
     }
 
     #tableView .search-results-logo {
@@ -260,9 +260,9 @@
 }
 
 .table-heading .sorted-asc:after {
-    background-image: url("/Content/img/arrow-up.svg");
+    background-image: url($assets-directory+"/images/arrow-up.svg");
 }
 
 .table-heading .sorted-desc:after {
-    background-image: url("/Content/img/arrow-down.svg");
+    background-image: url($assets-directory+"/images/arrow-down.svg");
 }
