@@ -16,14 +16,14 @@ gulp.task('vendorcss', function(){
     return gulp.src(config.paths.vendorcss)
         .pipe(concat('vendor.min.css'))
         .pipe(cssnano())
-        .pipe(gulp.dest('./dist/css/'));
+        .pipe(gulp.dest('./assets/css/'));
 });
 
 gulp.task('vendorjs', function(){
     return gulp.src(config.paths.vendorjs)
         .pipe(concat('vendor.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('./dist/js/'));
+        .pipe(gulp.dest('./assets/js/'));
 });
 
 // Lint Task
@@ -32,25 +32,25 @@ gulp.task('scripts', function() {
         .pipe(jshint())
         .pipe(jshint.reporter('default'))
         .pipe(concat('main.js'))
-        .pipe(gulp.dest('./dist/js/'))
+        .pipe(gulp.dest('./assets/js/'))
         .pipe(rename({ suffix: '.min' }))
         .pipe(uglify())
-        .pipe(gulp.dest('./dist/js/'));
+        .pipe(gulp.dest('./assets/js/'));
 });
 
 gulp.task('styles', function() {
     gulp.src('sass/**/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./dist/css/'))
+        .pipe(gulp.dest('./assets/css/'))
         .pipe(rename({ suffix: '.min' }))
         .pipe(cssnano())
-        .pipe(gulp.dest('./dist/css/'));
+        .pipe(gulp.dest('./assets/css/'));
 });
 
 
 // Clean
 gulp.task('clean', function() {
-    return del(['dist/css', 'dist/js']);
+    return del(['assets/css', 'assets/js']);
 });
 
 //Default task

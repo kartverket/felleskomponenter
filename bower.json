@@ -6,10 +6,10 @@
   ],
   "description": "Felleskomponenter for Geonorge",
   "main": [
-    "js/*.js",
-    "css/*.css",
-    "images/*.png",
-    "images/*.svg"
+    "assets/js/*.js",
+    "assets/css/*.css",
+    "assets/images/*.png",
+    "assets/images/*.svg"
   ],
   "moduleType": [],
   "keywords": [
@@ -21,7 +21,12 @@
   "ignore": [
     "**/.*",
     "node_modules",
+    "/gulp-config.json",
+    "/Gulpfile.js",
+    "/package.json",
     "bower_components",
+    "/sass",
+    "/js",
     "test",
     "tests"
   ],
