@@ -499,15 +499,6 @@ body {
   font-family: "Open Sans", sans-serif;
   background-image: none; }
 
-body.dev {
-  background-image: url(img/background-dev.png); }
-
-body.test {
-  background-image: url(img/background-test.png); }
-
-body.prod {
-  background-image: none; }
-
 .no-border-radius, .help-text, .panel, .panel-heading {
   border-radius: 0; }
 
@@ -548,7 +539,7 @@ a {
   border-radius: 4px; }
 
 aside ul li, .container-footer ul li {
-  background-image: url("img/arrow-right.svg"); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/arrow-right.svg"); }
 
 .btn {
   font-family: "Open Sans", sans-serif;
@@ -608,59 +599,59 @@ aside ul li, .container-footer ul li {
 
 /* Info */
 .custom-icon.custom-icon-info {
-  background-image: url(img/ikoner/info.svg);
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/info.svg");
   width: 20px;
   height: 20px;
   vertical-align: bottom; }
 
 .btn .custom-icon.custom-icon-info {
-  background-image: url(img/ikoner/info-white.svg);
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/info-white.svg");
   width: 10pt;
   height: 10pt;
   margin-left: -3px; }
 
 .disabled .custom-icon.custom-icon-info {
-  background-image: url(img/ikoner/info-disabled.svg); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/info-disabled.svg"); }
 
 /* Kartmarkoer */
 .custom-icon.custom-icon-kartmarkoer {
-  background-image: url(img/ikoner/kartmarkoer.svg); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/kartmarkoer.svg"); }
 
 .btn .custom-icon.custom-icon-kartmarkoer {
-  background-image: url(img/ikoner/kartmarkoer-white.svg); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/kartmarkoer-white.svg"); }
 
 .disabled .custom-icon.custom-icon-kartmarkoer {
-  background-image: url(img/ikoner/kartmarkoer-disabled.svg); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/kartmarkoer-disabled.svg"); }
 
 /* Handlekurv*/
 .custom-icon.custom-icon-handlekurv {
-  background-image: url(img/ikoner/handlekurv.svg); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/handlekurv.svg"); }
 
 .btn .custom-icon.custom-icon-handlekurv {
-  background-image: url(img/ikoner/handlekurv-white.svg); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/handlekurv-white.svg"); }
 
 .disabled .custom-icon.custom-icon-handlekurv {
-  background-image: url(img/ikoner/handlekurv-disabled.svg); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/handlekurv-disabled.svg"); }
 
 /* Last ned */
 .custom-icon.custom-icon-lastned {
-  background-image: url(img/ikoner/lastned.svg); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/lastned.svg"); }
 
 .btn .custom-icon.custom-icon-lastned {
-  background-image: url(img/ikoner/lastned-white.svg); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/lastned-white.svg"); }
 
 .disabled .custom-icon.custom-icon-lastned {
-  background-image: url(img/ikoner/lastned-disabled.svg); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/lastned-disabled.svg"); }
 
 /* Last ned */
 .custom-icon.custom-icon-eksternlink, .custom-icon-sm.custom-icon-eksternlink {
-  background-image: url(img/ikoner/ekternlink.svg); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/ekternlink.svg"); }
 
 .btn .custom-icon.custom-icon-eksternlink {
-  background-image: url(img/ikoner/ekternlink-white.svg); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/ekternlink-white.svg"); }
 
 .disabled .custom-icon.custom-icon-eksternlink {
-  background-image: url(img/ikoner/ekternlink-disabled.svg); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/ikoner/ekternlink-disabled.svg"); }
 
 .facet-sok-tittel {
   display: block;
@@ -670,7 +661,7 @@ aside ul li, .container-footer ul li {
     font-size: 12pt;
     line-height: 16pt; }
   .facet-sok-tittel .indicator {
-    background-image: url("/Content/img/arrow-down.svg");
+    background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/arrow-down.svg");
     width: 11px;
     height: 12px;
     padding: 0;
@@ -683,7 +674,7 @@ aside ul li, .container-footer ul li {
       /* content: "\e113";*/ }
 
 .facet-sok-tittel.collapsed .indicator {
-  background-image: url("/Content/img/arrow-right.svg"); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/arrow-right.svg"); }
 
 .facet-sok-undertitler li {
   font-size: 12pt;
@@ -916,7 +907,7 @@ ul#thumbnailsCoverage {
   line-height: 1.42857; }
 
 .container-breadcrumbs ul > li {
-  background-image: url("img/breadcrumb-arrow.svg"); }
+  background-image: url("/Content/bower_components/dibk-fb-webcommon/assets" "/images/breadcrumb-arrow.svg"); }
 
 .tooltip-inner {
   min-width: 100px; }

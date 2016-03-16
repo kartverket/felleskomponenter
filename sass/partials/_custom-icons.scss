@@ -31,71 +31,71 @@
 
 /* Info */
 .custom-icon.custom-icon-info {
-    background-image: url(img/ikoner/info.svg);
+    background-image: url($assets-directory"/images/ikoner/info.svg");
     width: 20px;
     height: 20px;
     vertical-align: bottom;
 }
 
 .btn .custom-icon.custom-icon-info {
-    background-image: url(img/ikoner/info-white.svg);
+    background-image: url($assets-directory"/images/ikoner/info-white.svg");
     width: 10pt;
     height: 10pt;
     margin-left: -3px;
 }
 
 .disabled .custom-icon.custom-icon-info {
-    background-image: url(img/ikoner/info-disabled.svg);
+    background-image: url($assets-directory"/images/ikoner/info-disabled.svg");
 }
 
 /* Kartmarkoer */
 .custom-icon.custom-icon-kartmarkoer {
-    background-image: url(img/ikoner/kartmarkoer.svg);
+    background-image: url($assets-directory"/images/ikoner/kartmarkoer.svg");
 }
 
 .btn .custom-icon.custom-icon-kartmarkoer {
-    background-image: url(img/ikoner/kartmarkoer-white.svg);
+    background-image: url($assets-directory"/images/ikoner/kartmarkoer-white.svg");
 }
 
 .disabled .custom-icon.custom-icon-kartmarkoer {
-    background-image: url(img/ikoner/kartmarkoer-disabled.svg);
+    background-image: url($assets-directory"/images/ikoner/kartmarkoer-disabled.svg");
 }
 
 /* Handlekurv*/
 .custom-icon.custom-icon-handlekurv {
-    background-image: url(img/ikoner/handlekurv.svg);
+    background-image: url($assets-directory"/images/ikoner/handlekurv.svg");
 }
 
 .btn .custom-icon.custom-icon-handlekurv {
-    background-image: url(img/ikoner/handlekurv-white.svg);
+    background-image: url($assets-directory"/images/ikoner/handlekurv-white.svg");
 }
 
 .disabled .custom-icon.custom-icon-handlekurv {
-    background-image: url(img/ikoner/handlekurv-disabled.svg);
+    background-image: url($assets-directory"/images/ikoner/handlekurv-disabled.svg");
 }
 
 /* Last ned */
 .custom-icon.custom-icon-lastned {
-    background-image: url(img/ikoner/lastned.svg);
+    background-image: url($assets-directory"/images/ikoner/lastned.svg");
 }
 
 .btn .custom-icon.custom-icon-lastned {
-    background-image: url(img/ikoner/lastned-white.svg);
+    background-image: url($assets-directory"/images/ikoner/lastned-white.svg");
 }
 
 .disabled .custom-icon.custom-icon-lastned {
-    background-image: url(img/ikoner/lastned-disabled.svg);
+    background-image: url($assets-directory"/images/ikoner/lastned-disabled.svg");
 }
 
 /* Last ned */
 .custom-icon.custom-icon-eksternlink, .custom-icon-sm.custom-icon-eksternlink {
-    background-image: url(img/ikoner/ekternlink.svg);
+    background-image: url($assets-directory"/images/ikoner/ekternlink.svg");
 }
 
 .btn .custom-icon.custom-icon-eksternlink {
-    background-image: url(img/ikoner/ekternlink-white.svg);
+    background-image: url($assets-directory"/images/ikoner/ekternlink-white.svg");
 }
 
 .disabled .custom-icon.custom-icon-eksternlink {
-    background-image: url(img/ikoner/ekternlink-disabled.svg);
+    background-image: url($assets-directory"/images/ikoner/ekternlink-disabled.svg");
 }
