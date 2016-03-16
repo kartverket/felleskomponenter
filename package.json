@@ -22,6 +22,7 @@
   "homepage": "https://github.com/kartverket/felleskomponenter#readme",
   "devDependencies": {
     "del": "^2.2.0",
+    "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-cssnano": "^2.1.1",
     "gulp-jshint": "^2.0.0",
