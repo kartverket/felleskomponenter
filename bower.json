@@ -9,7 +9,9 @@
     "assets/js/*.js",
     "assets/css/*.css",
     "assets/images/*.png",
-    "assets/images/*.svg"
+    "assets/images/*.svg",
+    "assets/images/*.gif",
+    "assets/images/*.ico"
   ],
   "moduleType": [],
   "keywords": [
