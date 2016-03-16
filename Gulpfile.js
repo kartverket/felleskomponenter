@@ -26,6 +26,11 @@ gulp.task('vendorjs', function(){
         .pipe(gulp.dest('./assets/js/'));
 });
 
+gulp.task('vendorfonts', function(){
+    return gulp.src(config.paths.vendorfonts)
+        .pipe(gulp.dest('./assets/fonts/'));
+});
+
 // Lint Task
 gulp.task('scripts', function() {
     return gulp.src('js/*.js')

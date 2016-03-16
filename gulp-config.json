@@ -2,7 +2,7 @@
 	"paths": {
 		"vendorcss": [
 			"bower_components/bootstrap/dist/css/bootstrap.css",
-      "bower_components/jquery-ui/themes/base/core.css",
+      		"bower_components/jquery-ui/themes/base/core.css",
 			"bower_components/jquery-ui/themes/base/datepicker.css",
 			"bower_components/jquery-ui/themes/base/theme.css",
 			"bower_components/components-font-awesome/css/font-awesome.min.css",
@@ -16,6 +16,10 @@
 			"bower_components/jquery-ui/ui/minified/datepicker.min.js",
 			"bower_components/js-cookie/src/js.cookie.js",
 			"bower_components/chosen/chosen.jquery.js"
+		],
+		"vendorfonts": [
+			"bower_components/bootstrap/fonts/**/*.{ttf,woff,woff2,eot,svg}",
+			"bower_components/components-font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg,otf}"
 		]
 	}
 }
