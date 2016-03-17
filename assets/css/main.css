@@ -1803,9 +1803,9 @@ aside ul li, .container-footer ul li {
 .btn.btn-purple {
   background-color: #5d4777; }
 
-.btn:hover, .btn:focus {
+.btn:hover, .btn:focus, a.btn:hover, a.btn:focus {
   background-color: #FE5000;
-  color: #FFF;
+  color: #FFFFFF !important;
   border: none;
   font-style: normal; }
 
@@ -2176,8 +2176,8 @@ aside ul li, .container-footer ul li {
     font-style: normal;
     color: #3867c8; }
     .facet-sok-undertitler li a :hover {
-      font-size: 12pt;
-      line-height: 18pt;
+      font-size: 12pt !important;
+      line-height: 18pt !important;
       color: #3867c8; }
 
 .facet-sok-emne {
@@ -2391,8 +2391,7 @@ textarea, textarea.form-control {
   transition: all 0.35s linear 0s; }
   .nav > li > a:hover, .nav > li > a:focus {
     background-color: #FE5000;
-    color: #FFF;
-    border: 1px solid #FE5000; }
+    color: #FFF; }
 
 .nav-pill-active, .nav-pills > li > a:hover, .nav-pills > li.active > a, .nav-pills > li.active > a :hover, .nav-pills > li.active > a :focus {
   background-color: #fe5000;

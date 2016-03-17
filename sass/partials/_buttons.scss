@@ -41,9 +41,9 @@
         background-color: #5d4777;
     }
 
-    .btn:hover, .btn:focus {
+    .btn:hover, .btn:focus, a.btn:hover, a.btn:focus {
         background-color: #FE5000;
-        color: #FFF;
+        color: #FFFFFF!important;
         border: none;
         font-style: normal;
     }
