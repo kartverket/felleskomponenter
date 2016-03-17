@@ -27,7 +27,8 @@
 			"js/geonorge-searchTopController.js",
 			"js/geonorge-baseUrl.js",
 			"js/geonorge-common.js",
-			"js/geonorge-menuTopController.js"
+			"js/geonorge-menuTopController.js",
+			"js/init.js"
 		]
 	}
 }

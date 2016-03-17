@@ -46,7 +46,7 @@ var searchOptions =
     }
 };
 
-var searchOption = searchOptions[prod];
+var searchOption = searchOptions["prod"];
 
 if (applicationEnvironment !== '')
     searchOption = searchOptions[applicationEnvironment];
@@ -131,7 +131,7 @@ var baseurl_local = searchOption.baseUrl;
           $rootScope.searchQuery = parseLocation(window.location.search)['text'];
           $scope.autoCompleteResult = [];
 
-          $scope.autoCompletePartial = baseurl_local + '/Content/bower_components/kartverket-felleskomponenter/assets/partials/_autoCompleteRow.html';
+          $scope.autoCompletePartial = '/Content/bower_components/kartverket-felleskomponenter/assets/partials/_autoCompleteRow.html';
           $scope.focused = false;
           $scope.autocompleteActive = false;
           $scope.ajaxCallActive = false;
