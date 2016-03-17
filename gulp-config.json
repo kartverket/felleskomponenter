@@ -28,7 +28,8 @@
 			"js/geonorge-baseUrl.js",
 			"js/geonorge-common.js",
 			"js/geonorge-menuTopController.js",
-			"js/init.js"
+			"js/init.js",
+			"js/shopping-cart.js"
 		]
 	}
 }

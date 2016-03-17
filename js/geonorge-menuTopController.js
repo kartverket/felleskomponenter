@@ -49,7 +49,7 @@
                   response = JSON.parse(localStorage.getItem('menuItems'));
                   $scope.menuItems = response.data;
               }
-          }
+          };
          
       }]);
 }());
