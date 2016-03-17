@@ -21,7 +21,9 @@ gulp.task('vendorcss', function(){
 
 gulp.task('vendorjs', function(){
     return gulp.src(config.paths.vendorjs)
-        .pipe(concat('vendor.min.js'))
+        .pipe(concat('vendor.js'))
+        .pipe(gulp.dest('./assets/js/'))
+        .pipe(rename({ suffix: '.min' }))
         .pipe(uglify())
         .pipe(gulp.dest('./assets/js/'));
 });
