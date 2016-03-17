@@ -33,7 +33,7 @@ gulp.task('vendorfonts', function(){
 
 // Lint Task
 gulp.task('scripts', function() {
-    return gulp.src('js/*.js')
+    return gulp.src(config.paths.localjs)
         .pipe(jshint())
         .pipe(jshint.reporter('default'))
         .pipe(concat('main.js'))

@@ -20,6 +20,14 @@
 		"vendorfonts": [
 			"bower_components/bootstrap/fonts/**/*.{ttf,woff,woff2,eot,svg}",
 			"bower_components/components-font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg,otf}"
+		],
+		"localjs": [
+			"js/geonorge-app.js",
+			"js/geonorge-searchoptions.js",
+			"js/geonorge-searchTopController.js",
+			"js/geonorge-baseUrl.js",
+			"js/geonorge-common.js",
+			"js/geonorge-menuTopController.js"
 		]
 	}
 }
