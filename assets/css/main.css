@@ -1727,7 +1727,7 @@ body {
 .help-text {
   background-color: #FFF; }
 
-h3.article-h3 :after {
+h3.article-h3:after {
   padding-bottom: 50px;
   width: 50px;
   border-bottom: 2.5px solid #fe5000;
@@ -1751,7 +1751,7 @@ p.keyword-header {
 
 a {
   color: #3867c8; }
-  a :hover {
+  a:hover {
     color: #3867c8;
     cursor: pointer; }
 
@@ -1803,7 +1803,7 @@ aside ul li, .container-footer ul li {
 .btn.btn-purple {
   background-color: #5d4777; }
 
-.btn:hover, .btn:focus, a.btn:hover, a.btn:focus {
+.btn:hover, .btn:focus, a.btn:hover, a.btn:focus, .btn:hover span, .btn span:hover {
   background-color: #FE5000;
   color: #FFFFFF !important;
   border: none;
@@ -2189,6 +2189,10 @@ aside ul li, .container-footer ul li {
       padding-left: 15px; }
   .facet-sok-emne ul li.hide-children > ul > li.filter-options {
     display: none; }
+
+aside.facet-sok-emne ul li a:hover {
+  font-size: 12pt;
+  line-height: 18pt; }
 
 input[readonly] {
   cursor: default !important; }

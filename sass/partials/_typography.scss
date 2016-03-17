@@ -1,5 +1,5 @@
 h3.article-h3 {
-  :after {
+  &:after {
         padding-bottom: 50px;
         width: 50px;
         border-bottom: 2.5px solid $orange;
@@ -29,7 +29,7 @@ p.keyword-header {
 
 a {
     color: $dark-blue;
-    :hover {
+    &:hover {
         color: $dark-blue;
         cursor: pointer;
     }
