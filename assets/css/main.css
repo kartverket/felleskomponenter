@@ -1190,46 +1190,6 @@ iframe {
   .page-not-found-container .help-links {
     top: 638px; } }
 
-@media print {
-  a.external:after {
-    background-image: none;
-    height: auto;
-    width: auto; }
-  .geonorge-logo a:after {
-    display: none; }
-  iframe {
-    display: none !important; }
-  article ul li {
-    list-style-type: disc; }
-  article ul li:before {
-    display: none; }
-  article p {
-    font-size: 12pt;
-    line-height: auto; }
-  .ingress {
-    font-size: 16pt;
-    line-height: auto; }
-  h2,
-  h3 {
-    position: relative; }
-  article h2:after,
-  article h3:after {
-    left: 0px;
-    margin-top: 10px;
-    top: 100%; }
-  .container article h2 > a,
-  .container h2 {
-    font-size: 24pt;
-    margin-top: 30px; }
-  .container article h3 > a,
-  .container h3 {
-    font-size: 18pt;
-    margin-top: 30px; }
-  .col-print [class*='col-'] {
-    width: 100% !important; }
-  .col-print .block {
-    padding: 5px 0; } }
-
 .container-top-menu {
   background-color: #B6AFA8;
   height: 15px; }
@@ -1528,6 +1488,10 @@ iframe {
 
 .container .input-group .form-control:not(:first-child):not(:last-child),
 .container .input-group input {
+  -moz-border-radius-bottomleft: 6px;
+  -moz-border-radius-topleft: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  -webkit-border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   border-top-left-radius: 6px;
   box-shadow: none;
@@ -1551,12 +1515,22 @@ iframe {
 
 .container .searchbar .input-group-btn,
 .container .searchbar .input-group-btn * {
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-bottomright: 6px;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 6px;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 6px;
+  -webkit-border-top-left-radius: 0;
+  -webkit-border-top-right-radius: 6px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 6px;
   border-top-left-radius: 0;
   border-top-right-radius: 6px; }
 
 .container .searchbar .input-group-addon {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
   border-radius: 0;
   width: 0; }
 
@@ -1588,13 +1562,19 @@ iframe {
   margin: 0; }
 
 .auto-results * {
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px; }
+  -moz-border-radius-bottomleft: 6px;
+  -moz-border-radius-bottomright: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px; }
 
 .auto-results-wrapper {
+  -moz-border-radius: 3px;
   -moz-transition: max-height 2s ease-in-out;
   -ms-transition: max-height 2s ease-in-out;
   -o-transition: max-height 2s ease-in-out;
+  -webkit-border-radius: 3px;
   -webkit-transition: max-height 2s ease-in-out;
   background-color: #eae8e6;
   border-radius: 3px;
@@ -1679,7 +1659,13 @@ a[data-ng-class="highlight"] {
     height: 90px; }
   .searchbar {
     padding: 15px 0; }
-  .container .searchbar input {
+  .container .searchbar input,
+  .input-group .form-control:not(:first-child):not(:last-child),
+  .container .input-group .form-control:not(:first-child):not(:last-child) {
+    -moz-border-radius-bottomleft: 3px;
+    -moz-border-radius-topleft: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
     padding-left: 34.6px; }
@@ -1688,6 +1674,10 @@ a[data-ng-class="highlight"] {
     padding-right: 34.6px; }
   .container .searchbar .input-group-btn,
   .container .searchbar .input-group-btn * {
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-topright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px; }
   .auto-results-wrapper {
@@ -2162,7 +2152,7 @@ aside ul li, .container-footer ul li {
     font-size: 12pt;
     line-height: 16pt; }
   .facet-sok-tittel .indicator {
-    background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets" "/images/arrow-down.svg");
+    background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/arrow-down.svg");
     width: 11px;
     height: 12px;
     padding: 0;
@@ -2175,7 +2165,7 @@ aside ul li, .container-footer ul li {
       /* content: "\e113";*/ }
 
 .facet-sok-tittel.collapsed .indicator {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets" "/images/arrow-right.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/arrow-right.svg"); }
 
 .facet-sok-undertitler li {
   font-size: 12pt;

@@ -23,6 +23,10 @@
 
 .container .input-group .form-control:not(:first-child):not(:last-child),
 .container .input-group input {
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-topleft: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     border-top-left-radius: 6px;
     box-shadow: none;
@@ -46,6 +50,14 @@
 
 .container .searchbar .input-group-btn,
 .container .searchbar .input-group-btn * {
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-bottomright: 6px;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 6px;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 6px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 6px;
     border-top-left-radius: 0;
@@ -53,6 +65,8 @@
 }
 
 .container .searchbar .input-group-addon {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
     border-radius: 0;
     width: 0;
 }
@@ -88,14 +102,20 @@
 .auto-results { margin: 0; }
 
 .auto-results * {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 .auto-results-wrapper {
+    -moz-border-radius: 3px;
     -moz-transition: max-height 2s ease-in-out;
     -ms-transition: max-height 2s ease-in-out;
     -o-transition: max-height 2s ease-in-out;
+    -webkit-border-radius: 3px;
     -webkit-transition: max-height 2s ease-in-out;
     background-color: #eae8e6;
     border-radius: 3px;
@@ -169,9 +189,7 @@
     width: 23px;
 }
 
-a[data-ng-class="highlight"] {
-    text-decoration: underline;
-}
+a[data-ng-class="highlight"] { text-decoration: underline; }
 
 @media (min-width: 768px) {
     .container .searchbar {
@@ -185,7 +203,13 @@ a[data-ng-class="highlight"] {
 
     .searchbar { padding: 15px 0; }
 
-    .container .searchbar input {
+    .container .searchbar input,
+    .input-group .form-control:not(:first-child):not(:last-child),
+    .container .input-group .form-control:not(:first-child):not(:last-child) {
+        -moz-border-radius-bottomleft: 3px;
+        -moz-border-radius-topleft: 3px;
+        -webkit-border-bottom-left-radius: 3px;
+        -webkit-border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
         border-top-left-radius: 3px;
         padding-left: 34.6px;
@@ -198,6 +222,10 @@ a[data-ng-class="highlight"] {
 
     .container .searchbar .input-group-btn,
     .container .searchbar .input-group-btn * {
+        -moz-border-radius-bottomright: 3px;
+        -moz-border-radius-topright: 3px;
+        -webkit-border-bottom-right-radius: 3px;
+        -webkit-border-top-right-radius: 3px;
         border-bottom-right-radius: 3px;
         border-top-right-radius: 3px;
     }
