@@ -1,8 +1,8 @@
 angular.module('geonorge', ['ui.bootstrap']);
 
-angular.module('geonorge').config(function ($sceDelegateProvider) {
+angular.module('geonorge').config(["$sceDelegateProvider", function ($sceDelegateProvider) {
     $sceDelegateProvider.resourceUrlWhitelist(['**']);
-});
+}]);
 var searchOptions =
 {
     "dev" : {

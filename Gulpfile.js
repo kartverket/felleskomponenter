@@ -9,6 +9,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var del = require('del');
+var ngAnnotate = require ('gulp-ng-annotate');
 
 var config = require('./gulp-config.json');
 
@@ -20,8 +21,9 @@ gulp.task('vendorcss', function(){
 });
 
 gulp.task('vendorjs', function(){
-    return gulp.src(config.paths.vendorjs)
+    return gulp.src(config.paths.vendorjs)       
         .pipe(concat('vendor.js'))
+        .pipe(ngAnnotate({add: true}))
         .pipe(gulp.dest('./assets/js/'))
         .pipe(rename({ suffix: '.min' }))
         .pipe(uglify())
@@ -39,6 +41,7 @@ gulp.task('scripts', function() {
         .pipe(jshint())
         .pipe(jshint.reporter('default'))
         .pipe(concat('main.js'))
+        .pipe(ngAnnotate({add: true}))
         .pipe(gulp.dest('./assets/js/'))
         .pipe(rename({ suffix: '.min' }))
         .pipe(uglify())
