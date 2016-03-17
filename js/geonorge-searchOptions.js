@@ -41,7 +41,7 @@ var searchOptions =
     }
 };
 
-var searchOption = searchOptions[prod];
+var searchOption = searchOptions["prod"];
 
 if (applicationEnvironment !== '')
     searchOption = searchOptions[applicationEnvironment];
