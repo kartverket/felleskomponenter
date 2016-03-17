@@ -33,10 +33,6 @@
     p {
         margin-bottom: 0;
     }
-    hr {
-    margin-top: 0;
-    margin-bottom: 0;
-    }
   }
 }
 
@@ -44,6 +40,10 @@
 
 /* Table view */
 #tableView {
+  hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
 
     #tableView .search-results-table-heading {

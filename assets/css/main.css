@@ -1803,11 +1803,14 @@ aside ul li, .container-footer ul li {
 .btn.btn-purple {
   background-color: #5d4777; }
 
-.btn:hover, .btn:focus, a.btn:hover, a.btn:focus, .btn:hover span, .btn span:hover {
+.btn:hover, .btn:focus, a.btn:hover, a.btn:focus {
   background-color: #FE5000;
   color: #FFFFFF !important;
   border: none;
   font-style: normal; }
+
+.btn:hover span, .btn span:hover {
+  color: #FFFFFF !important; }
 
 .btn.disabled {
   background-color: #FFF !important;
@@ -2627,11 +2630,12 @@ input[type="checkbox"].input-validation-error {
       margin: 7px 0; }
     .search-results .result-row p {
       margin-bottom: 0; }
-    .search-results .result-row hr {
-      margin-top: 0;
-      margin-bottom: 0; }
 
 /* Table view */
+#tableView hr {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
 #tableView .search-results-table-heading {
   font-size: 12pt;
   text-transform: uppercase;

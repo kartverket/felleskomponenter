@@ -41,12 +41,17 @@
         background-color: #5d4777;
     }
 
-    .btn:hover, .btn:focus, a.btn:hover, a.btn:focus, .btn:hover span, .btn span:hover {
+    .btn:hover, .btn:focus, a.btn:hover, a.btn:focus{
         background-color: #FE5000;
         color: #FFFFFF!important;
         border: none;
         font-style: normal;
     }
+
+     .btn:hover span, .btn span:hover{
+        color: #FFFFFF!important;
+     }
+
 
     .btn.disabled {
         background-color: #FFF !important;
