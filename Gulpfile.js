@@ -15,7 +15,9 @@ var config = require('./gulp-config.json');
 
 gulp.task('vendorcss', function(){
     return gulp.src(config.paths.vendorcss)
-        .pipe(concat('vendor.min.css'))
+        .pipe(concat('vendor.css'))
+        .pipe(gulp.dest('./assets/css/'))
+        .pipe(rename({ suffix: '.min' }))
         .pipe(cssnano())
         .pipe(gulp.dest('./assets/css/'));
 });
