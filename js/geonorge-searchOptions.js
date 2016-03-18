@@ -1,4 +1,4 @@
-var searchOptions =
+var searchOptionsArray =
 {
     "dev" : {
         text: "Kartkatalogen",
@@ -41,8 +41,8 @@ var searchOptions =
     }
 };
 
-var searchOption = searchOptions["prod"];
+var searchOption = searchOptionsArray.prod;
 
-if (applicationEnvironment !== '')
-    searchOption = searchOptions[applicationEnvironment];
-
+if (applicationEnvironment !== '' && applicationEnvironment !== null) {
+    var searchOption = searchOptionsArray[applicationEnvironment];
+}
