@@ -8,7 +8,6 @@ var baseurl_local = searchOption.baseUrl;
         var lang = '';
         if (txtLang) lang = txtLang.value;
 
-        var methodToExecute = undefined;
 
         return ({
             triggerSearch: triggerSearch,
@@ -23,7 +22,7 @@ var baseurl_local = searchOption.baseUrl;
 
         function triggerSearch(value) {
             return $q(function (reject) {
-                if (methodToExecute == undefined) {
+                if (methodToExecute === undefined) {
                     reject();
                 } else {
                     methodToExecute(value);
@@ -74,7 +73,7 @@ var baseurl_local = searchOption.baseUrl;
           $scope.showFakeResults = false;
           $scope.searchString = "";
           $rootScope.selectedSearch = searchOption;
-          $rootScope.searchQuery = parseLocation(window.location.search)['text'];
+          $rootScope.searchQuery = parseLocation(window.location.search).text;
           $scope.autoCompleteResult = [];
 
           $scope.autoCompletePartial = '/Content/bower_components/kartverket-felleskomponenter/assets/partials/_autoCompleteRow.html';
@@ -171,7 +170,7 @@ var baseurl_local = searchOption.baseUrl;
           function fallbackRouting() {
               var search = $scope.selectedSearch;
               var param = '';
-              if ($rootScope.searchQuery != '') {
+              if ($rootScope.searchQuery !== '') {
                   param = search.queryParameter;
                   param += $rootScope.searchQuery;
               }
@@ -205,7 +204,7 @@ var baseurl_local = searchOption.baseUrl;
           $scope.autocomplete = function (ev) {
               //if ($scope.viewport.width <= $scope.breakpoints.small) return;
 
-              if ($scope.focused == false) return;
+              if ($scope.focused === false) return;
 
               if ($rootScope.searchQuery.length < 3) {
                   $scope.autoCompleteResult = [];
@@ -218,7 +217,7 @@ var baseurl_local = searchOption.baseUrl;
               switch (ev.keyCode) {
                   //enter                                                                                                                                                            
                   case 13:
-                      if (categoryCount == null) {
+                      if (categoryCount === null) {
                           $scope.resetAutocomplete();
                           $scope.allowBlur = true;
                           $scope.onSearch(ev);
@@ -296,7 +295,7 @@ var baseurl_local = searchOption.baseUrl;
               if (response.d) {
                   var list = [];
 
-                  if (response.d.NumberOfHitsTotal == 0) {
+                  if (response.d.NumberOfHitsTotal === 0) {
                       $scope.autoCompleteResult = [];
                       return;
                   }
@@ -306,7 +305,7 @@ var baseurl_local = searchOption.baseUrl;
                   for (var x = 0; x < list.length; x++) {
                       var item = {};
                       var curr = list[x];
-                      if (curr.data.Results.length == 0) continue;
+                      if (curr.data.Results.length === 0) continue;
                       item.type = curr.Section;
 
                       item.title = curr.SectionName;
@@ -330,7 +329,7 @@ var baseurl_local = searchOption.baseUrl;
                       console.log(item);
                   }
 
-              };
+              }
           }
 
           function getType(type) {
@@ -352,7 +351,7 @@ var baseurl_local = searchOption.baseUrl;
 
               if (resultCount > 0 && categoryCount == 1) {
                   resultCount--;
-                  if (resultCount == 0) categoryCount = null;
+                  if (resultCount === 0) categoryCount = null;
               }
 
               if (resultCount == 1 && categoryCount > 1) {
@@ -370,7 +369,7 @@ var baseurl_local = searchOption.baseUrl;
           }
 
           function autoCompleteMoveDown() {
-              if (categoryCount == null) {
+              if (categoryCount === null) {
                   categoryCount = 1;
                   resultCount = 1;
               } else {
