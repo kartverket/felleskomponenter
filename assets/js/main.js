@@ -1,4 +1,5 @@
 var applicationEnvironment = (applicationEnvironment === undefined) ? "" : applicationEnvironment;
+var geonorgeUrl = (applicationEnvironment === "") ? "https://www.test.geonorge.no/" : "https://www.geonorge.no/";
 
 $(window).load(function () {
     var options = {
@@ -14,7 +15,8 @@ $(window).load(function () {
 });
 
 $("document").ready( function(){
-	if ($("#geonorge-logo a img").length){ 
+	if ($("#geonorge-logo").length){ 
+		$("#geonorge-logo a").prop("href", geonorgeUrl);
 		$("#geonorge-logo a img").prop("src", "/Content/bower_components/kartverket-felleskomponenter/assets/images/geonorge_" + applicationEnvironment + "logo.svg");
 	}    
 });
