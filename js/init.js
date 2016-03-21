@@ -1,3 +1,5 @@
+var applicationEnvironment = (applicationEnvironment === undefined) ? "" : applicationEnvironment;
+
 $(window).load(function () {
     var options = {
         disable_search_threshold: 10,

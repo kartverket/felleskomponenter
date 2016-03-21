@@ -22,13 +22,13 @@
 			"bower_components/components-font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg,otf}"
 		],
 		"localjs": [
+			"js/init.js",
 			"js/geonorge-app.js",
 			"js/geonorge-searchoptions.js",
 			"js/geonorge-searchTopController.js",
 			"js/geonorge-baseUrl.js",
 			"js/geonorge-common.js",
 			"js/geonorge-menuTopController.js",
-			"js/init.js",
 			"js/shopping-cart.js"
 		]
 	}
