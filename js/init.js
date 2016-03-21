@@ -15,6 +15,6 @@ $(window).load(function () {
 
 $("document").ready( function(){
 	if ($("#geonorge-logo a img").length){ 
-		$("#geonorge-logo a img").prop("src", "/Content/bower_components/kartverket-felleskomponenter/assets/images/geonorge_" + applicationEnvironment + "logo.jpg");
+		$("#geonorge-logo a img").prop("src", "/Content/bower_components/kartverket-felleskomponenter/assets/images/geonorge_" + applicationEnvironment + "logo.svg");
 	}    
 });
