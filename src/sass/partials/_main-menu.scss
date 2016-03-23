@@ -31,6 +31,13 @@
    }
 }
 
+.search-button-wrapper{
+  .btn{
+    &:focus, &:hover{
+      background-color: #FFF;
+    }
+  }
+}
 
 @media (max-width:767px) {
     .container-login {
