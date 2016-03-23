@@ -27,7 +27,7 @@
     "/Gulpfile.js",
     "/package.json",
     "bower_components",
-    "/src"
+    "/src",
     "test",
     "tests"
   ],
