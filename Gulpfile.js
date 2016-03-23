@@ -64,15 +64,26 @@ gulp.task('styles', function() {
 
 gulp.task('minify-html', function() {
   return gulp.src('src/partials/*.html')
+    .pipe(gulp.dest('./assets/partials/'))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('./assets/partials/'))
 });
 
 gulp.task('minify-cshtml', function() {
   return gulp.src('src/partials/*.cshtml')
+    .pipe(gulp.dest('./assets/partials/'))
+    .pipe(rename({ suffix: '.min' }))
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('./assets/partials/'))
+});
+
+gulp.task('minify-convert-cshtml', function() {
+  return gulp.src('src/partials/*.cshtml')
     .pipe(rename({ extname: '.html' }))
+    .pipe(gulp.dest('./assets/partials/'))
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('./assets/partials/'))
 });
 
@@ -84,7 +95,7 @@ gulp.task('clean', function() {
 
 //Default task
 gulp.task('default', ['clean'], function() {
-    gulp.start('styles', 'scripts');
+    gulp.start('styles', 'scripts', 'minify-html', 'minify-cshtml', 'minify-convert-cshtml');
 });
 
 //Watch
@@ -93,4 +104,5 @@ gulp.task('default',function() {
     gulp.watch('src/js/**/*.js', ['scripts']);
     gulp.watch('src/partials/*.html', ['minify-html']);
     gulp.watch('src/partials/*.cshtml', ['minify-cshtml']);
+    gulp.watch('src/partials/*.cshtml', ['minify-convert-cshtml']);
 });
