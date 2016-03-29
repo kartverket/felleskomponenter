@@ -1865,59 +1865,59 @@ aside ul li, .container-footer ul li {
 
 /* Info */
 .custom-icon.custom-icon-info {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/info.svg");
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/info.svg");
   width: 20px;
   height: 20px;
   vertical-align: bottom; }
 
 .btn .custom-icon.custom-icon-info {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/info-white.svg");
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/info-white.svg");
   width: 10pt;
   height: 10pt;
   margin-left: -3px; }
 
 .disabled .custom-icon.custom-icon-info {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/info-disabled.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/info-disabled.svg"); }
 
 /* Kartmarkoer */
 .custom-icon.custom-icon-kartmarkoer {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/kartmarkoer.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/kartmarkoer.svg"); }
 
 .btn .custom-icon.custom-icon-kartmarkoer {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/kartmarkoer-white.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/kartmarkoer-white.svg"); }
 
 .disabled .custom-icon.custom-icon-kartmarkoer {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/kartmarkoer-disabled.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/kartmarkoer-disabled.svg"); }
 
 /* Handlekurv*/
 .custom-icon.custom-icon-handlekurv {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/handlekurv.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/handlekurv.svg"); }
 
 .btn .custom-icon.custom-icon-handlekurv {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/handlekurv-white.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/handlekurv-white.svg"); }
 
 .disabled .custom-icon.custom-icon-handlekurv {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/handlekurv-disabled.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/handlekurv-disabled.svg"); }
 
 /* Last ned */
 .custom-icon.custom-icon-lastned {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/lastned.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/lastned.svg"); }
 
 .btn .custom-icon.custom-icon-lastned {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/lastned-white.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/lastned-white.svg"); }
 
 .disabled .custom-icon.custom-icon-lastned {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/lastned-disabled.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/lastned-disabled.svg"); }
 
 /* Last ned */
 .custom-icon.custom-icon-eksternlink, .custom-icon-sm.custom-icon-eksternlink {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/images/ikoner/ekternlink.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/ikoner/ekternlink.svg"); }
 
 .btn .custom-icon.custom-icon-eksternlink {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/ekternlink-white.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/ekternlink-white.svg"); }
 
 .disabled .custom-icon.custom-icon-eksternlink {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/ikoner/ekternlink-disabled.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/ekternlink-disabled.svg"); }
 
 .download-form p {
   margin-bottom: 0; }
@@ -2155,7 +2155,7 @@ aside ul li, .container-footer ul li {
     font-size: 12pt;
     line-height: 16pt; }
   .facet-sok-tittel .indicator {
-    background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/arrow-down.svg");
+    background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-down.svg");
     width: 11px;
     height: 12px;
     padding: 0;
@@ -2168,7 +2168,7 @@ aside ul li, .container-footer ul li {
       /* content: "\e113";*/ }
 
 .facet-sok-tittel.collapsed .indicator {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/arrow-right.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-right.svg"); }
 
 .facet-sok-undertitler li {
   font-size: 12pt;
@@ -2313,13 +2313,13 @@ textarea, textarea.form-control {
   background-color: #FFF;
   content: "";
   background-repeat: no-repeat;
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/arrow-down.svg");
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-down.svg");
   background-size: 16px 16px;
   background-position: right 8px center;
   border-radius: 0; }
 
 .custom-select:hover {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/arrow-down.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-down.svg"); }
 
 .custom-select select, .custom-select select.form-control {
   -webkit-appearance: none;
@@ -2561,7 +2561,7 @@ ul#thumbnailsCoverage {
   line-height: 1.42857; }
 
 .container-breadcrumbs ul > li {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/breadcrumb-arrow.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/breadcrumb-arrow.svg"); }
 
 .tooltip-inner {
   min-width: 100px; }
@@ -2670,10 +2670,10 @@ input[type="checkbox"].input-validation-error {
   margin-left: 7px; }
 
 #tableView .active-orderby.orderby-desc .orderby-indicator {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/arrow-up.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-up.svg"); }
 
 #tableView .active-orderby.orderby-asc .orderby-indicator {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/arrow-down.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-down.svg"); }
 
 #tableView .search-results-logo {
   display: none; }
@@ -2802,10 +2802,10 @@ input[type="checkbox"].input-validation-error {
   margin-left: 7px; }
 
 .table-heading .sorted-asc:after {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/arrow-up.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-up.svg"); }
 
 .table-heading .sorted-desc:after {
-  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/arrow-down.svg"); }
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-down.svg"); }
 
 .container .shopping-cart {
   top: initial;

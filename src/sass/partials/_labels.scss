@@ -102,14 +102,14 @@ input.form-control {
     background-color: #FFF;
     content: "";
     background-repeat: no-repeat;
-    background-image: url($assets-directory+"/images/arrow-down.svg");
+    background-image: url($assets-directory+"/images/svg/arrow-down.svg");
     background-size: 16px 16px;
     background-position: right 8px center;
     border-radius: 0;
 }
 
     .custom-select:hover {
-        background-image: url($assets-directory+"/images/arrow-down.svg");
+        background-image: url($assets-directory+"/images/svg/arrow-down.svg");
     }
 
     .custom-select select, .custom-select select.form-control {

@@ -7,7 +7,7 @@
         line-height: 16pt;
     }
     .indicator {
-        background-image: url($assets-directory+"/images/arrow-down.svg");
+        background-image: url($assets-directory+"/images/svg/arrow-down.svg");
         width: 11px;
         height: 12px;
         padding: 0;
@@ -23,7 +23,7 @@
 }
 
 .facet-sok-tittel.collapsed .indicator {
-    background-image: url($assets-directory+"/images/arrow-right.svg");
+    background-image: url($assets-directory+"/images/svg/arrow-right.svg");
 }
 
 .facet-sok-undertitler {
