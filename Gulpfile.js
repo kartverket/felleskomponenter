@@ -87,6 +87,10 @@ gulp.task('minify-convert-cshtml', function() {
     .pipe(gulp.dest('./assets/partials/'))
 });
 
+gulp.task('images', function() {
+    gulp.src('src/images/**/*.{png,svg,gif,jpg}')
+        .pipe(gulp.dest('./assets/images/'))
+    })
 
 // Clean
 gulp.task('clean', function() {
@@ -105,4 +109,5 @@ gulp.task('default',function() {
     gulp.watch('src/partials/*.html', ['minify-html']);
     gulp.watch('src/partials/*.cshtml', ['minify-cshtml']);
     gulp.watch('src/partials/*.cshtml', ['minify-convert-cshtml']);
+    gulp.watch('src/images/**/*.{png,svg,gif,jpg}', ['images']);
 });
