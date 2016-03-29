@@ -55,7 +55,7 @@
     -o-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     background-color: #B6AFA8;
-    background-image: url('/KartverketSharedMenu/Images/Arrow_414042_12px_mobile.svg');
+    background-image: url($assets-directory+"/images/svg/Arrow_414042_12px_mobile.svg");
     background-position: 11px center;
     background-repeat: no-repeat;
     background-size: auto 12px;
@@ -109,7 +109,7 @@
 .navbar-nav .dropdown .dropdown-menu > li > ul > li > ul > li a { font-weight: 500; }
 
 .navbar-nav .dropdown .dropdown-menu > li > ul > li > a {
-    background-image: url('/KartverketSharedMenu/Images/Dot_ffffff_8px-01.png');
+    background-image: url($assets-directory+"/images/png/Dot_ffffff_8px-01.png");
     background-position: 13px 20px;
     background-repeat: no-repeat;
     background-size: 8px;
@@ -127,7 +127,7 @@
 .navbar-nav .dropdown .dropdown-menu > li > ul > li ul > li > a { padding: 0; }
 
 .navbar-nav .dropdown .dropdown-menu > li > ul > li ul > li > a.external:after {
-    background: url('/KartverketSharedMenu/Images/external_link_ffffff_12px-01.svg');
+    background: url($assets-directory+"/images/svg/external_link_ffffff_12px-01.svg");
     background-size: 12px 11px;
     content: "";
     display: inline-block;
@@ -148,7 +148,7 @@
 .nav .open > a:hover,
 .navbar .open > a:focus {
     background-color: #414042;
-    background-image: url('/KartverketSharedMenu/Images/Arrow_968c83_12px_mobile.svg');
+    background-image: url($assets-directory+"/images/svg/Arrow_968c83_12px_mobile.svg");
     background-position: 11px center;
     background-repeat: no-repeat;
     background-size: auto 12px;

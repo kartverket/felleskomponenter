@@ -22,14 +22,14 @@
 			"bower_components/components-font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg,otf}"
 		],
 		"localjs": [
-			"js/init.js",
-			"js/geonorge-app.js",
-			"js/geonorge-searchoptions.js",
-			"js/geonorge-searchTopController.js",
-			"js/geonorge-baseUrl.js",
-			"js/geonorge-common.js",
-			"js/geonorge-menuTopController.js",
-			"js/shopping-cart.js"
+			"src/js/init.js",
+			"src/js/geonorge-app.js",
+			"src/js/geonorge-searchoptions.js",
+			"src/js/geonorge-searchTopController.js",
+			"src/js/geonorge-baseUrl.js",
+			"src/js/geonorge-common.js",
+			"src/js/geonorge-menuTopController.js",
+			"src/js/shopping-cart.js"
 		]
 	}
 }

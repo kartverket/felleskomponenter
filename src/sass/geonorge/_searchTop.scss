@@ -178,7 +178,7 @@
 .autocomplete-loader { position: relative; }
 
 .container .searchbar .input-group-addon .loader {
-    background-image: url('/KartverketSharedMenu/Images/gif_loading-01.gif');
+    background-image: url($assets-directory+"/images/gif/gif_loading-01.gif");
     background-repeat: no-repeat;
     background-size: 23px auto;
     height: 27.60px;

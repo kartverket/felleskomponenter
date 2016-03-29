@@ -19,7 +19,7 @@ body { font-family: 'Open Sans', sans-serif; }
 }
 
 .container-breadcrumbs ul > li {
-    background-image: url('/Static/img/arrow_414042_6px-01-01.svg');
+    background-image: url($assets-directory+"/images/svg/arrow_414042_6px-01-01.svg");
     background-position: 0 center;
     background-repeat: no-repeat;
     background-size: 8px 8px;
@@ -159,7 +159,7 @@ a.external:hover * {
 a.external + .separator-md { display: block; }
 
 a.external:after {
-    background-image: url('/Static/img/external_link_3867c8_12px-01.svg');
+    background-image: url($assets-directory+"/images/svg/external_link_3867c8_12px-01.svg");
     background-size: 12px 11px;
     content: "";
     display: inline-block;
@@ -200,7 +200,7 @@ aside ul li,
 
 aside ul li,
 .container-footer ul li {
-    background-image: url('/Static/img/arrow_414042_8px-01.svg');
+    background-image: url($assets-directory+"/images/svg/arrow_414042_8px-01.svg");
     margin-left: 0;
     padding-left: 15px;
 }
@@ -759,9 +759,9 @@ div.start-page-main-image {
     width: 50px;
 }
 
-.container .layout-block-toggle .collapsed { background-image: url('/Static/img/open_fe5000_50px-01.svg'); }
+.container .layout-block-toggle .collapsed { background-image: url($assets-directory+"/images/svg/open_fe5000_50px-01.svg"); }
 
-.container .layout-block-toggle > :not(.collapsed) { background-image: url('/Static/img/lukk_968c83_50px-01-01.svg'); }
+.container .layout-block-toggle > :not(.collapsed) { background-image: url($assets-directory+"/images/svg/lukk_968c83_50px-01-01.svg"); }
 
 .editorialblock img {
     height: auto;
@@ -793,7 +793,7 @@ div.start-page-main-image {
 .container .to-top,
 .container .to-top:active {
     background-color: transparent;
-    background-image: url('/Static/img/totop_3867c8_75px-01.svg');
+    background-image: url($assets-directory+"/images/svg/totop_3867c8_75px-01.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -936,7 +936,7 @@ div.start-page-main-image {
 }
 
 .standard-page-main-content-area .formblock form .checkbox .checked label {
-    background-image: url('/Static/img/tick_fe5000_16px.svg');
+    background-image: url($assets-directory+"/images/svg/tick_fe5000_16px.svg");
     background-position: center;
     background-size: 15px 15px;
 }
