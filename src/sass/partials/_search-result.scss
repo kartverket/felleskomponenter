@@ -229,11 +229,23 @@
 
     #galleryView .teaser-with-background-image {
         text-align: center;
+        a{
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        .teaser-caption{
+            position: relative;
+            .teaser-heading {
+                font-size: 12pt;
+                @media(min-width:1200px) {
+                    font-size: 14pt;
+                }
+            }
+        }
+        
     }
 
-        #galleryView .teaser-with-background-image .teaser-heading {
-            font-size: 16pt;
-        }
 
 
 .view-navigation {
