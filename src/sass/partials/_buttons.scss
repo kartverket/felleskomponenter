@@ -79,3 +79,36 @@
 .btn-group > .btn {
     float: none !important;
 }
+
+
+.btn-table-row-5 {
+    margin: -2px;
+    &:after{
+        clear: both;
+        display: block;
+        content: "";
+        margin-bottom: 4px;
+    }
+    .table-btn-container {
+        width: 20%;
+        float: left;
+        display: inline-block;
+        padding: 2px;
+        .btn {
+            width: 100%;
+            margin: 0;
+        }
+        @media(max-width:1199px){
+            width: 25%;
+        }
+        @media(max-width:991px){
+            width: 33.333%;
+        }
+        @media(max-width:720px){
+            width: 50%;
+        }
+        @media(max-width:400px){
+            width: 100%;
+        }
+    }
+}
