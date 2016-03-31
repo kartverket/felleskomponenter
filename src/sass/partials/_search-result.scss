@@ -147,6 +147,9 @@
 
     #listView .search-results-title {
         width: 50%;
+        @media (max-width: 767px) {
+            width: 100%;
+        }
     }
 
     #listView .search-results-name {
@@ -165,8 +168,30 @@
         display: none;
     }
 
-    #listView .search-results-action-buttons .btn {
-        width: 130px;
+    #listView .search-results-list-image {
+        @media (max-width: 767px) {
+            display: none;
+        }    
+    }
+
+    #listView .search-results-action-buttons{
+        .btn {
+            width: 130px;
+            @media (max-width: 1199px) {
+                width: 110px;
+                padding: 6px 4px;
+            }
+            @media (max-width: 767px) {
+                width: 130px;
+                padding: 6px 12px;
+            }
+            @media (max-width: 445px) {
+                width: 100%;
+            }
+        }
+        @media (max-width: 767px) {
+            margin-top: 20px;
+        }
     }
 
     #listView .search-results-gallery-image {
