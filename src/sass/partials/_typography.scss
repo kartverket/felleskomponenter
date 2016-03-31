@@ -11,6 +11,18 @@ h3.article-h3 {
 
 h1.small-h1 {
     font-size: 48pt;
+    @media (max-width: 767px) {
+      font-size: 34pt;
+      padding-top: 26px;
+      word-wrap: break-word;
+    }
+}
+
+h2{
+  @media (max-width: 767px) {
+    font-size: 24pt;
+    word-wrap: break-word;
+  }
 }
 
 p.article-p {
