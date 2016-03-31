@@ -1,6 +1,9 @@
 .container .shopping-cart{
     top: initial;
     bottom: 0;
+    img{
+        max-width: none;
+    }
 }
 
 #orderitem-count {
