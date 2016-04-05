@@ -2721,19 +2721,21 @@ input[type="checkbox"].input-validation-error {
 .table-view .search-results-gallery-image {
   display: none; }
 
-#tableView .search-results-action-icons, .table-view .search-results-action-icons {
+#tableView .search-results-action-icons, #tableView .col-actions, .table-view .search-results-action-icons, .table-view .col-actions {
   text-align: center; }
-  #tableView .search-results-action-icons .btn, .table-view .search-results-action-icons .btn {
+  #tableView .search-results-action-icons .btn, #tableView .search-results-action-icons .col-actions.btn, #tableView .col-actions .btn, #tableView .col-actions .col-actions.btn, .table-view .search-results-action-icons .btn, .table-view .search-results-action-icons .col-actions.btn, .table-view .col-actions .btn, .table-view .col-actions .col-actions.btn {
     background: none;
     color: #7DA1C4;
     padding: 0;
     font-size: 18pt;
     line-height: 1em; }
-    #tableView .search-results-action-icons .btn:hover, #tableView .search-results-action-icons .btn:focus, .table-view .search-results-action-icons .btn:hover, .table-view .search-results-action-icons .btn:focus {
+    #tableView .search-results-action-icons .btn:hover, #tableView .search-results-action-icons .btn:focus, #tableView .search-results-action-icons .col-actions.btn:hover, #tableView .search-results-action-icons .col-actions.btn:focus, #tableView .col-actions .btn:hover, #tableView .col-actions .btn:focus, #tableView .col-actions .col-actions.btn:hover, #tableView .col-actions .col-actions.btn:focus, .table-view .search-results-action-icons .btn:hover, .table-view .search-results-action-icons .btn:focus, .table-view .search-results-action-icons .col-actions.btn:hover, .table-view .search-results-action-icons .col-actions.btn:focus, .table-view .col-actions .btn:hover, .table-view .col-actions .btn:focus, .table-view .col-actions .col-actions.btn:hover, .table-view .col-actions .col-actions.btn:focus {
       background: none !important;
       color: #FE5000 !important;
       line-height: 1em; }
-    #tableView .search-results-action-icons .btn.disabled, .table-view .search-results-action-icons .btn.disabled {
+      #tableView .search-results-action-icons .btn:hover span, #tableView .search-results-action-icons .btn:hover span:hover, #tableView .search-results-action-icons .btn:focus span, #tableView .search-results-action-icons .btn:focus span:hover, #tableView .search-results-action-icons .col-actions.btn:hover span, #tableView .search-results-action-icons .col-actions.btn:hover span:hover, #tableView .search-results-action-icons .col-actions.btn:focus span, #tableView .search-results-action-icons .col-actions.btn:focus span:hover, #tableView .col-actions .btn:hover span, #tableView .col-actions .btn:hover span:hover, #tableView .col-actions .btn:focus span, #tableView .col-actions .btn:focus span:hover, #tableView .col-actions .col-actions.btn:hover span, #tableView .col-actions .col-actions.btn:hover span:hover, #tableView .col-actions .col-actions.btn:focus span, #tableView .col-actions .col-actions.btn:focus span:hover, .table-view .search-results-action-icons .btn:hover span, .table-view .search-results-action-icons .btn:hover span:hover, .table-view .search-results-action-icons .btn:focus span, .table-view .search-results-action-icons .btn:focus span:hover, .table-view .search-results-action-icons .col-actions.btn:hover span, .table-view .search-results-action-icons .col-actions.btn:hover span:hover, .table-view .search-results-action-icons .col-actions.btn:focus span, .table-view .search-results-action-icons .col-actions.btn:focus span:hover, .table-view .col-actions .btn:hover span, .table-view .col-actions .btn:hover span:hover, .table-view .col-actions .btn:focus span, .table-view .col-actions .btn:focus span:hover, .table-view .col-actions .col-actions.btn:hover span, .table-view .col-actions .col-actions.btn:hover span:hover, .table-view .col-actions .col-actions.btn:focus span, .table-view .col-actions .col-actions.btn:focus span:hover {
+        color: #FE5000 !important; }
+    #tableView .search-results-action-icons .btn.disabled, #tableView .search-results-action-icons .col-actions.btn.disabled, #tableView .col-actions .btn.disabled, #tableView .col-actions .col-actions.btn.disabled, .table-view .search-results-action-icons .btn.disabled, .table-view .search-results-action-icons .col-actions.btn.disabled, .table-view .col-actions .btn.disabled, .table-view .col-actions .col-actions.btn.disabled {
       opacity: 1;
       color: #cfcfcf !important;
       border: none;

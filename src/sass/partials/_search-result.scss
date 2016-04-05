@@ -93,9 +93,9 @@
     .search-results-gallery-image{
         display: none;
     }
-    .search-results-action-icons{
+    .search-results-action-icons, .col-actions{
         text-align: center;
-        .btn{
+        .btn, .col-actions.btn{
             background: none;
             color: #7DA1C4;
             padding: 0;
@@ -105,6 +105,9 @@
                 background: none !important;
                 color: #FE5000 !important;
                 line-height: 1em;
+                span, span:hover{
+                    color: #FE5000 !important;
+                }
             }
             &.disabled{
                 opacity: 1;
