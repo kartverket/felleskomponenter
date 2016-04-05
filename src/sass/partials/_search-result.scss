@@ -93,14 +93,15 @@
     .search-results-gallery-image{
         display: none;
     }
-    .search-results-action-icons, .col-actions{
+    .search-results-action-icons{
         text-align: center;
-        .btn, .col-actions.btn{
+        .btn, .col-actions .btn{
             background: none;
             color: #7DA1C4;
             padding: 0;
             font-size: 18pt;
             line-height: 1em;
+            text-decoration: none;
             &:hover, &:focus{
                 background: none !important;
                 color: #FE5000 !important;
@@ -114,6 +115,9 @@
                 color: #cfcfcf !important;
                 border: none;
                 background: none !important;
+            }
+            span{
+                transition: all .35s linear 0s;
             }
         }
     }
