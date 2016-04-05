@@ -93,7 +93,7 @@
     .search-results-gallery-image{
         display: none;
     }
-    .search-results-action-icons{
+    .search-results-action-icons, .col-actions{
         text-align: center;
         .btn, .col-actions .btn{
             background: none;
@@ -120,6 +120,9 @@
                 transition: all .35s linear 0s;
             }
         }
+    }
+    .col-actions {
+        text-align: left!important;
     }
 }
 
