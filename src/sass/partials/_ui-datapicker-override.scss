@@ -1,0 +1,75 @@
+
+.ui-datepicker {
+    border-radius: 0;
+    font-family: Open Sans,sans-serif;
+}
+
+.ui-widget-header{
+    background: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #fe5000;
+}
+
+.ui-datepicker-header .ui-corner-all{
+    background-color: #7da1c4;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 0;
+    transition: all .35s linear 0s;
+    height: 34px;
+    padding: 5px 10px;
+}
+
+.ui-datepicker-header .ui-corner-all:hover{
+    background-color: #fe5000;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+
+.ui-datepicker .ui-datepicker-next-hover{
+    right: 2px;
+    top: 2px;
+}
+
+.ui-datepicker .ui-datepicker-prev-hover{
+    left: 2px;
+    top: 2px;
+}
+
+
+
+
+.ui-corner-all .ui-icon.ui-icon-circle-triangle-e, .ui-corner-all .ui-icon.ui-icon-circle-triangle-w{
+    font-size: 0;
+    text-indent: 0;
+    line-height: 16pt;
+    text-align: center;
+}
+
+.ui-corner-all .ui-corner-all .ui-icon.ui-icon-circle-triangle-e:before, .ui-corner-all .ui-icon.ui-icon-circle-triangle-w:before { 
+    font: normal normal normal 12pt/1 FontAwesome;
+    color: #FFF;
+    font-weight: normal;
+}
+
+
+.ui-corner-all .ui-icon.ui-icon-circle-triangle-e:before{
+    content: "\f101";
+}
+.ui-corner-all .ui-icon.ui-icon-circle-triangle-w:before{
+    content: "\f100";
+}
+
+/* Days */
+.ui-widget-content .ui-state-default{
+    background-color: #7da1c4;
+    color: #FFF;
+    border: 1px solid #FFF;
+    transition: all .35s linear 0s;
+}
+.ui-widget-content .ui-state-default.ui-state-active, .ui-widget-content .ui-state-default:hover{
+    background-color: #fe5000;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
