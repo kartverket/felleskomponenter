@@ -2257,7 +2257,8 @@ input[readonly] {
 .full-width {
   width: 100% !important; }
 
-.no-border-radius, .help-text, .panel, .panel-heading {
+.no-border-radius, .help-text, .panel, .panel-heading,
+.no-border-radius input, .help-text input, .panel input, .panel-heading input {
   border-radius: 0 !important; }
 
 img {
