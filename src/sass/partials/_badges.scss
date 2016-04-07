@@ -1,0 +1,16 @@
+.help-text-toggle,
+.panel-default > .panel-heading .help-text-toggle{
+	background-color: #3867C8;
+	transition: all .35s linear 0s;
+	&:hover, &.active{
+		background-color: #fe5000;
+	}
+}
+
+.help-text-toggle:hover,
+.help-text-toggle.active,
+.panel-default > .panel-heading .help-text-toggle:hover,
+.panel-default > .panel-heading .help-text-toggle.active {
+	background-color: #fe5000;
+	color: #fff;
+}
