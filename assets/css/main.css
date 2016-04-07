@@ -2254,6 +2254,18 @@ aside.facet-sok-emne ul li a:hover {
 input[readonly] {
   cursor: default !important; }
 
+.form-horizontal .has-feedback .form-control-feedback {
+  right: -15px; }
+
+.form-horizontal .form-group {
+  padding-bottom: 10px; }
+
+.form-horizontal .control-label {
+  padding-top: 2px; }
+
+.form-control-static {
+  padding-top: 4px; }
+
 .form-group.required .control-label:after, .panel-heading.required:after {
   content: " *";
   color: red; }
