@@ -1,16 +1,40 @@
 input[readonly] {
-    cursor: default !important;
+	cursor: default !important;
 }
 
 .form-group.required .control-label:after, .panel-heading.required:after {
-    content: " *";
-    color: red;
+	content: " *";
+	color: red;
 }
 
 .form-group.has-feedback .form-control-feedback {
-    display: none;
+	display: none;
 }
 
 .form-group.has-feedback.has-error .form-control-feedback {
-    display: block;
+	display: block;
+}
+
+
+.checkbox-inline {
+	margin-right: 10px;
+}
+
+
+.upload-group{
+	.bootstrap-filestyle{
+		width: calc(100% - 93px);
+		display: inline-table;
+		@media (max-width: 480px){
+			display: table;
+			width: auto;
+		}
+	}
+	.upload-btn{
+		position: relative;
+		top: -9px;
+		@media (max-width: 480px){
+			display: block;
+		}
+	}
 }

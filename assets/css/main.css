@@ -1776,6 +1776,22 @@ a {
 aside ul li, .container-footer ul li {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-right.svg"); }
 
+.help-text-toggle,
+.panel-default > .panel-heading .help-text-toggle {
+  background-color: #3867C8;
+  transition: all .35s linear 0s; }
+  .help-text-toggle:hover, .help-text-toggle.active,
+  .panel-default > .panel-heading .help-text-toggle:hover,
+  .panel-default > .panel-heading .help-text-toggle.active {
+    background-color: #fe5000; }
+
+.help-text-toggle:hover,
+.help-text-toggle.active,
+.panel-default > .panel-heading .help-text-toggle:hover,
+.panel-default > .panel-heading .help-text-toggle.active {
+  background-color: #fe5000;
+  color: #fff; }
+
 .btn {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
@@ -2247,6 +2263,24 @@ input[readonly] {
 
 .form-group.has-feedback.has-error .form-control-feedback {
   display: block; }
+
+.checkbox-inline {
+  margin-right: 10px; }
+
+.upload-group .bootstrap-filestyle {
+  width: calc(100% - 93px);
+  display: inline-table; }
+  @media (max-width: 480px) {
+    .upload-group .bootstrap-filestyle {
+      display: table;
+      width: auto; } }
+
+.upload-group .upload-btn {
+  position: relative;
+  top: -9px; }
+  @media (max-width: 480px) {
+    .upload-group .upload-btn {
+      display: block; } }
 
 .no-padding {
   padding: 0; }
