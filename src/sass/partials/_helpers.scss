@@ -1,8 +1,8 @@
 .no-padding {
-    padding: 0;
+	padding: 0;
 }
 .margin-bottom-10 {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 .full-width{
 	width: 100%!important;
@@ -10,4 +10,10 @@
 .no-border-radius,
 .no-border-radius input{
 	border-radius: 0!important;
+}
+
+span.hypernation{
+	@media (max-width: 991px) {
+		display: none;
+	}
 }

@@ -77,28 +77,28 @@ input.form-control {
     padding: 0px 15px;
 }
 
-    input:focus,
-    textarea:focus,
-    .form-control:focus {
-        border: 1px solid #CFCFCF;
-        outline: none;
-        box-shadow: none;
-    }
+input:focus,
+textarea:focus,
+.form-control:focus {
+    border: 1px solid #CFCFCF;
+    outline: none;
+    box-shadow: none;
+}
 
 
-    textarea, textarea.form-control {
-        border: 1px solid #CFCFCF;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 12pt;
-        min-height: 180px;
-        padding: 6px 15px;
-        width: 100%;
-        border-radius: 0;
-        box-shadow: none;
-    }
+textarea, textarea.form-control {
+    border: 1px solid #CFCFCF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    min-height: 180px;
+    padding: 6px 15px;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+}
 
 
-    .custom-select {
+.custom-select {
     background-color: #FFF;
     content: "";
     background-repeat: no-repeat;
@@ -108,44 +108,44 @@ input.form-control {
     border-radius: 0;
 }
 
-    .custom-select:hover {
-        background-image: url($assets-directory+"/images/svg/arrow-down.svg");
-    }
+.custom-select:hover {
+    background-image: url($assets-directory+"/images/svg/arrow-down.svg");
+}
 
-    .custom-select select, .custom-select select.form-control {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        -ms-appearance: none;
-        -o-appearance: none;
-        appearance: none;
-        border: none;
-        box-shadow: none;
-        font-family: "Open Sans",sans-serif;
-        background: none;
-        font-size: 12pt;
-        padding: 0 8px;
-        height: 34px;
-        border: 1px solid #CFCFCF;
-        border-radius: 0;
-        margin-bottom: 10px;
-    }
+.custom-select select, .custom-select select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: none;
+    box-shadow: none;
+    font-family: "Open Sans",sans-serif;
+    background: none;
+    font-size: 12pt;
+    padding: 0 8px;
+    height: 34px;
+    border: 1px solid #CFCFCF;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
 
-        .custom-select select::-ms-expand {
-            display: none;
-        }
+.custom-select select::-ms-expand {
+    display: none;
+}
 
-    .custom-select.input-group select {
-        margin-bottom: 0;
-    }
+.custom-select.input-group select {
+    margin-bottom: 0;
+}
 
 .container .searchbar input {
     border-radius: 0px !important;
     font-size: 14pt !important;
 }
 
-    .container .searchbar input:focus {
-        border: none;
-    }
+.container .searchbar input:focus {
+    border: none;
+}
 
 .input-group {
     margin-bottom: 10px;
@@ -155,9 +155,14 @@ input.form-control {
     border-radius: 0;
 }
 
-.form-horizontal .form-group {
-    margin-right: 0;
-    margin-left: 0;
+.form-horizontal {
+    .form-group {
+        margin-right: 0;
+        margin-left: 0;
+        .control-label{
+            @include word-wrap();
+        }
+    }
 }
 
 .required-indicator::after,

@@ -2277,7 +2277,7 @@ input[readonly] {
 
 .upload-group .upload-btn {
   position: relative;
-  top: -9px; }
+  top: -9.5px; }
   @media (max-width: 480px) {
     .upload-group .upload-btn {
       display: block; } }
@@ -2294,6 +2294,10 @@ input[readonly] {
 .no-border-radius, .help-text, .panel, .panel-heading,
 .no-border-radius input, .help-text input, .panel input, .panel-heading input {
   border-radius: 0 !important; }
+
+@media (max-width: 991px) {
+  span.hypernation {
+    display: none; } }
 
 img {
   max-width: 100%; }
@@ -2439,6 +2443,15 @@ textarea, textarea.form-control {
 .form-horizontal .form-group {
   margin-right: 0;
   margin-left: 0; }
+  .form-horizontal .form-group .control-label {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto; }
 
 .required-indicator::after,
 .form-group.required .control-label::after,
