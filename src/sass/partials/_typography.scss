@@ -1,21 +1,21 @@
 h3.article-h3 {
   &:after {
-        padding-bottom: 50px;
-        width: 50px;
-        border-bottom: 2.5px solid $orange;
-        content: "";
-        left: 15px;
-        position: absolute;
+    padding-bottom: 50px;
+    width: 50px;
+    border-bottom: 2.5px solid $orange;
+    content: "";
+    left: 15px;
+    position: absolute;
   }
 }
 
 h1.small-h1 {
-    font-size: 48pt;
-    @media (max-width: 767px) {
-      font-size: 34pt;
-      padding-top: 26px;
-      word-wrap: break-word;
-    }
+  font-size: 48pt;
+  @media (max-width: 767px) {
+    font-size: 34pt;
+    padding-top: 26px;
+    word-wrap: break-word;
+  }
 }
 
 h2{
@@ -35,24 +35,24 @@ p.article-p {
 
 
 p.keyword-header {
-    width: 60%;
-    border-bottom: solid 1px black;
+  width: 60%;
+  border-bottom: solid 1px black;
 }
 
 a {
+  color: $dark-blue;
+  &:hover {
     color: $dark-blue;
-    &:hover {
-        color: $dark-blue;
-        cursor: pointer;
-    }
+    cursor: pointer;
+  }
 }
 
 .control-text {
-    padding-top: 7px;
+  padding-top: 7px;
 }
 
 .help-text {
-    margin: 5px;
-    padding: 10px;
-    border-radius: 4px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 4px;
 }
