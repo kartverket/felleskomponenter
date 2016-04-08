@@ -11,6 +11,7 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var del = require('del');
 var ngAnnotate = require ('gulp-ng-annotate');
+var es = require ('event-stream');
 
 var config = require('./gulp-config.json');
 
@@ -92,6 +93,13 @@ gulp.task('images', function() {
         .pipe(gulp.dest('./assets/images/'))
     })
 
+gulp.task('component-images', function () {
+  return es.merge(config.paths.component_images.map(function (component) {
+    return gulp.src(component.src)
+      .pipe(gulp.dest(component.dest));
+  }));
+});
+
 // Clean
 gulp.task('clean', function() {
     return del(['assets/css', 'assets/js', 'assets/partials']);
@@ -99,7 +107,7 @@ gulp.task('clean', function() {
 
 //Default task
 gulp.task('default', ['clean'], function() {
-    gulp.start('styles', 'scripts', 'minify-html', 'minify-cshtml', 'minify-convert-cshtml');
+    gulp.start('styles', 'scripts', 'minify-html', 'minify-cshtml', 'minify-convert-cshtml', 'images', 'component_images');
 });
 
 //Watch

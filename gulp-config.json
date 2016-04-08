@@ -30,6 +30,12 @@
 			"src/js/geonorge-common.js",
 			"src/js/geonorge-menuTopController.js",
 			"src/js/shopping-cart.js"
+		],
+		"component_images": [
+			{
+				"src": "bower_components/jquery-ui/themes/base/images/*.png",
+				"dest": "./assets/css/images/"
+			}
 		]
 	}
 }
