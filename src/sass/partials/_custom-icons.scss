@@ -104,12 +104,18 @@
 .custom-icon{
     &.custom-icon-hengelaas-open-green {
         background-image: url($assets-directory+"/images/svg/hengelaas-aapen-green.svg");
+        width: 30px;
+        margin-right: -8px;
     }
     &.custom-icon-hengelaas-open-red {
         background-image: url($assets-directory+"/images/svg/hengelaas-aapen-red.svg");
+        width: 30px;
+        margin-right: -8px;
     }
     &.custom-icon-hengelaas-open-yellow {
         background-image: url($assets-directory+"/images/svg/hengelaas-aapen-yellow.svg");
+        width: 30px;
+        margin-right: -8px;
     }
     &.custom-icon-hengelaas-closed-green {
         background-image: url($assets-directory+"/images/svg/hengelaas-lukket-green.svg");
