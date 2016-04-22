@@ -29,7 +29,8 @@
 			"src/js/geonorge-baseUrl.js",
 			"src/js/geonorge-common.js",
 			"src/js/geonorge-menuTopController.js",
-			"src/js/shopping-cart.js"
+			"src/js/shopping-cart.js",
+			"src/js/localstorage-tabs.js"
 		],
 		"component_images": [
 			{
