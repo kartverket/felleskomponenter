@@ -1,8 +1,6 @@
 function activateTab(tab){
 	$(".link-tabs").ready(function () {
-		console.log(tab);
 		tabLink = $(".link-tabs li a[data-tab='" + tab + "']");
-		console.log(tabLink);
 		$(".link-tabs li.active").removeClass('active');
 		tabLink.parent('li').addClass('active');
 	});
