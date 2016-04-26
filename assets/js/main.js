@@ -694,22 +694,21 @@ function updateShoppingCartCookie() {
 $(window).load(function () {
     updateShoppingCart();
 });
-function setActiveTab(tabLink){
-	var tab = tabLink.data('tab');
-	localStorage.setItem("metadata-tab", tab);
-	$(".localstorage-tabs li.active").removeClass('active');
-	tabLink.parent('li').addClass('active');
+function activateTab(tab){
+	$(".link-tabs").ready(function () {
+		console.log(tab);
+		tabLink = $(".link-tabs li a[data-tab='" + tab + "']");
+		console.log(tabLink);
+		$(".link-tabs li.active").removeClass('active');
+		tabLink.parent('li').addClass('active');
+	});
 }
-function getActiveTab(){
-	var tab = localStorage.getItem("metadata-tab");
-	var tabLink = $(".localstorage-tabs li a[data-tab='" + tab + "']");
-	setActiveTab(tabLink);
-}
-$(".localstorage-tabs").ready(function () {
-	getActiveTab();
-	$(".localstorage-tabs li a").click(function (event){
+
+$(".link-tabs").ready(function () {
+	$(".link-tabs li a").click(function (event){
 		event.preventDefault();
-		setActiveTab($(this));
+		activateTab($(this).data('tab'));
+		$("#tab-content").css('opacity', '.15');
 		window.location.href = $(this).prop('href');
 	});
 });
