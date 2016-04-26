@@ -424,6 +424,7 @@ var baseurl_local = searchOption.baseUrl;
                           var currResult = curr.data.Results[y];
 
                           item.title = getType(currResult.Type);
+                          item.url = searchOption.url;
 
 
                           item.list.push({
