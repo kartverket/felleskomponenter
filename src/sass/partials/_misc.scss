@@ -31,13 +31,13 @@
 .progress-bar {
     font-size: 12pt;
     line-height: 20pt;
-    background-color: #FE5000;
+    background-color: $orange;
 }
 
 
 /* styles for validation helpers */
 .field-validation-error {
-    color: #b94a48;
+    color: $red;
 }
 
 .field-validation-valid {
@@ -45,7 +45,7 @@
 }
 
 input.input-validation-error {
-    border: 1px solid #b94a48;
+    border: 1px solid $red;
 }
 
 input[type="checkbox"].input-validation-error {
@@ -53,7 +53,12 @@ input[type="checkbox"].input-validation-error {
 }
 
 .validation-summary-errors {
-    color: #b94a48;
+    color: $red;
+    border: none;
+    border-left: 8px solid #ED1C24;
+    border-radius: 0;
+    background-color: #FFF;
+    
 }
 
 .validation-summary-valid {
@@ -72,5 +77,21 @@ input[type="checkbox"].input-validation-error {
 }
 
 .help-text.bg-success{
-    border-left: 8px solid #A9C47F;
+    border-left: 8px solid $green;
+}
+
+.has-error{
+    &.checkbox-inline label,
+    &.checkbox label,
+    &.radio-inline label,
+    &.radio,
+    .checkbox,
+    .checkbox-inline,
+    .control-label,
+    .help-block,
+    .radio,
+    .radio-inline,
+    .form-control-feedback{
+        color: $red;
+    }
 }
