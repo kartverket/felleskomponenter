@@ -2585,7 +2585,7 @@ textarea, textarea.form-control {
   .nav-tabs li.has-error > span.glyphicon-warning-sign {
     position: absolute;
     z-index: 2;
-    color: #a94442; }
+    color: #ED1C24; }
 
 @media (max-width: 767px) {
   .nav-tabs {
@@ -2762,23 +2762,27 @@ ul#thumbnailsCoverage {
 .progress-bar {
   font-size: 12pt;
   line-height: 20pt;
-  background-color: #FE5000; }
+  background-color: #fe5000; }
 
 /* styles for validation helpers */
 .field-validation-error {
-  color: #b94a48; }
+  color: #ED1C24; }
 
 .field-validation-valid {
   display: none; }
 
 input.input-validation-error {
-  border: 1px solid #b94a48; }
+  border: 1px solid #ED1C24; }
 
 input[type="checkbox"].input-validation-error {
   border: 0 none; }
 
 .validation-summary-errors {
-  color: #b94a48; }
+  color: #ED1C24;
+  border: none;
+  border-left: 8px solid #ED1C24;
+  border-radius: 0;
+  background-color: #FFF; }
 
 .validation-summary-valid {
   display: none; }
@@ -2793,7 +2797,19 @@ input[type="checkbox"].input-validation-error {
   border-style: solid; }
 
 .help-text.bg-success {
-  border-left: 8px solid #A9C47F; }
+  border-left: 8px solid #4EB365; }
+
+.has-error.checkbox-inline label,
+.has-error.checkbox label,
+.has-error.radio-inline label, .has-error.radio,
+.has-error .checkbox,
+.has-error .checkbox-inline,
+.has-error .control-label,
+.has-error .help-block,
+.has-error .radio,
+.has-error .radio-inline,
+.has-error .form-control-feedback {
+  color: #ED1C24; }
 
 .modal-footer .btn {
   margin-bottom: 0; }
