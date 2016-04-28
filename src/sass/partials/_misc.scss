@@ -37,7 +37,7 @@
 
 /* styles for validation helpers */
 .field-validation-error {
-    color: $red;
+    color: $dark-red;
 }
 
 .field-validation-valid {
@@ -45,7 +45,7 @@
 }
 
 input.input-validation-error {
-    border: 1px solid $red;
+    border: 1px solid $dark-red;
 }
 
 input[type="checkbox"].input-validation-error {
@@ -55,7 +55,7 @@ input[type="checkbox"].input-validation-error {
 .validation-summary-errors {
     color: #333;
     border: none;
-    border-left: 8px solid $red;
+    border-left: 8px solid $dark-red;
     border-radius: 0;
     background-color: #FFF;
     
@@ -77,7 +77,7 @@ input[type="checkbox"].input-validation-error {
 }
 
 .help-text.bg-success{
-    border-left: 8px solid $green;
+    border-left: 8px solid $dark-green;
 }
 
 .has-error{
@@ -92,15 +92,6 @@ input[type="checkbox"].input-validation-error {
     .radio,
     .radio-inline,
     .form-control-feedback{
-        color: $red;
-    }
-}
-
-li.has-error {
-    a {
-        background-color: $bright-red;
-    }
-    > span.glyphicon-warning-sign {
-        color: $red;
+        color: $dark-red;
     }
 }

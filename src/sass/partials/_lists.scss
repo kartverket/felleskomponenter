@@ -85,7 +85,7 @@
   margin-bottom: 10px;
   > li {
     > a {
-      background-color: #7DA1C4;
+      background-color: $bright-blue;
       transition: all 0.35s linear 0s;
       color: #FFF;
       border-bottom: none;
@@ -112,7 +112,10 @@
     > span.glyphicon-warning-sign {
       position: absolute;
       z-index: 2;
-      color: $red;
+      color: $dark-red;
+    }
+    a {
+        background-color: $bright-red;
     }
   }
 }
@@ -140,7 +143,7 @@
       }
       &.active{
         >a, >a:hover{
-          background-color: #fe5000!important;
+          background-color: $orange!important;
           color: #FFF!important;
           border: none!important;
         }
@@ -179,7 +182,7 @@
       top: 0;
       right: 0;
       text-decoration: none;
-      background-color: #7DA1C4;
+      background-color: $bright-blue;
       line-height: 19pt;
       color: #FFF;
       font-size: 10pt;
@@ -192,7 +195,7 @@
       &:hover {
         text-decoration: none;
         color: #FFF;
-        background-color: #FE5000;
+        background-color: $orange;
       }
       &:before {
         font-family: "Glyphicons Halflings";

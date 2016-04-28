@@ -2570,7 +2570,7 @@ textarea, textarea.form-control {
   border-bottom: 1px solid #414042;
   margin-bottom: 10px; }
   .nav-tabs > li > a {
-    background-color: #7DA1C4;
+    background-color: #7da1c4;
     transition: all 0.35s linear 0s;
     color: #FFF;
     border-bottom: none;
@@ -2586,6 +2586,8 @@ textarea, textarea.form-control {
     position: absolute;
     z-index: 2;
     color: #ED1C24; }
+  .nav-tabs li.has-error a {
+    background-color: #C47D7D; }
 
 @media (max-width: 767px) {
   .nav-tabs {
@@ -2638,7 +2640,7 @@ textarea, textarea.form-control {
       top: 0;
       right: 0;
       text-decoration: none;
-      background-color: #7DA1C4;
+      background-color: #7da1c4;
       line-height: 19pt;
       color: #FFF;
       font-size: 10pt;
@@ -2651,7 +2653,7 @@ textarea, textarea.form-control {
       .label-list li .label-list-remove:hover {
         text-decoration: none;
         color: #FFF;
-        background-color: #FE5000; }
+        background-color: #fe5000; }
       .label-list li .label-list-remove:before {
         font-family: "Glyphicons Halflings";
         content: "\e014"; }
@@ -2809,12 +2811,6 @@ input[type="checkbox"].input-validation-error {
 .has-error .radio,
 .has-error .radio-inline,
 .has-error .form-control-feedback {
-  color: #ED1C24; }
-
-li.has-error a {
-  background-color: #C47D7D; }
-
-li.has-error > span.glyphicon-warning-sign {
   color: #ED1C24; }
 
 .modal-footer .btn {
@@ -3093,11 +3089,11 @@ li.has-error > span.glyphicon-warning-sign {
   transition: all .35s linear 0s;
   height: 34px;
   padding: 5px 10px; }
-
-.ui-datepicker-header .ui-corner-all:hover {
-  background-color: #fe5000;
-  color: #FFF;
-  border: 1px solid #FFF; }
+  .ui-datepicker-header .ui-corner-all:hover {
+    background: none;
+    background-color: #fe5000;
+    color: #FFF;
+    border: 1px solid #FFF; }
 
 .ui-datepicker .ui-datepicker-next-hover {
   right: 2px;
@@ -3111,7 +3107,8 @@ li.has-error > span.glyphicon-warning-sign {
   font-size: 0;
   text-indent: 0;
   line-height: 16pt;
-  text-align: center; }
+  text-align: center;
+  background: none; }
 
 .ui-corner-all .ui-corner-all .ui-icon.ui-icon-circle-triangle-e:before, .ui-corner-all .ui-icon.ui-icon-circle-triangle-w:before {
   font: normal normal normal 12pt/1 FontAwesome;
@@ -3126,6 +3123,7 @@ li.has-error > span.glyphicon-warning-sign {
 
 /* Days */
 .ui-widget-content .ui-state-default {
+  background: none;
   background-color: #7da1c4;
   color: #FFF;
   border: 1px solid #FFF;
