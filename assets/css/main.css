@@ -2778,7 +2778,7 @@ input[type="checkbox"].input-validation-error {
   border: 0 none; }
 
 .validation-summary-errors {
-  color: #ED1C24;
+  color: #333;
   border: none;
   border-left: 8px solid #ED1C24;
   border-radius: 0;
@@ -2809,6 +2809,12 @@ input[type="checkbox"].input-validation-error {
 .has-error .radio,
 .has-error .radio-inline,
 .has-error .form-control-feedback {
+  color: #ED1C24; }
+
+li.has-error a {
+  background-color: #C47D7D; }
+
+li.has-error > span.glyphicon-warning-sign {
   color: #ED1C24; }
 
 .modal-footer .btn {
@@ -3129,6 +3135,30 @@ input[type="checkbox"].input-validation-error {
   background-color: #fe5000;
   color: #FFF;
   border: 1px solid #FFF; }
+
+.ui-tooltip {
+  min-width: 100px;
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  background: none;
+  background-color: #000;
+  border-radius: 4px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  opacity: .9;
+  position: absolute; }
+
+.ui-tooltip:before {
+  margin-left: -45px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #000;
+  border-style: solid;
+  content: "";
+  position: absolute;
+  top: -5px;
+  color: transparent; }
 
 html[data-useragent*='MSIE 10.0'] .chosen-input-group .input-group-btn {
   display: table-row; }
