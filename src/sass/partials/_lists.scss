@@ -107,6 +107,12 @@
         @extend .nav-tab-active;
       }
     }
+    &.has-error{
+      a{
+        color: #ED1C24;
+        background-color: #FFF;
+      }
+    }
   }
   li.has-error{
     > span.glyphicon-warning-sign {
@@ -115,19 +121,18 @@
       color: $dark-red;
     }
     a {
-        background-color: $bright-red;
+      background-color: $bright-red;
     }
   }
 }
-
-@media (max-width: 767px){
+@media (max-width: 1199px){
   .nav-tabs {
     border-bottom: none;
     >li{
       display: inline-block;
       padding: 0 3px;
       text-align: center;
-      width: 50%;
+      width: 33.333%;
       &.pull-right{
         float: none!important;
       }
@@ -149,6 +154,12 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 767px){
+  .nav-tabs>li{
+    width: 50%;
   }
 }
 @media (max-width: 540px){

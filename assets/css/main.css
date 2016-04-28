@@ -2582,6 +2582,9 @@ textarea, textarea.form-control {
       font-size: 12pt;
       line-height: 16pt;
       padding: 6px 12px; }
+  .nav-tabs > li.active.has-error a {
+    color: #ED1C24;
+    background-color: #FFF; }
   .nav-tabs li.has-error > span.glyphicon-warning-sign {
     position: absolute;
     z-index: 2;
@@ -2589,14 +2592,14 @@ textarea, textarea.form-control {
   .nav-tabs li.has-error a {
     background-color: #C47D7D; }
 
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
   .nav-tabs {
     border-bottom: none; }
     .nav-tabs > li {
       display: inline-block;
       padding: 0 3px;
       text-align: center;
-      width: 50%; }
+      width: 33.333%; }
       .nav-tabs > li.pull-right {
         float: none !important; }
       .nav-tabs > li > a {
@@ -2612,6 +2615,10 @@ textarea, textarea.form-control {
         background-color: #fe5000 !important;
         color: #FFF !important;
         border: none !important; } }
+
+@media (max-width: 767px) {
+  .nav-tabs > li {
+    width: 50%; } }
 
 @media (max-width: 540px) {
   .nav-tabs > li {
@@ -3149,7 +3156,6 @@ input[type="checkbox"].input-validation-error {
   position: absolute; }
 
 .ui-tooltip:before {
-  margin-left: -45px;
   border-width: 0 5px 5px;
   border-bottom-color: #000;
   border-style: solid;
