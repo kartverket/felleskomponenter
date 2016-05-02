@@ -2372,6 +2372,12 @@ input.form-control, input[type=text], textarea {
 .no-padding {
   padding: 0; }
 
+.no-padding-bottom {
+  padding-bottom: 0 !important; }
+
+.no-margin-bottom {
+  margin-bottom: 0 !important; }
+
 .margin-bottom-10 {
   margin-bottom: 10px; }
 
@@ -2384,6 +2390,9 @@ input.form-control, input[type=text], textarea {
 .no-border-radius, .help-text, .panel, .panel-heading,
 .no-border-radius input, .help-text input, .panel input, .panel-heading input {
   border-radius: 0 !important; }
+
+.text-left {
+  text-align: left !important; }
 
 @media (max-width: 991px) {
   span.hypernation {
