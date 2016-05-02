@@ -1978,6 +1978,19 @@ aside ul li, .container-footer ul li {
 .disabled .custom-icon.custom-icon-eksternlink {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/ekternlink-disabled.svg"); }
 
+/* Smileys */
+.custom-icon.custom-icon-smile-green {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/smile-green.svg");
+  width: 30px; }
+
+.custom-icon.custom-icon-smile-yellow {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/smile-yellow.svg");
+  width: 30px; }
+
+.custom-icon.custom-icon-smile-red {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/smile-red.svg");
+  width: 30px; }
+
 /* Open data */
 .custom-icon.custom-icon-hengelaas-open-green {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/hengelaas-aapen-green.svg");
