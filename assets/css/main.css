@@ -2344,6 +2344,18 @@ input[readonly] {
     .upload-group .upload-btn {
       display: block; } }
 
+.container .input-group .form-control,
+.container .input-group .form-control:not(:first-child):not(:last-child),
+.container .input-group input {
+  border-top-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  padding: 0 10px; }
+
+input.form-control, input[type=text], textarea {
+  padding: 0 10px; }
+
 .no-padding {
   padding: 0; }
 
