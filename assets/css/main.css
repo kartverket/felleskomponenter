@@ -1624,8 +1624,7 @@ iframe {
   padding-left: 34.6px; }
 
 .auto-results-inner,
-.auto-results-inner:hover
-.auto-results-inner[data-ng-class="highlight"] {
+.auto-results-inner:hover .auto-results-inner[data-ng-class="highlight"] {
   color: #3867c8;
   font-family: 'Open Sans', sans-serif;
   font-size: 14pt;
