@@ -2746,6 +2746,9 @@ ul#thumbnailsCoverage {
 .search-button-wrapper .btn:focus, .search-button-wrapper .btn:hover {
   background-color: #FFF; }
 
+.container .search .searchbar input {
+  padding: 0 10px; }
+
 @media (max-width: 767px) {
   .container-login {
     display: none; }
@@ -2757,7 +2760,9 @@ ul#thumbnailsCoverage {
     width: 0; }
   .top-row .col-xs-2 {
     width: 250px;
-    text-align: right; } }
+    text-align: right; }
+  .container .search .searchbar .input {
+    padding-left: 34.6px !important; } }
 
 #norgeskartmodal {
   width: 90%;

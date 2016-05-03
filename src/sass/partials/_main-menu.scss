@@ -38,7 +38,9 @@ ul {
     }
   }
 }
-
+.container .search .searchbar input {
+  padding: 0 10px;
+}
 @media (max-width:767px) {
   .container-login {
     display: none;
@@ -53,9 +55,11 @@ ul {
   .top-row .col-xs-5:nth-child(2) {
     width: 0;
   }
-
   .top-row .col-xs-2 {
     width: 250px;
     text-align: right;
+  }
+  .container .search .searchbar .input{
+    padding-left: 34.6px!important;
   }
 }
