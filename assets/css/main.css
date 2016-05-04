@@ -1913,6 +1913,11 @@ aside ul li, .container-footer ul li {
   margin-right: 5px !important;
   margin-left: 5px !important; }
 
+.status-icons .custom-icon, .status-icons .fa, .status-icons .glyphicon {
+  width: 20px;
+  margin: 0 4px;
+  text-align: center; }
+
 .btn .custom-icon {
   vertical-align: middle;
   width: 12pt;

@@ -18,6 +18,14 @@
     margin-left: 5px !important;
 }
 
+.status-icons{
+    .custom-icon, .fa, .glyphicon{
+        width: 20px;
+        margin: 0 4px;
+        text-align: center;
+    }
+}
+
 .btn .custom-icon {
     vertical-align: middle;
     width: 12pt;
