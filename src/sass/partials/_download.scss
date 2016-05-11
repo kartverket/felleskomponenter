@@ -120,6 +120,14 @@
     height: 25px;
     padding: 0.2em 2.0em 0.3em 0.6em;
     vertical-align: baseline;
+    span {
+        height: 20px;
+        display: block;
+        word-break: break-all;
+        overflow: hidden;
+        line-height: 18px;
+        margin-top: -1px;
+    }
 }
 
 .chosen-container-multi .chosen-choices li.search-choice:before,
