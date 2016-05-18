@@ -12,5 +12,5 @@
 <circle class="st1" cx="6" cy="6" r="1.5"/>
 <circle class="st1" cx="12" cy="6" r="1.5"/>
 <path class="st2" d="M8.8,14.4"/>
-<path class="st3" d="M9.1,13c-2,0-3.8-0.9-4.6-2 M9.1,13c2,0,3.6-0.9,4.4-2"/>
+<path class="st3" d="M8.9,11c2,0,3.8,0.9,4.6,2 M8.9,11c-2,0-3.6,0.9-4.4,2"/>
 </svg>
