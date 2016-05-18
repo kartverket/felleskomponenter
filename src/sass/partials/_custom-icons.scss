@@ -20,18 +20,19 @@
 
 .status-icons{
     .custom-icon, .fa, .glyphicon{
-        width: 12pt!important;
-        height: 12pt;
-        margin: 0 4px;
+        width: 16pt!important;
+        height: 16pt;
+        line-heigh: 15pt;
+        margin: 2px 4px;
         text-align: center;
-        vertical-align: middle;
+        vertical-align: bottom;
     }
 }
 
 .btn .custom-icon {
     vertical-align: middle;
-    width: 12pt;
-    height: 12pt;
+    width: 16pt;
+    height: 16pt;
 }
 
 
@@ -130,6 +131,9 @@
     }
     &.custom-icon-wfs{
         background-image: url($assets-directory+"/images/svg/wfs.svg");
+    }
+     &.custom-icon-seksjonstegn{
+        background-image: url($assets-directory+"/images/svg/seksjonstegn.svg");
     }
 }
 

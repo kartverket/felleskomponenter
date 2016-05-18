@@ -1914,16 +1914,17 @@ aside ul li, .container-footer ul li {
   margin-left: 5px !important; }
 
 .status-icons .custom-icon, .status-icons .fa, .status-icons .glyphicon {
-  width: 12pt !important;
-  height: 12pt;
-  margin: 0 4px;
+  width: 16pt !important;
+  height: 16pt;
+  line-heigh: 15pt;
+  margin: 2px 4px;
   text-align: center;
-  vertical-align: middle; }
+  vertical-align: bottom; }
 
 .btn .custom-icon {
   vertical-align: middle;
-  width: 12pt;
-  height: 12pt; }
+  width: 16pt;
+  height: 16pt; }
 
 .disabled .custom-icon {
   cursor: not-allowed; }
@@ -2000,6 +2001,9 @@ aside ul li, .container-footer ul li {
 
 .custom-icon.custom-icon-wfs {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/wfs.svg"); }
+
+.custom-icon.custom-icon-seksjonstegn {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/seksjonstegn.svg"); }
 
 /* Open data */
 .custom-icon.custom-icon-hengelaas-open-green {
