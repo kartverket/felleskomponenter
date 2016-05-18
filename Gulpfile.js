@@ -102,7 +102,7 @@ gulp.task('component-images', function () {
 
 // Clean
 gulp.task('clean', function() {
-    return del(['assets/css', 'assets/js', 'assets/partials']);
+    return del(['assets/css', 'assets/js', 'assets/partials', 'assets/images']);
     });
 
 //Default task

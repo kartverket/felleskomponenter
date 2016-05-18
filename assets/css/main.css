@@ -1916,7 +1916,8 @@ aside ul li, .container-footer ul li {
 .status-icons .custom-icon, .status-icons .fa, .status-icons .glyphicon {
   width: 16pt !important;
   height: 16pt;
-  line-heigh: 15pt;
+  line-height: 15pt;
+  font-size: 16pt;
   margin: 2px 4px;
   text-align: center;
   vertical-align: bottom; }
