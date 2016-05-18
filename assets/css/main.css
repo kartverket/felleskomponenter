@@ -1921,6 +1921,9 @@ aside ul li, .container-footer ul li {
   margin: 2px 4px;
   text-align: center;
   vertical-align: bottom; }
+  @media (max-width: 1199px) {
+    .status-icons .custom-icon, .status-icons .fa, .status-icons .glyphicon {
+      margin: 2px 1px; } }
 
 .btn .custom-icon {
   vertical-align: middle;

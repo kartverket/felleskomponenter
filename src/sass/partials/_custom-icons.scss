@@ -27,6 +27,9 @@
         margin: 2px 4px;
         text-align: center;
         vertical-align: bottom;
+        @media (max-width: 1199px) {
+            margin: 2px 1px;
+        }
     }
 }
 
