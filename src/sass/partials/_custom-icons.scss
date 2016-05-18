@@ -117,15 +117,25 @@
 .custom-icon{
     &.custom-icon-smile-green{
         background-image: url($assets-directory+"/images/svg/smile-green.svg");
-        width: 30px;
     }
     &.custom-icon-smile-yellow{
         background-image: url($assets-directory+"/images/svg/smile-yellow.svg");
-        width: 30px;
     }
     &.custom-icon-smile-red{
         background-image: url($assets-directory+"/images/svg/smile-red.svg");
-        width: 30px;
+    }
+}
+
+/* Tabelltopp ikoner */
+.custom-icon{
+    &.custom-icon-dekningskart{
+        background-image: url($assets-directory+"/images/svg/dekningskart.svg");
+    }
+    &.custom-icon-produktark{
+        background-image: url($assets-directory+"/images/svg/produktark.svg");
+    }
+    &.custom-icon-wfs{
+        background-image: url($assets-directory+"/images/svg/wfs.svg");
     }
 }
 
