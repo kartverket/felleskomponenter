@@ -1798,7 +1798,8 @@ aside ul li, .container-footer ul li {
   margin-bottom: 7px;
   border-radius: 0;
   height: 34px;
-  line-height: 16pt; }
+  line-height: 16pt;
+  text-decoration: none; }
 
 .btn-file {
   position: relative;
