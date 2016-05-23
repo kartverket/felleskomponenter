@@ -39,6 +39,10 @@ p.keyword-header {
   border-bottom: solid 1px black;
 }
 
+p.panel-title {
+  font-weight: 700;
+}
+
 a {
   color: $dark-blue;
   &:hover {
