@@ -479,7 +479,7 @@ var baseurl_local = searchOption.baseUrl;
                   case "service":
                       return "Tjenester";
                   case "dimensionGroup":
-                      return "Datapakke";
+                      return "Datapakker";
                   default:
               }
           }
