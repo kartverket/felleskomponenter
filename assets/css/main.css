@@ -1965,6 +1965,15 @@ aside ul li, .container-footer ul li {
 .disabled .custom-icon.custom-icon-kartmarkoer {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/kartmarkoer-disabled.svg"); }
 
+.custom-icon.custom-icon-kartmarkoer-warning {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/kartmarkoer-warning.svg"); }
+
+.btn .custom-icon.custom-icon-kartmarkoer-warning {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/kartmarkoer-warning-white.svg"); }
+
+.disabled .custom-icon.custom-icon-kartmarkoer-warning {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/kartmarkoer-warning-disabled.svg"); }
+
 /* Handlekurv*/
 .custom-icon.custom-icon-handlekurv {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/handlekurv.svg"); }

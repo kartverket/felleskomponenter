@@ -73,6 +73,19 @@
     background-image: url($assets-directory+"/images/svg/kartmarkoer-disabled.svg");
 }
 
+.custom-icon.custom-icon-kartmarkoer-warning {
+    background-image: url($assets-directory+"/images/svg/kartmarkoer-warning.svg");
+}
+
+.btn .custom-icon.custom-icon-kartmarkoer-warning {
+    background-image: url($assets-directory+"/images/svg/kartmarkoer-warning-white.svg");
+}
+
+.disabled .custom-icon.custom-icon-kartmarkoer-warning {
+    background-image: url($assets-directory+"/images/svg/kartmarkoer-warning-disabled.svg");
+}
+
+
 /* Handlekurv*/
 .custom-icon.custom-icon-handlekurv {
     background-image: url($assets-directory+"/images/svg/handlekurv.svg");
