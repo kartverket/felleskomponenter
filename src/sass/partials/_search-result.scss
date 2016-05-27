@@ -99,17 +99,17 @@
     text-align: center;
     .btn, .col-actions .btn{
         background: none;
-        color: #7DA1C4;
+        color: $bright-blue;
         padding: 0;
         font-size: 18pt;
         line-height: 1em;
         text-decoration: none;
         &:hover, &:focus{
             background: none !important;
-            color: #FE5000 !important;
+            color: $orange !important;
             line-height: 1em;
             span, span:hover{
-                color: #FE5000 !important;
+                color: $orange !important;
             }
         }
         &.disabled{

@@ -27,7 +27,7 @@ h1 .label {
 }
 
 .label-applikasjon {
-    border-color: #7da1c4;
+    border-color: $bright-blue;
 }
 
 .label-tjeneste {
@@ -43,19 +43,19 @@ h1 .label {
 }
 
 .label-danger{
-    border-color: #fe5000;
+    border-color: $dark-red;
 }
 
 .label-warning{
-    border-color: #f0b323;
+    border-color: $dark-yellow;
 }
 
 .label-success{
-    border-color: #a9c47f;
+    border-color: $dark-green;
 }
 
 .label-info{
-    border-color: #7da1c4;
+    border-color: $bright-blue;
 }
 
 input[type="text"],
@@ -168,5 +168,5 @@ textarea, textarea.form-control {
 .form-group.required .control-label::after,
 .panel-heading.required::after {
     content: "*";
-    color: #ED1C24;
+    color: $dark-red;
 }

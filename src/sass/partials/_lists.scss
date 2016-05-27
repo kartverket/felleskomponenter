@@ -8,14 +8,14 @@
   }
   > li {
     > a, > span{
-      background-color: #7DA1C4;
+      background-color: $bright-blue;
       border: 1px solid #FFF;
       transition: all 0.35s linear 0s;
       color: #FFF;
       border-radius: 0px !important;
       font-size: 12pt;
       &:hover{
-        background-color: #FE5000;
+        background-color: $orange;
         color: #FFF;
         border: 1px solid #FFF;
       }
@@ -24,12 +24,12 @@
   > .active{
     > a{
       z-index: 1;
-      background-color: #FE5000;
+      background-color: $orange;
       color: #FFF;
       border: 1px solid #FFF;
       transition: all 0.35s linear 0s;
       &:hover{
-        background-color: #FE5000;
+        background-color: $orange;
         color: #FFF;
         border: 1px solid #FFF;
       }
@@ -43,7 +43,7 @@
     > a{
       transition: all 0.35s linear 0s;
       &:hover, &:focus{
-        background-color: #FE5000;
+        background-color: $orange;
         color: #FFF;
       }
     }
@@ -109,7 +109,7 @@
     }
     &.has-error{
       a{
-        color: #ED1C24;
+        color: $dark-red;
         background-color: #FFF;
       }
     }

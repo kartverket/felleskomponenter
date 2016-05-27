@@ -31,7 +31,7 @@
 
 
 .btn, .col-actions .btn {
-    background-color: #7DA1C4;
+    background-color: $bright-blue;
     transition: all 0.35s linear 0s;
     color: #FFF;
     border: none;
@@ -43,7 +43,7 @@
 }
 
 .btn:hover, .btn:focus, a.btn:hover, a.btn:focus{
-    background-color: #FE5000;
+    background-color: $orange;
     color: #FFFFFF!important;
     border: none;
     font-style: normal;

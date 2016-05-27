@@ -1,9 +1,9 @@
 .help-text-toggle,
 .panel-default > .panel-heading .help-text-toggle{
-	background-color: #3867C8;
+	background-color: $dark-blue;
 	transition: all .35s linear 0s;
 	&:hover, &.active{
-		background-color: #fe5000;
+		background-color: $orange;
 	}
 }
 
@@ -11,6 +11,6 @@
 .help-text-toggle.active,
 .panel-default > .panel-heading .help-text-toggle:hover,
 .panel-default > .panel-heading .help-text-toggle.active {
-	background-color: #fe5000;
+	background-color: $orange;
 	color: #fff;
 }

@@ -94,7 +94,7 @@
     border: 1px solid #CCC;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
     border: none;
-    border-bottom: 2.5px solid #FE5000;
+    border-bottom: 2.5px solid $orange;
     border: 1px solid #cfcfcf;
     border-radius: 0;
     padding: 2px 5px;
@@ -138,7 +138,7 @@
 
 
 .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
-    background: #7DA1C4;
+    background: $bright-blue;
     top: 0px;
     line-height: 19pt;
     color: #FFF;
@@ -155,7 +155,7 @@
 .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
     text-decoration: none;
     color: #FFF;
-    background-color: #FE5000;
+    background-color: $orange;
 }
 
 .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:before {
@@ -171,7 +171,7 @@
     font-size: 13pt;
     line-height: 22pt;
     font-family: "Open Sans",sans-serif;
-    color: #3867C8;
+    color: $dark-blue;
     padding: 0;
 }
 
@@ -183,7 +183,7 @@
 }
 
 .chosen-container .chosen-results li.group-option {
-    color: #3867C8;
+    color: $dark-blue;
     font-weight: 400;
 }
 
@@ -192,7 +192,7 @@
 }
 
 .chosen-container .chosen-results li.active-result {
-    color: #3867C8;
+    color: $dark-blue;
 }
 
 
@@ -295,7 +295,7 @@
 }
 
 .download-list a.list-group-item {
-    color: #337AB7;
+    color: $dark-blue;
 }
 
 

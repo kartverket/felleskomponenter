@@ -22,7 +22,7 @@ input[readonly] {
 
 .form-group.required .control-label:after, .panel-heading.required:after, .panel-heading span.required:after {
 	content: " *";
-	color: red;
+	color: $dark-red;
 }
 
 .form-group.has-feedback .form-control-feedback {
