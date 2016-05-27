@@ -74,7 +74,7 @@
     height: 25px !important;
     line-height: 14pt;
     &:hover{
-        line-height: 14pt;
+        line-height: 14pt!important;
         font-size: 10pt;
     }
 }

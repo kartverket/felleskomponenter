@@ -1859,7 +1859,7 @@ aside ul li, .container-footer ul li {
   height: 25px !important;
   line-height: 14pt; }
   .btn-xs:hover {
-    line-height: 14pt;
+    line-height: 14pt !important;
     font-size: 10pt; }
 
 .input-group-btn > .btn {
@@ -2765,6 +2765,25 @@ ul#thumbnailsCoverage {
     width: 200px;
     margin-right: 10px;
     float: left; }
+
+/* Metadata lists */
+@media (max-width: 991px) {
+  .metadata-list {
+    box-shadow: none; }
+    .metadata-list .metadata-list-item {
+      border-left: none;
+      border-right: none; }
+      .metadata-list .metadata-list-item .metadata-list-item-title {
+        font-size: 1.2em; }
+        .metadata-list .metadata-list-item .metadata-list-item-title small {
+          font-size: .8em; }
+    .metadata-list .metadata-list-item-mobile-row {
+      margin-bottom: 6px; }
+      .metadata-list .metadata-list-item-mobile-row .btn, .metadata-list .metadata-list-item-mobile-row .btn-xs {
+        font-size: 12pt !important;
+        line-height: 16pt;
+        height: 34px !important;
+        padding: 6px 12px; } }
 
 .menu {
   margin-bottom: 20px; }

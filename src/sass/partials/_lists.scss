@@ -253,3 +253,30 @@ ul#thumbnailsCoverage {
     }
   }
 }
+
+
+/* Metadata lists */
+@media (max-width: 991px){
+  .metadata-list{
+    box-shadow: none;
+    .metadata-list-item{
+      border-left: none;
+      border-right: none;
+      .metadata-list-item-title {
+        font-size: 1.2em;
+        small{
+          font-size: .8em;
+        }
+      }
+    }
+    .metadata-list-item-mobile-row {
+      margin-bottom: 6px;
+      .btn, .btn-xs{
+        font-size: 12pt !important;
+        line-height: 16pt;
+        height: 34px !important;
+        padding: 6px 12px;
+      }
+    }
+  }
+}
