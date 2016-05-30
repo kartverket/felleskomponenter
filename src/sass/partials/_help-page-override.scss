@@ -1,0 +1,84 @@
+.help-page {
+	h1, .h1 {
+		font-size: 24pt;
+		font-family: Raleway,sans-serif;
+		font-weight: 300;
+		color: #5d4777;
+	}
+	pre.wrapped {
+		white-space: -moz-pre-wrap;
+		white-space: -pre-wrap;
+		white-space: -o-pre-wrap;
+		white-space: pre-wrap;
+	}
+	.warning-message-container {
+		margin-top: 20px;
+		padding: 0 10px;
+		color: #525252;
+		background: #EFDCA9;
+		border: 1px solid #CCCCCC;
+	}
+	.sample-header {
+		border: 1px solid #414042;
+		border-bottom: 1px solid #fff;
+		cursor: default;
+		font-size: 13px;
+		margin-bottom: -1px;
+		display: inline-block;
+		padding: 10px 15px;
+	}
+	.sample-content {
+		display: block;
+		border-width: 0;
+		padding: 15px 20px;
+		background: #FFFFFF;
+		border-top: 1px solid #414042;
+		margin: 0px 0px 10px 0px;
+	}
+	.api-name {
+		width: 40%;
+	}
+	.api-documentation {
+		width: 60%;
+	}
+	.parameter-name {
+		width: 20%;
+	}
+	.parameter-documentation {
+		width: 40%;
+	}
+	.parameter-type {
+		width: 20%;
+	}
+	.parameter-annotations {
+		width: 20%;
+	}
+}
+
+.help-page-table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	margin: 0px 0px 20px 0px;
+	border-top: 1px solid #D4D4D4;
+	tr{
+		border: 1px solid #ddd;
+	}
+	th {
+		text-align: left;
+		font-weight: 700;
+		font-size: 16px;
+		padding: 10px 15px;
+		background-color: #f5f5f5;
+	}
+	td {
+		padding: 10px 15px;
+		vertical-align: top;
+	}
+	pre, p {
+		margin: 0px;
+		padding: 0px;
+		font-family: inherit;
+		font-size: 100%;
+	}
+}
