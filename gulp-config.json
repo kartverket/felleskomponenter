@@ -21,6 +21,9 @@
 			"bower_components/bootstrap/fonts/**/*.{ttf,woff,woff2,eot,svg}",
 			"bower_components/components-font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg,otf}"
 		],
+		"fonts": [
+			"src/fonts/**/*.{ttf,woff,woff2,eot,svg}"
+		],
 		"localjs": [
 			"src/js/init.js",
 			"src/js/geonorge-app.js",
