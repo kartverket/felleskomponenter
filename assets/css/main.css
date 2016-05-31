@@ -243,7 +243,7 @@ aside ul li a:hover,
   font-family: 'Open Sans', sans-serif;
   font-size: 16pt;
   font-weight: 400;
-  margin-bottom: 17px;
+  margin-bottom: 18px;
   margin-top: 0;
   text-transform: uppercase; }
 
@@ -1994,7 +1994,7 @@ aside ul li, .container-footer ul li {
 .disabled .custom-icon.custom-icon-lastned {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/lastned-disabled.svg"); }
 
-/* Last ned */
+/* Ekstern link */
 .custom-icon.custom-icon-eksternlink, .custom-icon-sm.custom-icon-eksternlink {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/ikoner/ekternlink.svg"); }
 
@@ -2031,17 +2031,17 @@ aside ul li, .container-footer ul li {
 .custom-icon.custom-icon-hengelaas-open-green {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/hengelaas-aapen-green.svg");
   width: 30px;
-  margin-right: -8px; }
+  margin-right: -10px; }
 
 .custom-icon.custom-icon-hengelaas-open-red {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/hengelaas-aapen-red.svg");
   width: 30px;
-  margin-right: -8px; }
+  margin-right: -10px; }
 
 .custom-icon.custom-icon-hengelaas-open-yellow {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/hengelaas-aapen-yellow.svg");
   width: 30px;
-  margin-right: -8px; }
+  margin-right: -10px; }
 
 .custom-icon.custom-icon-hengelaas-closed-green {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/hengelaas-lukket-green.svg"); }

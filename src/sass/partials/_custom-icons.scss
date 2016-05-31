@@ -112,7 +112,7 @@
     background-image: url($assets-directory+"/images/svg/lastned-disabled.svg");
 }
 
-/* Last ned */
+/* Ekstern link */
 .custom-icon.custom-icon-eksternlink, .custom-icon-sm.custom-icon-eksternlink {
     background-image: url($assets-directory+"/images/svg/ikoner/ekternlink.svg");
 }
@@ -149,7 +149,7 @@
     &.custom-icon-wfs{
         background-image: url($assets-directory+"/images/svg/wfs.svg");
     }
-     &.custom-icon-seksjonstegn{
+    &.custom-icon-seksjonstegn{
         background-image: url($assets-directory+"/images/svg/seksjonstegn.svg");
     }
 }
@@ -159,17 +159,17 @@
     &.custom-icon-hengelaas-open-green {
         background-image: url($assets-directory+"/images/svg/hengelaas-aapen-green.svg");
         width: 30px;
-        margin-right: -8px;
+        margin-right: -10px;
     }
     &.custom-icon-hengelaas-open-red {
         background-image: url($assets-directory+"/images/svg/hengelaas-aapen-red.svg");
         width: 30px;
-        margin-right: -8px;
+        margin-right: -10px;
     }
     &.custom-icon-hengelaas-open-yellow {
         background-image: url($assets-directory+"/images/svg/hengelaas-aapen-yellow.svg");
         width: 30px;
-        margin-right: -8px;
+        margin-right: -10px;
     }
     &.custom-icon-hengelaas-closed-green {
         background-image: url($assets-directory+"/images/svg/hengelaas-lukket-green.svg");
