@@ -2121,8 +2121,7 @@ aside ul li, .container-footer ul li {
   font-size: 14pt;
   font-style: normal;
   font-variant: normal;
-  font-weight: 400;
-  width: auto !important; }
+  font-weight: 400; }
 
 .chosen-input-group {
   width: calc(100% - 37px); }
@@ -3456,6 +3455,9 @@ html[data-useragent*='MSIE 10.0'] .custom-select select, html[data-useragent*='M
 
 html[data-useragent*='MSIE 10.0'] select::-ms-expand {
   display: block; }
+
+html[data-useragent*='MSIE 10.0'] .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+  width: auto !important; }
 
 @media all and (-ms-high-contrast: none) {
   *::-ms-backdrop, .chosen-input-group .input-group-btn {

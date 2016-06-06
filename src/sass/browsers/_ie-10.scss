@@ -26,3 +26,8 @@ html[data-useragent*='MSIE 10.0'] .custom-select select, html[data-useragent*='M
 html[data-useragent*='MSIE 10.0'] select::-ms-expand{
     display: block;
 }
+
+html[data-useragent*='MSIE 10.0'] .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+    width: auto!important;
+}
+
