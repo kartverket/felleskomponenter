@@ -1850,8 +1850,8 @@ aside ul li, .container-footer ul li {
   opacity: 1;
   cursor: not-allowed; }
 
-.btn.disabled:hover {
-  color: #cfcfcf; }
+.btn.disabled:hover, .btn.disabled:hover span {
+  color: #cfcfcf !important; }
 
 .btn-xs {
   font-size: 10pt !important;
