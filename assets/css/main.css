@@ -2910,10 +2910,10 @@ ul#thumbnailsCoverage {
   .top-row .col-xs-2 {
     width: 250px;
     text-align: right; }
-  .container .search .searchbar .input {
-    -moz-border-radius: 3px !important;
-    -webkit-border-radius: 3px !important;
-    border-radius: 3px !important;
+  .container .search .searchbar input {
+    -moz-border-radius: 3px 0 0 3px !important;
+    -webkit-border-radius: 3px 0 0 3px !important;
+    border-radius: 3px 0 0 3px !important;
     padding: 0 0 0 34.6px; } }
 
 #norgeskartmodal {
