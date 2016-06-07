@@ -2893,7 +2893,13 @@ ul#thumbnailsCoverage {
   background-color: #FFF; }
 
 .container .search .searchbar input {
-  padding: 0 10px; }
+  -moz-border-radius-bottomleft: 6px !important;
+  -moz-border-radius-topleft: 6px !important;
+  -webkit-border-bottom-left-radius: 6px !important;
+  -webkit-border-top-left-radius: 6px !important;
+  border-bottom-left-radius: 6px !important;
+  border-top-left-radius: 6px !important;
+  padding: 0 10px 0 21px; }
 
 @media (max-width: 767px) {
   .container-login {
@@ -2908,6 +2914,12 @@ ul#thumbnailsCoverage {
     width: 250px;
     text-align: right; }
   .container .search .searchbar .input {
+    -moz-border-radius-bottomleft: 3px !important;
+    -moz-border-radius-topleft: 3px !important;
+    -webkit-border-bottom-left-radius: 3px !important;
+    -webkit-border-top-left-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+    border-top-left-radius: 3px !important;
     padding-left: 34.6px !important; } }
 
 #norgeskartmodal {
