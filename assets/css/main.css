@@ -2504,6 +2504,9 @@ input.form-control, input[type=text], textarea {
 .margin-top-10 {
   margin-top: 10px; }
 
+.no-label {
+  margin-top: 27px; }
+
 .full-width {
   width: 100% !important; }
 
