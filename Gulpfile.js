@@ -2,16 +2,17 @@
 var gulp = require('gulp');
 
 // Include Plugins
-var jshint = require('gulp-jshint');
-var sass = require('gulp-sass');
-var cssnano = require('gulp-cssnano');
-var htmlmin = require('gulp-htmlmin');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var rename = require('gulp-rename');
-var del = require('del');
-var ngAnnotate = require ('gulp-ng-annotate');
-var es = require ('event-stream');
+var jshint      = require('gulp-jshint');
+var sass        = require('gulp-sass');
+var cssnano     = require('gulp-cssnano');
+var htmlmin     = require('gulp-htmlmin');
+var concat      = require('gulp-concat');
+var uglify      = require('gulp-uglify');
+var rename      = require('gulp-rename');
+var del         = require('del');
+var ngAnnotate  = require ('gulp-ng-annotate');
+var es          = require ('event-stream');
+var replace     = require('gulp-replace');
 
 // Include source reference object
 var config = require('./gulp-config.json');
@@ -44,6 +45,16 @@ gulp.task('vendorfonts', function(){
 gulp.task('fonts', function(){
   return gulp.src(config.paths.fonts)
   .pipe(gulp.dest('./assets/fonts/'));
+  });
+
+gulp.task('vendorfontscss', function(){
+  return gulp.src(config.paths.vendorfontscss)
+  .pipe(concat('vendorfonts.css'))
+  .pipe(replace("url(", "url(../fonts/"))
+  .pipe(gulp.dest('./assets/css/'))
+  .pipe(rename({ suffix: '.min' }))
+  .pipe(cssnano({discardUnused: {fontFace: false}}))
+  .pipe(gulp.dest('./assets/css/'));
   });
 
 gulp.task('scripts', function() {
@@ -116,6 +127,7 @@ gulp.task('default', ['clean'], function() {
     'vendorcss',
     'vendorjs',
     'vendorfonts',
+    'vendorfontscss',
     'fonts',
     'styles',
     'scripts', 

@@ -19,7 +19,13 @@
 		],
 		"vendorfonts": [
 			"bower_components/bootstrap/fonts/**/*.{ttf,woff,woff2,eot,svg}",
-			"bower_components/components-font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg,otf}"
+			"bower_components/components-font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg,otf}",
+			"bower_components/openSans/**/*.{ttf,woff,woff2,eot,svg,otf}",
+			"bower_components/raleway/**/*.{ttf,woff,woff2,eot,svg,otf}"
+		],
+		"vendorfontscss": [
+			"bower_components/openSans/**/*.css",
+			"bower_components/raleway/**/*.css"
 		],
 		"fonts": [
 			"src/fonts/**/*.{ttf,woff,woff2,eot,svg}"
