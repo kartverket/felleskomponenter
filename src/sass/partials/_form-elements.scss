@@ -74,3 +74,111 @@ input[readonly] {
 input.form-control, input[type=text], textarea{
 	padding: 0 10px;
 }
+
+
+
+input[type="text"],
+textarea,
+input.form-control {
+	border-radius: 0;
+	border: 1px solid #CFCFCF;
+	box-shadow: none;
+	font-family: "Open Sans",sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	color: #000000;
+	font-size: 12pt !important;
+	font-weight: 400;
+	min-height: 30px;
+	width: 100%;
+	min-height: 34px;
+	padding: 0px 15px;
+}
+
+input:focus,
+textarea:focus,
+.form-control:focus {
+	border: 1px solid #CFCFCF;
+	outline: none;
+	box-shadow: none;
+}
+
+
+textarea, textarea.form-control {
+	border: 1px solid #CFCFCF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	min-height: 180px;
+	padding: 6px 15px;
+	width: 100%;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+
+.custom-select {
+	background-color: #FFF;
+	content: "";
+	background-repeat: no-repeat;
+	background-image: url($assets-directory+"/images/svg/arrow-down.svg");
+	background-size: 16px 16px;
+	background-position: right 8px center;
+	border-radius: 0;
+}
+
+.custom-select:hover {
+	background-image: url($assets-directory+"/images/svg/arrow-down.svg");
+}
+
+.custom-select select, .custom-select select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	border: none;
+	box-shadow: none;
+	font-family: "Open Sans",sans-serif;
+	background: none;
+	font-size: 12pt;
+	padding: 0 15px;
+	height: 34px;
+	border: 1px solid #CFCFCF;
+	border-radius: 0;
+	margin-bottom: 10px;
+}
+
+.custom-select select::-ms-expand {
+	display: none;
+}
+
+.custom-select.input-group select {
+	margin-bottom: 0;
+}
+
+.container .searchbar input {
+	border-radius: 0px !important;
+	font-size: 14pt !important;
+}
+
+.container .searchbar input:focus {
+	border: none;
+}
+
+.input-group {
+	margin-bottom: 10px;
+}
+
+.input-group-addon {
+	border-radius: 0;
+}
+
+.form-horizontal {
+	.form-group {
+		margin-right: 0;
+		margin-left: 0;
+		.control-label{
+			@include word-wrap();
+		}
+	}
+}
