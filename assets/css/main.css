@@ -1843,15 +1843,25 @@ aside ul li, .container-footer ul li {
 .btn:hover span, .btn span:hover {
   color: #FFFFFF !important; }
 
-.btn.disabled {
+.btn.disabled,
+.btn[disabled],
+button.disabled,
+button[disabled] {
   background-color: #FFF !important;
-  color: #cfcfcf;
+  color: #cfcfcf !important;
   border: 1px solid #cfcfcf;
   opacity: 1;
   cursor: not-allowed; }
-
-.btn.disabled:hover, .btn.disabled:hover span {
-  color: #cfcfcf !important; }
+  .btn.disabled:hover,
+  .btn[disabled]:hover,
+  button.disabled:hover,
+  button[disabled]:hover {
+    color: #cfcfcf !important; }
+    .btn.disabled:hover span,
+    .btn[disabled]:hover span,
+    button.disabled:hover span,
+    button[disabled]:hover span {
+      color: #cfcfcf !important; }
 
 .btn-xs {
   font-size: 10pt !important;

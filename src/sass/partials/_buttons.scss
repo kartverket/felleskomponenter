@@ -55,17 +55,21 @@
     color: #FFFFFF!important;
 }
 
-
-.btn.disabled {
+.btn.disabled, 
+.btn[disabled], 
+button.disabled, 
+button[disabled]{
     background-color: #FFF !important;
-    color: #cfcfcf;
+    color: #cfcfcf!important;
     border: 1px solid #cfcfcf;
     opacity: 1;
     cursor: not-allowed;
-}
-
-.btn.disabled:hover, .btn.disabled:hover span {
-    color: #cfcfcf!important;
+    &:hover{
+        color: #cfcfcf!important;
+        span{
+            color: #cfcfcf!important;
+        }
+    }
 }
 
 .btn-xs {
