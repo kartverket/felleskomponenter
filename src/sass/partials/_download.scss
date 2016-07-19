@@ -244,17 +244,27 @@
     box-shadow: none;
 }
 
-.chosen-container .chosen-drop {
+.chosen-container .chosen-drop,
+.chosen-container-single .chosen-drop {
     background-color: #FFF;
-    border-radius: 3px;
-    box-shadow: 0px 0px 10px #BCBEC0;
-    border: none;
-    padding-bottom: 12px;
-    padding-left: 34.6px;
+    border: 1px solid #cfcfcf;
+    border-top: 0;
+    .chosen-results {
+        padding-left: 34.6px;
+        li.no-results{
+            margin-left: -28px;
+            padding: 0 15px;
+        }
+    }
+    .chosen-search input[type=text] {
+        border: 1px solid #cfcfcf;
+        padding: 0 15px;
+        font-size: 12pt;
+        font-family: Open Sans,sans-serif;
+    }
 }
 
-.chosen-container .chosen-results {
-}
+
 
 .chosen-container-multi .chosen-choices.has-error {
     box-shadow: 0px 0px 4px -2px #A94442 inset;
