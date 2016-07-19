@@ -1,12 +1,58 @@
-.btn {
+.btn,
+a.btn,
+button.btn {
     font-family: $normal-font;
     font-weight: normal;
     font-size: 12pt;
+    font-style: normal;
     margin-bottom: 7px;
+    border: none;
     border-radius: 0;
     height: 34px;
     line-height: 16pt;
     text-decoration: none;
+    background-color: $bright-blue;
+    color: #FFF;
+    transition: all 0.35s linear 0s;
+    &:hover, 
+    &:focus{
+        background-color: $orange;
+        color: #FFFFFF!important;
+        border: none;
+        font-style: normal;
+        font-size: 12pt;
+        line-height: 16pt;
+        span{
+            color: #FFFFFF;
+        }
+    }
+    &.disabled,
+    &[disabled]{
+        background-color: #FFFFFF;
+        color: $disabled-color;
+        border: 1px solid #CFCFCF;
+        opacity: 1;
+        cursor: not-allowed;
+        &:hover{
+            color: $disabled-color;
+            span{
+                color: $disabled-color;
+            }
+        }
+        span{
+            &:hover{
+                color: $disabled-color;
+            }
+        }
+    }
+    span{
+        &:hover{
+            color: #FFFFFF;
+        }
+    }
+    &.btn-purple{
+        background-color: $purple;
+    }
 }
 
 .btn-file {
@@ -29,48 +75,6 @@
     }
 }
 
-
-.btn, .col-actions .btn {
-    background-color: $bright-blue;
-    transition: all 0.35s linear 0s;
-    color: #FFF;
-    border: none;
-    font-style: normal;
-}
-
-.btn.btn-purple {
-    background-color: #5d4777;
-}
-
-.btn:hover, .btn:focus, a.btn:hover, a.btn:focus{
-    background-color: $orange;
-    color: #FFFFFF!important;
-    border: none;
-    font-style: normal;
-    font-size: 12pt;
-    line-height: 16pt;
-}
-
-.btn:hover span, .btn span:hover{
-    color: #FFFFFF!important;
-}
-
-.btn.disabled, 
-.btn[disabled], 
-button.disabled, 
-button[disabled]{
-    background-color: #FFF !important;
-    color: #cfcfcf!important;
-    border: 1px solid #cfcfcf;
-    opacity: 1;
-    cursor: not-allowed;
-    &:hover{
-        color: #cfcfcf!important;
-        span{
-            color: #cfcfcf!important;
-        }
-    }
-}
 
 .btn-xs {
     font-size: 10pt !important;
