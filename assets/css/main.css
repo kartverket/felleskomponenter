@@ -2295,6 +2295,15 @@ button.btn {
 .chosen-container-active .chosen-choices {
   box-shadow: none; }
 
+.chosen-container .chosen-single,
+.chosen-container-single .chosen-single {
+  height: 34px; }
+  .chosen-container .chosen-single span,
+  .chosen-container-single .chosen-single span {
+    line-height: 34px;
+    font-size: 12pt;
+    padding: 0 6px; }
+
 .chosen-container .chosen-drop,
 .chosen-container-single .chosen-drop {
   background-color: #FFF;
@@ -2509,6 +2518,7 @@ textarea, textarea.form-control {
   box-shadow: none;
   font-family: "Open Sans",sans-serif;
   background: none;
+  color: #000000;
   font-size: 12pt;
   padding: 0 15px;
   height: 34px;
