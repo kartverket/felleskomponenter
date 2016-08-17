@@ -2,7 +2,7 @@
 	"paths": {
 		"vendorcss": [
 			"bower_components/bootstrap/dist/css/bootstrap.css",
-      		"bower_components/jquery-ui/themes/base/core.css",
+			"bower_components/jquery-ui/themes/base/core.css",
 			"bower_components/jquery-ui/themes/base/datepicker.css",
 			"bower_components/jquery-ui/themes/base/theme.css",
 			"bower_components/components-font-awesome/css/font-awesome.min.css",
@@ -46,6 +46,10 @@
 			{
 				"src": "bower_components/jquery-ui/themes/base/images/*.png",
 				"dest": "./assets/css/images/"
+			},
+			{
+				"src": "bower_components/chosen/*.png",
+				"dest": "./assets/css/"
 			}
 		]
 	}
