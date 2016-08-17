@@ -295,16 +295,32 @@
     box-shadow: none !important;
 }
 
-.chosen-container-single .chosen-single div b {
-    background: none;
+.chosen-container-single{
+    &.chosen-with-drop{
+        .chosen-single{
+            color: transparent;
+        }
+    }
+    .chosen-single{
+        color: #414042;
+        div b{
+         background: none; 
+     }
+ }
+ .chosen-drop{
+    padding: 0;
+    .chosen-search{
+        padding: 0;
+        margin: -32px 0 0 0;
+        border-bottom: 1px solid #cfcfcf;
+        height: 33px;
+        input[type="text"]{
+            border: none;            
+            margin: 0;
+            background-position: 100% -36px;
+        }
+    }
 }
-
-.chosen-container-single .chosen-drop{
-    padding-left: 5px;
-}
-
-.chosen-container-single .chosen-search input[type="text"]{
-    background-position: 100% -36px;
 }
 
 
