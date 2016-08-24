@@ -731,6 +731,31 @@ function updateShoppingCartCookie() {
 $(window).load(function () {
     updateShoppingCart();
 });
+/* Content toggle */
+function updateToggleLinks(element) {
+	$(element).each(function () {
+		var linkText = $(this).data('link-text');
+		if ($(this).hasClass('show-content')) {
+			$(this).children('.link-text').text('Skjul ' + linkText);
+		} else {
+			$(this).children('.link-text').text('Vis ' + linkText);
+		}
+		$(this).toggleClass('show-content');
+	});
+}
+$("document").ready( function(){
+
+	updateToggleLinks($('.toggle-content'));
+
+	$(".toggle-content").click(function () {
+		var toggleClass = $(this).data('content-toggle');
+		updateToggleLinks($(this));
+		$("." + toggleClass).toggle();
+	});
+	
+});
+
+
 /* Tabs */
 function activateTab(tab){
 	$(".link-tabs").ready(function () {
