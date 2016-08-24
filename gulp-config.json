@@ -39,8 +39,7 @@
 			"src/js/geonorge-common.js",
 			"src/js/geonorge-menuTopController.js",
 			"src/js/shopping-cart.js",
-			"src/js/help-text.js",
-			"src/js/link-tabs.js"
+			"src/js/helpers.js"
 		],
 		"component_images": [
 			{
