@@ -95,3 +95,23 @@ input[type="checkbox"].input-validation-error {
         color: $dark-red;
     }
 }
+
+.toggle-content{
+    .toggle-icon{
+        &:before{
+            font-family: Glyphicons Halflings;
+            content: "−";
+            display: inline-block;
+            width: 22px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    }
+    &.show-content{
+        .toggle-icon{
+            &:before{
+                content: "+";
+            }
+        }
+    }
+}
