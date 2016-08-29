@@ -97,12 +97,18 @@ input[type="checkbox"].input-validation-error {
 }
 
 .toggle-content{
+    text-decoration: none;
+    color: #3867c8;
+    &:hover, &:focus{
+        text-decoration: none;
+        color: #3867c8;
+    }
     .toggle-icon{
         &:before{
             font-family: Glyphicons Halflings;
             content: "−";
             display: inline-block;
-            width: 22px;
+            font-size: .8em;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
         }
@@ -111,6 +117,19 @@ input[type="checkbox"].input-validation-error {
         .toggle-icon{
             &:before{
                 content: "+";
+            }
+        }
+    }
+    h2{
+        &:after{
+            left: 50px;
+        }
+        .toggle-icon{
+            &:before{
+                color: #3867c8;
+                font-size: .5em;
+                vertical-align: text-top;
+                line-height: 39pt;
             }
         }
     }
