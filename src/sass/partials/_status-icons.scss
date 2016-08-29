@@ -59,18 +59,21 @@ a.status-icon-link:hover{
   content: "\e602";
   color: $dark-yellow;
   margin-left: -1em;
+  display: inline-block;
 }
 
 .statusIcon-InProgress:after{
   content:"\e601";
   color: $dark-green;
   margin-left: -1em;
+  display: inline-block;
 }
 
 .statusIcon-Superseded:after{
   content: "\e600";
   color: $dark-yellow;
   margin-left: -1em;
+  display: inline-block;
 }
 
 
@@ -78,6 +81,7 @@ a.status-icon-link:hover{
   content: "\e602";
   color: $dark-green;
   margin-left: -1em;
+  display: inline-block;
 }
 
 .statusIcon-Accepted:after {

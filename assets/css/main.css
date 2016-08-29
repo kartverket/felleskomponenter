@@ -3426,22 +3426,26 @@ a.status-icon-link:hover {
 .statusIcon-underarbeid:after {
   content: "\e602";
   color: #FFBA33;
-  margin-left: -1em; }
+  margin-left: -1em;
+  display: inline-block; }
 
 .statusIcon-InProgress:after {
   content: "\e601";
   color: #26C045;
-  margin-left: -1em; }
+  margin-left: -1em;
+  display: inline-block; }
 
 .statusIcon-Superseded:after {
   content: "\e600";
   color: #FFBA33;
-  margin-left: -1em; }
+  margin-left: -1em;
+  display: inline-block; }
 
 .statusIcon-Candidate:after, .statusIcon-Draft:after {
   content: "\e602";
   color: #26C045;
-  margin-left: -1em; }
+  margin-left: -1em;
+  display: inline-block; }
 
 .statusIcon-Accepted:after {
   content: "\e600";
