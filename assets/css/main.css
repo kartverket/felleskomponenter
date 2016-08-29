@@ -3087,12 +3087,13 @@ input[type="checkbox"].input-validation-error {
     content: "−";
     display: inline-block;
     font-size: .8em;
+    margin-right: .2em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
   .toggle-content.show-content .toggle-icon:before {
     content: "+"; }
   .toggle-content h2:after {
-    left: 50px; }
+    left: 40px; }
   .toggle-content h2 .toggle-icon:before {
     color: #3867c8;
     font-size: .5em;
