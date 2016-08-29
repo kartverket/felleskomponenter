@@ -1727,7 +1727,6 @@ body {
   background-color: #FFF; }
 
 h3.article-h3:after {
-  padding-bottom: 50px;
   width: 50px;
   border-bottom: 2.5px solid #fe5000;
   content: "";
