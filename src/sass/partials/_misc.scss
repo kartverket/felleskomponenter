@@ -135,3 +135,19 @@ input[type="checkbox"].input-validation-error {
         }
     }
 }
+
+.loading-animation{
+    &.loading{
+        background-image: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/gif/gif_loading-01.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+        > *,
+        &:hover > *,
+        &:active >*{
+            color: transparent!important;
+        }
+        &.btn{
+            background-size: 20px;
+        }
+    }
+}

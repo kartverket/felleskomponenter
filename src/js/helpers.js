@@ -52,3 +52,13 @@ $("document").ready( function(){
 		}
 	});
 });
+
+
+/* Loading animation */
+function addLoadingAnimation(element) {
+	element.addClass('loading');
+}
+
+function removeLoadingAnimation(element) {
+	element.removeClass('loading');
+}

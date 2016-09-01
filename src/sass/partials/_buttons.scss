@@ -12,6 +12,7 @@ button.btn {
     line-height: 16pt;
     text-decoration: none;
     background-color: $bright-blue;
+    background-position: center;
     color: #FFF;
     transition: all 0.35s linear 0s;
     &:hover, 
