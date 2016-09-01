@@ -45,6 +45,12 @@ button.btn {
                 color: $disabled-color;
             }
         }
+        &:focus{
+            color: $disabled-color!important;
+            span{
+                color: $disabled-color!important;
+            }
+        }
     }
     span{
         &:hover{

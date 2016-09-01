@@ -1855,6 +1855,18 @@ button.btn {
     button.btn.disabled span:hover,
     button.btn[disabled] span:hover {
       color: #CFCFCF; }
+    .btn.disabled:focus, .btn[disabled]:focus,
+    a.btn.disabled:focus,
+    a.btn[disabled]:focus,
+    button.btn.disabled:focus,
+    button.btn[disabled]:focus {
+      color: #CFCFCF !important; }
+      .btn.disabled:focus span, .btn[disabled]:focus span,
+      a.btn.disabled:focus span,
+      a.btn[disabled]:focus span,
+      button.btn.disabled:focus span,
+      button.btn[disabled]:focus span {
+        color: #CFCFCF !important; }
   .btn span:hover,
   a.btn span:hover,
   button.btn span:hover {
