@@ -1,4 +1,5 @@
 var applicationEnvironment = (applicationEnvironment === undefined) ? "" : applicationEnvironment;
+var applicationVersionNumber = (applicationVersionNumber === undefined) ? "" : applicationVersionNumber;
 var supportsLogin = false;
 var authenticationData = (authenticationData === undefined) ? {} : authenticationData;
 if (authenticationData !== {}) {
@@ -42,6 +43,11 @@ $("document").ready( function(){
       $("#geonorge-logo a").prop("href", geonorgeUrl);
       $("#geonorge-logo a img").prop("src", "/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/geonorge_" + applicationEnvironment + "logo.svg");
   }
+
+    //Version number
+    if ($("#applicationVersionNumber").length && applicationVersionNumber != ""){
+      $("#applicationVersionNumber").html("Versjon " + applicationVersionNumber);
+    }
 
     // Shopping cart
     var downloadUrl = "https://kartkatalog.geonorge.no/Download";
