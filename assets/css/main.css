@@ -2555,13 +2555,6 @@ textarea, textarea.form-control {
 .custom-select.input-group select {
   margin-bottom: 0; }
 
-.container .searchbar input {
-  border-radius: 0px !important;
-  font-size: 14pt !important; }
-
-.container .searchbar input:focus {
-  border: none; }
-
 .input-group {
   margin-bottom: 10px; }
 
@@ -2970,10 +2963,14 @@ ul#thumbnailsCoverage {
   background-color: #FFF; }
 
 .container .search .searchbar input {
-  -moz-border-radius: 6px !important;
-  -webkit-border-radius: 6px !important;
-  border-radius: 6px !important;
-  padding: 0 0 0 21px; }
+  -moz-border-radius: 6px 0 0 6px !important;
+  -webkit-border-radius: 6px 0 0 6px !important;
+  border-radius: 6px 0 0 6px !important;
+  border-radius: 6px 0 0 6px !important;
+  padding: 0 0 0 21px;
+  font-size: 14pt !important; }
+  .container .search .searchbar input:focus {
+    border: none; }
 
 @media (max-width: 767px) {
   .container-login {

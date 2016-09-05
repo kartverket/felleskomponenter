@@ -39,11 +39,18 @@ ul {
   }
 }
 .container .search .searchbar input {
-  -moz-border-radius: 6px!important;
-  -webkit-border-radius: 6px!important;
-  border-radius: 6px!important;
+  -moz-border-radius: 6px 0 0 6px!important;
+  -webkit-border-radius: 6px 0 0 6px!important;
+  border-radius: 6px 0 0 6px!important;
+  border-radius: 6px 0 0 6px !important;
   padding: 0 0 0 21px;
+  font-size: 14pt !important;
+  &:focus{
+    border: none;
+  }
 }
+
+
 @media (max-width:767px) {
   .container-login {
     display: none;
