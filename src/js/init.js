@@ -21,7 +21,6 @@ $(window).load(function () {
   };
   $(".chosen-select").chosen(options);
   $("[data-toggle='tooltip']").tooltip();
-  
   $("li.has-error[data-toggle='tooltip']").tooltip("option", "position", { my: "center", at: "center bottom+30" });
   $("li[data-toggle='tooltip']").mouseleave(function () {
     $(".ui-helper-hidden-accessible").remove();
@@ -37,7 +36,7 @@ $(window).load(function () {
     doc.setAttribute('data-useragent', navigator.userAgent);
   });
 
-$("document").ready( function(){
+$(document).ready( function(){
     // Geonorge logo
     if ($("#geonorge-logo").length){ 
       $("#geonorge-logo a").prop("href", geonorgeUrl);
