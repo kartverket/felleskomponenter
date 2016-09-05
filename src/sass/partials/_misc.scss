@@ -137,17 +137,27 @@ input[type="checkbox"].input-validation-error {
 }
 
 .loading-animation{
-    &.loading{
-        background-image: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/gif/gif_loading-01.gif);
-        background-repeat: no-repeat;
-        background-position: center;
-        > *,
-        &:hover > *,
-        &:active >*{
-            color: transparent!important;
-        }
-        &.btn{
-            background-size: 20px;
-        }
-    }
+    background-color: rgba(255,255,255,.5);
+    background-image: url($assets-directory+"/images/gif/loading.gif");
+    z-index: 2;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header.main-header{
+    z-index: 5;
+    position: relative;
+}
+
+.container-top-menu{
+    z-index: 5;
+    position: relative
+}
+
+.menu-separator{
+    z-index: 5;
+    position: relative;
 }

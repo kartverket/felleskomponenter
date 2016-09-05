@@ -3109,16 +3109,27 @@ input[type="checkbox"].input-validation-error {
     vertical-align: text-top;
     line-height: 39pt; }
 
-.loading-animation.loading {
-  background-image: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/gif/gif_loading-01.gif);
+.loading-animation {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/gif/loading.gif");
+  z-index: 2;
+  position: fixed;
+  height: 100%;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center; }
-  .loading-animation.loading > *,
-  .loading-animation.loading:hover > *,
-  .loading-animation.loading:active > * {
-    color: transparent !important; }
-  .loading-animation.loading.btn {
-    background-size: 20px; }
+
+header.main-header {
+  z-index: 5;
+  position: relative; }
+
+.container-top-menu {
+  z-index: 5;
+  position: relative; }
+
+.menu-separator {
+  z-index: 5;
+  position: relative; }
 
 .modal-footer .btn {
   margin-bottom: 0; }
