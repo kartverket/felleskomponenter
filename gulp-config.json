@@ -14,6 +14,7 @@
 			"bower_components/bootstrap/dist/js/bootstrap.min.js",
 			"bower_components/angular-bootstrap/ui-bootstrap.min.js",
 			"bower_components/jquery-ui/ui/widgets/datepicker.js",
+			"bower_components/jquery-ui/ui/minified/i18n/datepicker-nb.js",
 			"bower_components/js-cookie/src/js.cookie.js",
 			"bower_components/chosen/chosen.jquery.js"
 		],
