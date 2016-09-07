@@ -74,36 +74,3 @@ function updateCartButton(element) {
 		$(this).children('.button-text').text(' Lagt i kurv');
 	});
 }
-
-
-
-/* Loading animation */
-function showLoadingAnimation(loadingMessage){
-	$("#loading-animation").html(loadingMessage);
-	$("#loading-animation").show();
-}
-function hideLoadingAnimation(){
-	$("#loading-animation").html('');
-	$("#loading-animation").hide();
-}
-
-function notOpeningInNewTab(event){
-	if ( event.ctrlKey || event.shiftKey || event.metaKey || (event.button && event.button == 1)){
-		return false;
-	}else{
-		return true;
-	}
-}
-
-showLoadingAnimation('Laster innhold');
-
-$(document).ready(function (){
-	hideLoadingAnimation();
-
-	$(".show-loading-animation").click(function(event){
-		if (notOpeningInNewTab(event)){
-			var loadingMessage = $(this).data('loading-message') != undefined ? $(this).data('loading-message') : '';
-			showLoadingAnimation(loadingMessage);
-		}
-	});
-});
