@@ -78,10 +78,32 @@ function updateCartButton(element) {
 
 
 /* Loading animation */
-function addLoadingAnimation(element) {
-	element.addClass('loading');
+function showLoadingAnimation(loadingMessage){
+	$("#loading-animation").html(loadingMessage);
+	$("#loading-animation").show();
+}
+function hideLoadingAnimation(){
+	$("#loading-animation").html('');
+	$("#loading-animation").hide();
 }
 
-function removeLoadingAnimation(element) {
-	element.removeClass('loading');
+function notOpeningInNewTab(event){
+	if ( event.ctrlKey || event.shiftKey || event.metaKey || (event.button && event.button == 1)){
+		return false;
+	}else{
+		return true;
+	}
 }
+
+showLoadingAnimation('Laster innhold');
+
+$(document).ready(function (){
+	hideLoadingAnimation();
+
+	$(".show-loading-animation").click(function(event){
+		if (notOpeningInNewTab(event)){
+			var loadingMessage = $(this).data('loading-message') != undefined ? $(this).data('loading-message') : '';
+			showLoadingAnimation(loadingMessage);
+		}
+	});
+});
