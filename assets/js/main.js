@@ -32,6 +32,11 @@ function notOpeningInNewTab(event){
   }
 }
 
+function addDefaultLoadingAnimation(element){
+  element.addClass('show-loading-animation');
+  element.data('loading-message', 'Henter innhold');
+}
+
 showLoadingAnimation('Laster innhold');
 /* ----------------------------- */
 
@@ -846,4 +851,15 @@ function updateCartButton(element) {
 		$(this).attr('data-original-title', 'Allerede lagt til i kurv');
 		$(this).children('.button-text').text(' Lagt i kurv');
 	});
-}
+};
+
+
+/* Loading animation for pagination */
+
+$("document").ready( function(){
+	$("ul.pagination a").each(function (){
+		if (!$(this).closest('li').hasClass('active')){
+			addDefaultLoadingAnimation($(this));
+		};
+	});
+});
