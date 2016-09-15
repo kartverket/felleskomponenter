@@ -32,6 +32,11 @@ function notOpeningInNewTab(event){
   }
 }
 
+function addDefaultLoadingAnimation(element){
+  element.addClass('show-loading-animation');
+  element.data('loading-message', 'Henter innhold');
+}
+
 showLoadingAnimation('Laster innhold');
 /* ----------------------------- */
 
