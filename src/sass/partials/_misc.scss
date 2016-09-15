@@ -137,7 +137,6 @@ input[type="checkbox"].input-validation-error {
 }
 
 .loading-animation{
-    background-image: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/gif/loading.gif);
     z-index: 2;
     position: fixed;
     background-repeat: no-repeat;
@@ -155,6 +154,10 @@ input[type="checkbox"].input-validation-error {
     left: calc(50% - 100px);
     text-align: center;
     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2);
+    &:before{
+    content: url($assets-directory+"/images/gif/loading.gif");
+    display: block;
+    }
 }
 
 header.main-header{
