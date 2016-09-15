@@ -146,7 +146,7 @@ input[type="checkbox"].input-validation-error {
     height: auto;
     width: 200px;
     border: 1px solid #ddd;
-    padding: 50px 15px 15px 15px;
+    padding: 15px;
     color: #666;
     margin: auto;
     display: block;
@@ -155,8 +155,8 @@ input[type="checkbox"].input-validation-error {
     text-align: center;
     box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2);
     &:before{
-    content: url($assets-directory+"/images/gif/loading.gif");
-    display: block;
+        content: url($assets-directory+"/images/gif/loading.gif");
+        display: block;
     }
 }
 
