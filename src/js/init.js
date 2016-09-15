@@ -48,7 +48,7 @@ $(document).ready( function(){
 
   $(".show-loading-animation").click(function(event){
     if (notOpeningInNewTab(event)){
-      var loadingMessage = $(this).data('loading-message') != undefined ? $(this).data('loading-message') : '';
+      var loadingMessage = $(this).data('loading-message') !== undefined ? $(this).data('loading-message') : '';
       showLoadingAnimation(loadingMessage);
     }
   });
@@ -62,7 +62,7 @@ $(document).ready( function(){
 
 
   //Version number
-  if ($("#applicationVersionNumber").length && applicationVersionNumber != ""){
+  if ($("#applicationVersionNumber").length && applicationVersionNumber !== ""){
     $("#applicationVersionNumber").html("Versjon " + applicationVersionNumber);
   }
 
