@@ -79,7 +79,7 @@ function updateCartButton(element) {
 /* Loading animation for pagination */
 
 $("document").ready( function(){
-	$("ul.pagination a").each(function (){
+	$("ul.pagination a, ul.breadcrumbs a").each(function (){
 		if (!$(this).closest('li').hasClass('active')){
 			addDefaultLoadingAnimation($(this));
 		}
