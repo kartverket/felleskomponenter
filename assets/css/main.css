@@ -3137,7 +3137,7 @@ header.main-header {
 
 .container-top-menu {
   z-index: 5;
-  position: relative; }
+  position: static; }
 
 .menu-separator {
   z-index: 5;
