@@ -3140,7 +3140,7 @@ header.main-header {
   position: static; }
 
 .menu-separator {
-  z-index: 5;
+  z-index: 4;
   position: relative; }
 
 .modal-footer .btn {
