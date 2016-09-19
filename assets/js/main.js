@@ -729,7 +729,7 @@ $(document).ready(function () {
 }());
 
 function addShoppingCartTooltip(elementsCount) {
-    var element = $('#shopping-car-url');
+    var element = $('#shopping-cart-url');
     var elementsCountText = elementsCount !== 0 ? elementsCount : 'ingen';
     var text = elementsCount == 1 ? 'Du har ' + elementsCountText + ' nedlasting i kurven din' : 'Du har ' + elementsCountText + ' nedlastinger i kurven din';
     element.attr('title', text);
