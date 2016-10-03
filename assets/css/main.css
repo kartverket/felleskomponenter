@@ -1900,7 +1900,7 @@ button.btn {
   height: 25px !important;
   line-height: 14pt; }
   .btn-xs:hover {
-    line-height: 14pt !important;
+    line-height: 16pt !important;
     font-size: 10pt; }
 
 .input-group-btn > .btn {
