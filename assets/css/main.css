@@ -2068,6 +2068,12 @@ button.btn {
 .custom-icon.custom-icon-seksjonstegn {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/seksjonstegn.svg"); }
 
+.custom-icon.custom-icon-sosi {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/sosi.svg"); }
+
+.custom-icon.custom-icon-gml {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/gml.svg"); }
+
 /* Open data */
 .custom-icon.custom-icon-hengelaas-open-green {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/hengelaas-aapen-green.svg");
