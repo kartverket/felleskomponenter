@@ -206,3 +206,21 @@
         background-image: url($assets-directory+"/images/svg/hengelaas-lukket-disabled.svg");
     }
 }
+
+/* Norgeskart legend */
+.norgeskart-legend{
+    .custom-icon{
+        width: 25px!important;
+        height: 25px;
+    }
+}
+
+.custom-icon{
+    &.custom-icon-norgeskart-marker {
+        background-image: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/png/norgeskart-marker.png);
+        background-size: 100%;
+    }
+    &.custom-icon-norgeskart-area{
+        background-color: #779cfd;
+    }
+}

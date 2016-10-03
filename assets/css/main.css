@@ -2113,6 +2113,18 @@ button.btn {
 .disabled .custom-icon.custom-icon-hengelaas-closed-yellow {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/hengelaas-lukket-disabled.svg"); }
 
+/* Norgeskart legend */
+.norgeskart-legend .custom-icon {
+  width: 25px !important;
+  height: 25px; }
+
+.custom-icon.custom-icon-norgeskart-marker {
+  background-image: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/png/norgeskart-marker.png);
+  background-size: 100%; }
+
+.custom-icon.custom-icon-norgeskart-area {
+  background-color: #779cfd; }
+
 .download-form p {
   margin-bottom: 0; }
 
