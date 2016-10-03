@@ -1964,10 +1964,10 @@ button.btn {
   margin-left: 5px !important; }
 
 .status-icons .custom-icon, .status-icons .fa, .status-icons .glyphicon {
-  width: 16px !important;
-  height: 16px;
+  width: 18px !important;
+  height: 18px;
   line-height: 16px;
-  font-size: 16px;
+  font-size: 18px;
   margin: 2px 4px;
   text-align: center;
   vertical-align: bottom; }
