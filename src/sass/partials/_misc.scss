@@ -76,10 +76,6 @@ input[type="checkbox"].input-validation-error {
     border-style: solid;
 }
 
-.help-text.bg-success{
-    border-left: 8px solid $dark-green;
-}
-
 .has-error{
     &.checkbox-inline label,
     &.checkbox label,

@@ -1,0 +1,11 @@
+.help-text {
+	margin: 5px;
+	padding: 10px;
+	border-radius: 4px;
+	&.bg-success{
+		border-left: 8px solid $dark-green;
+	}
+	&.bg-info{
+		border-left: 8px solid $bright-blue;
+	}
+}
