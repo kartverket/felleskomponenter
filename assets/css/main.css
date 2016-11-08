@@ -3028,11 +3028,12 @@ ul#thumbnailsCoverage {
     position: fixed; }
   #norgeskartmodal .modal-footer {
     position: fixed;
-    bottom: 0px;
+    bottom: 10px;
     width: auto;
-    right: 0;
-    background-color: rgba(220, 220, 220, 0.85);
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.7); }
+    right: 103px;
+    background-color: #DEDCD9;
+    border-top: none;
+    padding: 9.5pt; }
 
 #feedback-alert {
   display: none;
