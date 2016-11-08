@@ -2678,6 +2678,9 @@ textarea, textarea.form-control {
     border-left: 8px solid #26C045; }
   .help-text.bg-info {
     border-left: 8px solid #7da1c4; }
+  .help-text.form-element-help-text {
+    margin: 0px;
+    padding: 6px 10px; }
 
 .no-padding {
   padding: 0; }
