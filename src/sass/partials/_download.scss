@@ -304,10 +304,10 @@
     .chosen-single{
         color: #414042;
         div b{
-         background: none; 
-     }
- }
- .chosen-drop{
+           background: none; 
+       }
+   }
+   .chosen-drop{
     padding: 0;
     .chosen-search{
         padding: 0;
@@ -326,17 +326,24 @@
 
 /* Nedlastingskvittering */
 .download-list {
-}
+    .list-group-item {
+        a {
+            color: $dark-blue;
+            text-decoration: none;
+        }
+        span {
+            padding-right: 10px;
+            margin-right: 5px;
+            &.download-list-item-name {
+                display: inline-block;
+                vertical-align: middle;
+                small {
+                    display: block;
+                    margin: 0;
+                    line-height: 1;
+                }
+            }
+        }
 
-.download-list .list-group-item {
-}
-
-.download-list a.list-group-item {
-    color: $dark-blue;
-}
-
-
-.download-list .list-group-item span {
-    padding-right: 10px;
-    margin-right: 5px;
+    }
 }
