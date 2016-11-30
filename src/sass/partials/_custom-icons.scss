@@ -85,6 +85,15 @@
     background-image: url($assets-directory+"/images/svg/kartmarkoer-warning-disabled.svg");
 }
 
+.custom-icon.custom-icon-kartmarkoer-unavailable {
+    background-image: url($assets-directory+"/images/svg/kartmarkoer-unavailable.svg");
+}
+
+.btn .custom-icon.custom-icon-kartmarkoer-unavailable {
+    background-image: url($assets-directory+"/images/svg/kartmarkoer-unavailable-white.svg");
+}
+
+
 
 /* Handlekurv*/
 .custom-icon.custom-icon-handlekurv {
