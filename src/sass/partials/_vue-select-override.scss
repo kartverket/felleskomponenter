@@ -54,13 +54,6 @@
                 &:before{
                     content: none;
                 }
-                &.area-list-heading{
-                    color: #414041;
-                    font-weight: 600;
-                    text-transform: capitalize;
-                    margin-bottom: 5px;
-                    margin-top: 17px;
-                }
                 &.highlight, &:hover{
                     > a{
                         background: none;
@@ -84,6 +77,13 @@
             >li, >li>a, >li:hover, >li:hover>a, >li>a:hover{
                 font-size: 13pt!important;
                 line-height: 18pt!important;
+                .area-list-heading{
+                    color: #414041!important;
+                    font-weight: 600!important;
+                    text-transform: capitalize!important;
+                    margin-bottom: 5px!important;
+                    margin-top: 17px!important;
+                }
             }
         }
     }
