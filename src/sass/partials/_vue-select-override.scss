@@ -49,7 +49,8 @@
         }
         ul.dropdown-menu {
             box-shadow: 0 4px 5px rgba(0,0,0,.15);
-            padding-left: 34.6px;
+            padding-left: 16px;
+            overflow-x: hidden;
             >li{
                 &:before{
                     content: none;
