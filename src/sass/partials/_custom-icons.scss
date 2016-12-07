@@ -94,8 +94,27 @@
 }
 
 
+/* Checkboxes */
+.custom-icon.custom-icon-checkbox-checked {
+    background-image: url($assets-directory+"/images/svg/checkbox-checked.svg");
+}
 
-/* Handlekurv*/
+.custom-icon.custom-icon-checkbox-unchecked {
+    background-image: url($assets-directory+"/images/svg/checkbox-unchecked.svg");
+}
+
+
+/* Radio buttons */
+.custom-icon.custom-icon-radio-checked {
+    background-image: url($assets-directory+"/images/svg/radio-checked.svg");
+}
+
+.custom-icon.custom-icon-radio-unchecked {
+    background-image: url($assets-directory+"/images/svg/radio-unchecked.svg");
+}
+
+
+/* Handlekurv */
 .custom-icon.custom-icon-handlekurv {
     background-image: url($assets-directory+"/images/svg/handlekurv.svg");
 }
