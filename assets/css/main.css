@@ -2023,12 +2023,28 @@ button.btn {
 .custom-icon.custom-icon-checkbox-unchecked {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-unchecked.svg"); }
 
+.disabled.custom-icon.custom-icon-checkbox-checked,
+.disabled .custom-icon.custom-icon-checkbox-checked {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked-disabled.svg"); }
+
+.disabled.custom-icon.custom-icon-checkbox-unchecked,
+.disabled .custom-icon.custom-icon-checkbox-unchecked {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-unchecked-disabled.svg"); }
+
 /* Radio buttons */
 .custom-icon.custom-icon-radio-checked {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/radio-checked.svg"); }
 
 .custom-icon.custom-icon-radio-unchecked {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/radio-unchecked.svg"); }
+
+.disabled.custom-icon.custom-icon-radio-checked,
+.disabled .custom-icon.custom-icon-radio-checked {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/radio-checked-disabled.svg"); }
+
+.disabled.custom-icon.custom-icon-radio-unchecked,
+.disabled .custom-icon.custom-icon-radio-unchecked {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/radio-unchecked-disabled.svg"); }
 
 /* Handlekurv */
 .custom-icon.custom-icon-handlekurv {
@@ -2683,6 +2699,20 @@ input[type="checkbox"].custom-checkbox:after {
 input[type="checkbox"]:checked.custom-checkbox:after {
   content: url("../../assets/images/svg/checkbox-checked.svg"); }
 
+.custom-checkbox input[type="checkbox"]:disabled:after,
+input[type="checkbox"]:disabled.custom-checkbox:after,
+.custom-checkbox.disabled input[type="checkbox"]:after,
+input[type="checkbox"].custom-checkbox.disabled:after,
+.disabled input[type="checkbox"].custom-checkbox:after {
+  content: url("../../assets/images/svg/checkbox-unchecked-disabled.svg"); }
+
+.custom-checkbox input[type="checkbox"]:checked:disabled:after,
+input[type="checkbox"]:checked:disabled.custom-checkbox:after,
+.custom-checkbox.disabled input[type="checkbox"]:checked:after,
+input[type="checkbox"]:checked.custom-checkbox.disabled:after,
+.disabled input[type="checkbox"]:checked.custom-checkbox:after {
+  content: url("../../assets/images/svg/checkbox-checked-disabled.svg"); }
+
 .custom-radio input[type="radio"]:after,
 input[type="radio"].custom-radio:after {
   content: url("../../assets/images/svg/radio-unchecked.svg"); }
@@ -2690,6 +2720,20 @@ input[type="radio"].custom-radio:after {
 .custom-radio input[type="radio"]:checked:after,
 input[type="radio"]:checked.custom-radio:after {
   content: url("../../assets/images/svg/radio-checked.svg"); }
+
+.custom-radio input[type="radio"]:disabled:after,
+input[type="radio"]:disabled.custom-radio:after,
+.custom-radio.disabled input[type="radio"]:after,
+input[type="radio"].custom-radio.disabled:after,
+.disabled input[type="radio"].custom-radio:after {
+  content: url("../../assets/images/svg/radio-unchecked-disabled.svg"); }
+
+.custom-radio input[type="radio"]:checked:disabled:after,
+input[type="radio"]:checked:disabled.custom-radio:after,
+.custom-radio.disabled input[type="radio"]:checked:after,
+input[type="radio"]:checked.custom-radio.disabled:after,
+.disabled input[type="radio"]:checked.custom-radio:after {
+  content: url("../../assets/images/svg/radio-checked-disabled.svg"); }
 
 .help-page h1, .help-page .h1 {
   font-size: 24pt;

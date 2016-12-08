@@ -103,6 +103,16 @@
     background-image: url($assets-directory+"/images/svg/checkbox-unchecked.svg");
 }
 
+.disabled.custom-icon.custom-icon-checkbox-checked,
+.disabled .custom-icon.custom-icon-checkbox-checked {
+    background-image: url($assets-directory+"/images/svg/checkbox-checked-disabled.svg");
+}
+
+.disabled.custom-icon.custom-icon-checkbox-unchecked,
+.disabled .custom-icon.custom-icon-checkbox-unchecked {
+    background-image: url($assets-directory+"/images/svg/checkbox-unchecked-disabled.svg");
+}
+
 
 /* Radio buttons */
 .custom-icon.custom-icon-radio-checked {
@@ -111,6 +121,16 @@
 
 .custom-icon.custom-icon-radio-unchecked {
     background-image: url($assets-directory+"/images/svg/radio-unchecked.svg");
+}
+
+.disabled.custom-icon.custom-icon-radio-checked,
+.disabled .custom-icon.custom-icon-radio-checked {
+    background-image: url($assets-directory+"/images/svg/radio-checked-disabled.svg");
+}
+
+.disabled.custom-icon.custom-icon-radio-unchecked,
+.disabled .custom-icon.custom-icon-radio-unchecked {
+    background-image: url($assets-directory+"/images/svg/radio-unchecked-disabled.svg");
 }
 
 
