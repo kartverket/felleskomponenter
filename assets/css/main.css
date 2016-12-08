@@ -2016,6 +2016,9 @@ button.btn {
 .btn .custom-icon.custom-icon-kartmarkoer-unavailable {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/kartmarkoer-unavailable-white.svg"); }
 
+.disabled .custom-icon.custom-icon-kartmarkoer-unavailable {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/kartmarkoer-unavailable-disabled.svg"); }
+
 /* Checkboxes */
 .custom-icon.custom-icon-checkbox-checked {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked.svg"); }
