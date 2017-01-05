@@ -86,6 +86,17 @@
     background-image: url($assets-directory+"/images/svg/kartmarkoer-warning-disabled.svg");
 }
 
+.custom-icon.custom-icon-kartmarkoer-needs-permission {
+    background-image: url($assets-directory+"/images/svg/kartmarkoer-needs-permission.svg");
+}
+
+.btn .custom-icon.custom-icon-kartmarkoer-needs-permission {
+    background-image: url($assets-directory+"/images/svg/kartmarkoer-needs-permission-white.svg");
+}
+
+.disabled .custom-icon.custom-icon-kartmarkoer-needs-permission {
+    background-image: url($assets-directory+"/images/svg/kartmarkoer-needs-permission-disabled.svg");
+}
 
 .custom-icon.custom-icon-kartmarkoer-unavailable {
     background-image: url($assets-directory+"/images/svg/kartmarkoer-unavailable.svg");
