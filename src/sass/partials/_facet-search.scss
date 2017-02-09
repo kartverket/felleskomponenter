@@ -1,77 +1,75 @@
-.facet-sok-tittel {
-  display: block;
-  margin-top: 6px;
-  p {
-    display: inline;
-    font-size: 12pt;
-    line-height: 16pt;
-  }
-  .indicator {
-    background-image: url($assets-directory+"/images/svg/arrow-down.svg");
-    width: 11px;
-    height: 12px;
-    padding: 0;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    display: inline-block;
-    margin-right: 7px;
-    :before {
-      /* content: "\e113";*/
-    }
-  }
+.facet-filter-container {
+    padding: 15px 0;
+    margin-top: 4px;
 }
 
-.facet-sok-tittel.collapsed .indicator {
-  background-image: url($assets-directory+"/images/svg/arrow-right.svg");
-}
-
-.facet-sok-undertitler {
-  li {
-    font-size: 12pt;
-    line-height: 18pt;
-    a {
-      font-size: 12pt;
-      line-height: 18pt;
-      font-style: normal;
-      color: $dark-blue;
-      :hover {
-        font-size: 12pt!important;
-        line-height: 18pt!important;
+.facet-filter {
+    .facet-filter-item {
         color: $dark-blue;
-      }
+        font-size: 12pt;
+        line-height: 18pt;
+        .facet-filter-sub-item-list {
+            display: none;
+            &.active {
+                display: block;
+                margin-left: 10pt;
+            }
+        }
     }
-    .btn-link.active{
-      color: #414042;
-      font-style: normal;
-      &:hover{
-        color: #414042;
-        text-decoration: none;
-      }
+    .indicator {
+        background-image: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-right.svg);
+        width: 11px;
+        height: 12px;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 50%;
+        display: inline-block;
+        margin-right: 2px;
+        &.active {
+            background-image: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-down.svg);
+        }
+        &.no-indicator {
+            background: none;
+        }
     }
-  }
-}
-
-.facet-sok-emne {
-  margin-top: 4px;
-  ul{
-    li {
-      background-image: none;
-      padding-left: 30px;
-      ul{
-        li {
-         padding-left: 15px;
-       }
-     }
-   }
-   li.hide-children > ul > li.filter-options {
-    display: none;
-  }
-}
-}
-
-
-aside.facet-sok-emne ul li a:hover{
-  font-size: 12pt;
-  line-height: 18pt;
+    .facet-checkbox {
+        display: inline;
+        cursor: pointer;
+        &:before {
+            display: inline-block;
+            width: 12pt;
+            line-height: 12pt;
+            vertical-align: middle;
+            content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-unchecked.svg);
+        }
+    }
+    .is-empty {
+        display: none;
+        .facet-checkbox {
+            color: $disabled-color;
+            &:before {
+                content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-unchecked-disabled.svg);
+            }
+            .text-muted {
+                color: $disabled-color;
+            }
+        }
+    }
+    .selected {
+        display: block;
+        .facet-checkbox {
+            &:before {
+                content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked.svg);
+            }
+        }
+    }
+    .is-empty.selected {
+        display: block;
+        .facet-checkbox {
+            &:before {
+                content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked-disabled.svg);
+            }
+        }
+    }
 }
