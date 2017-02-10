@@ -8,6 +8,9 @@
         color: $dark-blue;
         font-size: 12pt;
         line-height: 18pt;
+        .facet-filter-title {
+            cursor: pointer;
+        }
         .facet-filter-sub-item-list {
             display: none;
             &.active {
@@ -35,9 +38,9 @@
     }
     .facet-checkbox {
         display: inline;
-        cursor: pointer;
-        &:before {
+        .facet-checkbox-icon:before {
             display: inline-block;
+            cursor: pointer;
             width: 12pt;
             line-height: 12pt;
             vertical-align: middle;
@@ -48,7 +51,7 @@
         display: none;
         .facet-checkbox {
             color: $disabled-color;
-            &:before {
+            .facet-checkbox-icon:before {
                 content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-unchecked-disabled.svg);
             }
             .text-muted {
@@ -59,7 +62,7 @@
     .selected {
         display: block;
         .facet-checkbox {
-            &:before {
+            .facet-checkbox-icon:before {
                 content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked.svg);
             }
         }
@@ -67,7 +70,7 @@
     .is-empty.selected {
         display: block;
         .facet-checkbox {
-            &:before {
+            .facet-checkbox-icon:before {
                 content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked-disabled.svg);
             }
         }
