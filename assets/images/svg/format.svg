@@ -4,10 +4,24 @@
 	 viewBox="0 0 22 22" style="enable-background:new 0 0 22 22;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
-	.st1{fill:#FFFFFF;stroke:#4267B0;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#4267B0;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#3867C8;stroke-miterlimit:10;}
+	.st2{fill:#3867C8;}
+	.st3{fill:none;stroke:#4267B0;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#3867C8;stroke-miterlimit:10;}
 </style>
 <path class="st0" d="M37.5,16.8"/>
-<polygon class="st1" points="2.5,0.5 15.5,0.5 19.5,4.8 19.5,21.5 2.5,21.5 "/>
-<polyline class="st2" points="15,0.5 15,5.5 20,5.5 "/>
+<g>
+	<g id="XMLID_2_">
+		<polygon class="st1" points="19.8,4.8 19.8,21.5 2.8,21.5 2.8,0.5 15.8,0.5 		"/>
+	</g>
+	<circle class="st2" cx="7.5" cy="18" r="1"/>
+	<circle class="st2" cx="11" cy="18" r="1"/>
+	<circle class="st2" cx="14.5" cy="18" r="1"/>
+	<g id="XMLID_3_">
+		<polygon class="st2" points="6.9,12 8.6,13.9 8.6,15.3 6.4,12.5 6.4,11.5 8.6,8.8 8.6,10.1 		"/>
+		<polygon class="st2" points="15.6,12.5 13.4,15.3 13.4,13.9 15.1,12 13.4,10.1 13.4,8.8 15.6,11.5 		"/>
+		<polyline class="st3" points="19.8,5.5 14.8,5.5 14.8,0.5 		"/>
+		<line class="st4" x1="9.7" y1="15.3" x2="12.3" y2="8.8"/>
+	</g>
+</g>
 </svg>
