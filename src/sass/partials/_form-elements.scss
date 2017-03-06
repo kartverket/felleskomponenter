@@ -234,7 +234,9 @@ input[type="checkbox"].custom-checkbox.custom-checkbox-0{
 .custom-checkbox.custom-checkbox-0 input[type="checkbox"]:checked,
 input[type="checkbox"]:checked.custom-checkbox.custom-checkbox-default,
 input[type="checkbox"]:checked.custom-checkbox.custom-checkbox-0{
-	content: url($assets-directory+"/images/svg/checkbox-checked-default.svg");
+	&:after{
+		content: url($assets-directory+"/images/svg/checkbox-checked-default.svg");
+	}
 }
 
 /* Red checkbox */
@@ -252,7 +254,9 @@ input[type="checkbox"].custom-checkbox.custom-checkbox-1{
 .custom-checkbox.custom-checkbox-1 input[type="checkbox"]:checked,
 input[type="checkbox"]:checked.custom-checkbox.custom-checkbox-red,
 input[type="checkbox"]:checked.custom-checkbox.custom-checkbox-1{
-	content: url($assets-directory+"/images/svg/checkbox-checked-red.svg");
+	&:after{
+		content: url($assets-directory+"/images/svg/checkbox-checked-red.svg");
+	}
 }
 
 /* Orange checkbox */
@@ -270,7 +274,9 @@ input[type="checkbox"].custom-checkbox.custom-checkbox-2{
 .custom-checkbox.custom-checkbox-2 input[type="checkbox"]:checked,
 input[type="checkbox"]:checked.custom-checkbox.custom-checkbox-orange,
 input[type="checkbox"]:checked.custom-checkbox.custom-checkbox-2{
-	content: url($assets-directory+"/images/svg/checkbox-checked-orange.svg");
+	&:after{
+		content: url($assets-directory+"/images/svg/checkbox-checked-orange.svg");
+	}
 }
 
 
@@ -289,7 +295,9 @@ input[type="checkbox"].custom-checkbox.custom-checkbox-3{
 .custom-checkbox.custom-checkbox-3 input[type="checkbox"]:checked,
 input[type="checkbox"]:checked.custom-checkbox.custom-checkbox-yellow,
 input[type="checkbox"]:checked.custom-checkbox.custom-checkbox-3{
-	content: url($assets-directory+"/images/svg/checkbox-checked-yellow.svg");
+	&:after{
+		content: url($assets-directory+"/images/svg/checkbox-checked-yellow.svg");
+	}
 }
 
 
@@ -308,7 +316,9 @@ input[type="checkbox"].custom-checkbox.custom-checkbox-4{
 .custom-checkbox.custom-checkbox-4 input[type="checkbox"]:checked,
 input[type="checkbox"]:checked.custom-checkbox.custom-checkbox-lime,
 input[type="checkbox"]:checked.custom-checkbox.custom-checkbox-4{
-	content: url($assets-directory+"/images/svg/checkbox-checked-lime.svg");
+	&:after{
+		content: url($assets-directory+"/images/svg/checkbox-checked-lime.svg");
+	}
 }
 
 
@@ -327,9 +337,10 @@ input[type="checkbox"].custom-checkbox.custom-checkbox-5{
 .custom-checkbox.custom-checkbox-5 input[type="checkbox"]:checked,
 input[type="checkbox"]:checked.custom-checkbox.custom-checkbox-green,
 input[type="checkbox"]:checked.custom-checkbox.custom-checkbox-5{
-	content: url($assets-directory+"/images/svg/checkbox-checked-green.svg");
+	&:after{
+		content: url($assets-directory+"/images/svg/checkbox-checked-green.svg");
+	}
 }
-
 
 
 .custom-checkbox input[type="checkbox"]:disabled,
