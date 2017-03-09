@@ -196,8 +196,8 @@ input[type="radio"]:checked.custom-radio{
 		outline: none;
 		border: none;
 	}
-	+ span,
-	+ input[type="hidden"] + span{
+	+ .checkbox-icon,
+	+ input[type="hidden"] + .checkbox-icon{
 		cursor: pointer;
 		&:after {
 			display: inline-block;
@@ -262,7 +262,7 @@ input[type="checkbox"]:checked.custom-checkbox{
 
 /* Orange checkbox */
 
-custom-checkbox.custom-checkbox-2 input[type="checkbox"]{
+.custom-checkbox.custom-checkbox-2 input[type="checkbox"]{
 	+ .checkbox-icon:after,
 	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-unchecked-orange.svg");		

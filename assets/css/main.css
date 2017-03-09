@@ -2695,39 +2695,39 @@ input[type="radio"]:checked.custom-radio {
   input[type="radio"]:checked.custom-radio:focus {
     outline: none;
     border: none; }
-  .custom-checkbox input[type="checkbox"] + span,
-  .custom-checkbox input[type="checkbox"] + input[type="hidden"] + span,
-  input[type="checkbox"].custom-checkbox + span,
-  input[type="checkbox"].custom-checkbox + input[type="hidden"] + span,
-  .custom-checkbox input[type="checkbox"]:checked + span,
-  .custom-checkbox input[type="checkbox"]:checked + input[type="hidden"] + span,
-  input[type="checkbox"]:checked.custom-checkbox + span,
-  input[type="checkbox"]:checked.custom-checkbox + input[type="hidden"] + span,
-  .custom-radio input[type="radio"] + span,
-  .custom-radio input[type="radio"] + input[type="hidden"] + span,
-  input[type="radio"].custom-radio + span,
-  input[type="radio"].custom-radio + input[type="hidden"] + span,
-  .custom-radio input[type="radio"]:checked + span,
-  .custom-radio input[type="radio"]:checked + input[type="hidden"] + span,
-  input[type="radio"]:checked.custom-radio + span,
-  input[type="radio"]:checked.custom-radio + input[type="hidden"] + span {
+  .custom-checkbox input[type="checkbox"] + .checkbox-icon,
+  .custom-checkbox input[type="checkbox"] + input[type="hidden"] + .checkbox-icon,
+  input[type="checkbox"].custom-checkbox + .checkbox-icon,
+  input[type="checkbox"].custom-checkbox + input[type="hidden"] + .checkbox-icon,
+  .custom-checkbox input[type="checkbox"]:checked + .checkbox-icon,
+  .custom-checkbox input[type="checkbox"]:checked + input[type="hidden"] + .checkbox-icon,
+  input[type="checkbox"]:checked.custom-checkbox + .checkbox-icon,
+  input[type="checkbox"]:checked.custom-checkbox + input[type="hidden"] + .checkbox-icon,
+  .custom-radio input[type="radio"] + .checkbox-icon,
+  .custom-radio input[type="radio"] + input[type="hidden"] + .checkbox-icon,
+  input[type="radio"].custom-radio + .checkbox-icon,
+  input[type="radio"].custom-radio + input[type="hidden"] + .checkbox-icon,
+  .custom-radio input[type="radio"]:checked + .checkbox-icon,
+  .custom-radio input[type="radio"]:checked + input[type="hidden"] + .checkbox-icon,
+  input[type="radio"]:checked.custom-radio + .checkbox-icon,
+  input[type="radio"]:checked.custom-radio + input[type="hidden"] + .checkbox-icon {
     cursor: pointer; }
-    .custom-checkbox input[type="checkbox"] + span:after,
-    .custom-checkbox input[type="checkbox"] + input[type="hidden"] + span:after,
-    input[type="checkbox"].custom-checkbox + span:after,
-    input[type="checkbox"].custom-checkbox + input[type="hidden"] + span:after,
-    .custom-checkbox input[type="checkbox"]:checked + span:after,
-    .custom-checkbox input[type="checkbox"]:checked + input[type="hidden"] + span:after,
-    input[type="checkbox"]:checked.custom-checkbox + span:after,
-    input[type="checkbox"]:checked.custom-checkbox + input[type="hidden"] + span:after,
-    .custom-radio input[type="radio"] + span:after,
-    .custom-radio input[type="radio"] + input[type="hidden"] + span:after,
-    input[type="radio"].custom-radio + span:after,
-    input[type="radio"].custom-radio + input[type="hidden"] + span:after,
-    .custom-radio input[type="radio"]:checked + span:after,
-    .custom-radio input[type="radio"]:checked + input[type="hidden"] + span:after,
-    input[type="radio"]:checked.custom-radio + span:after,
-    input[type="radio"]:checked.custom-radio + input[type="hidden"] + span:after {
+    .custom-checkbox input[type="checkbox"] + .checkbox-icon:after,
+    .custom-checkbox input[type="checkbox"] + input[type="hidden"] + .checkbox-icon:after,
+    input[type="checkbox"].custom-checkbox + .checkbox-icon:after,
+    input[type="checkbox"].custom-checkbox + input[type="hidden"] + .checkbox-icon:after,
+    .custom-checkbox input[type="checkbox"]:checked + .checkbox-icon:after,
+    .custom-checkbox input[type="checkbox"]:checked + input[type="hidden"] + .checkbox-icon:after,
+    input[type="checkbox"]:checked.custom-checkbox + .checkbox-icon:after,
+    input[type="checkbox"]:checked.custom-checkbox + input[type="hidden"] + .checkbox-icon:after,
+    .custom-radio input[type="radio"] + .checkbox-icon:after,
+    .custom-radio input[type="radio"] + input[type="hidden"] + .checkbox-icon:after,
+    input[type="radio"].custom-radio + .checkbox-icon:after,
+    input[type="radio"].custom-radio + input[type="hidden"] + .checkbox-icon:after,
+    .custom-radio input[type="radio"]:checked + .checkbox-icon:after,
+    .custom-radio input[type="radio"]:checked + input[type="hidden"] + .checkbox-icon:after,
+    input[type="radio"]:checked.custom-radio + .checkbox-icon:after,
+    input[type="radio"]:checked.custom-radio + input[type="hidden"] + .checkbox-icon:after {
       display: inline-block;
       width: 16px;
       height: 19px;
@@ -2770,8 +2770,8 @@ input[type="checkbox"]:checked.custom-checkbox {
   content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked-red.svg"); }
 
 /* Orange checkbox */
-custom-checkbox.custom-checkbox-2 input[type="checkbox"] + .checkbox-icon:after,
-custom-checkbox.custom-checkbox-2 input[type="checkbox"] + input[type="hidden"] + .checkbox-icon:after {
+.custom-checkbox.custom-checkbox-2 input[type="checkbox"] + .checkbox-icon:after,
+.custom-checkbox.custom-checkbox-2 input[type="checkbox"] + input[type="hidden"] + .checkbox-icon:after {
   content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-unchecked-orange.svg"); }
 
 .custom-checkbox.custom-checkbox-2 input[type="checkbox"]:checked + .checkbox-icon:after,
