@@ -196,18 +196,24 @@ input[type="radio"]:checked.custom-radio{
 		outline: none;
 		border: none;
 	}
-	&:after{
-		display: inline-block;
-		width: 16px;
-		height: 19px;
-		vertical-align: middle;
+	+ span,
+	+ input[type="hidden"] + span{
+		cursor: pointer;
+		&:after {
+			display: inline-block;
+			width: 16px;
+			height: 19px;
+			vertical-align: middle;
+		}
 	}
+	
 }
 
 .custom-checkbox input[type="checkbox"],
 input[type="checkbox"].custom-checkbox{
 	display: none;
-	&:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-unchecked.svg");		
 	}
 }
@@ -216,7 +222,8 @@ input[type="checkbox"].custom-checkbox{
 .custom-checkbox input[type="checkbox"]:checked,
 input[type="checkbox"]:checked.custom-checkbox{
 	display: none;
-	&:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-checked.svg");		
 	}
 }
@@ -224,13 +231,15 @@ input[type="checkbox"]:checked.custom-checkbox{
 /* Default checkbox */
 
 .custom-checkbox.custom-checkbox-0 input[type="checkbox"]{
-	+ .checkbox-icon:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-unchecked-default.svg");		
 	}
 }
 
 .custom-checkbox.custom-checkbox-0 input[type="checkbox"]:checked{
-	+ .checkbox-icon:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-checked-default.svg");
 	}
 }
@@ -238,13 +247,15 @@ input[type="checkbox"]:checked.custom-checkbox{
 /* Red checkbox */
 
 .custom-checkbox.custom-checkbox-1 input[type="checkbox"]{
-	+ .checkbox-icon:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-unchecked-red.svg");		
 	}
 }
 
 .custom-checkbox.custom-checkbox-1 input[type="checkbox"]:checked{
-	+ .checkbox-icon:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-checked-red.svg");
 	}
 }
@@ -252,13 +263,15 @@ input[type="checkbox"]:checked.custom-checkbox{
 /* Orange checkbox */
 
 custom-checkbox.custom-checkbox-2 input[type="checkbox"]{
-	+ .checkbox-icon:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-unchecked-orange.svg");		
 	}
 }
 
 .custom-checkbox.custom-checkbox-2 input[type="checkbox"]:checked{
-	+ .checkbox-icon:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-checked-orange.svg");
 	}
 }
@@ -267,13 +280,15 @@ custom-checkbox.custom-checkbox-2 input[type="checkbox"]{
 /* Yellow checkbox */
 
 .custom-checkbox.custom-checkbox-3 input[type="checkbox"]{
-	+ .checkbox-icon:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-unchecked-yellow.svg");		
 	}
 }
 
 .custom-checkbox.custom-checkbox-3 input[type="checkbox"]:checked{
-	+ .checkbox-icon:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-checked-yellow.svg");
 	}
 }
@@ -282,13 +297,15 @@ custom-checkbox.custom-checkbox-2 input[type="checkbox"]{
 /* Lime checkbox */
 
 .custom-checkbox.custom-checkbox-4 input[type="checkbox"]{
-	+ .checkbox-icon:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-unchecked-lime.svg");		
 	}
 }
 
 .custom-checkbox.custom-checkbox-4 input[type="checkbox"]:checked{
-	+ .checkbox-icon:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-checked-lime.svg");
 	}
 }
@@ -297,13 +314,15 @@ custom-checkbox.custom-checkbox-2 input[type="checkbox"]{
 /* Green checkbox */
 
 .custom-checkbox.custom-checkbox-5 input[type="checkbox"]{
-	+ .checkbox-icon:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-unchecked-green.svg");		
 	}
 }
 
 .custom-checkbox.custom-checkbox-5 input[type="checkbox"]:checked{
-	+ .checkbox-icon:after{
+	+ .checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-checked-green.svg");
 	}
 }
@@ -314,7 +333,8 @@ input[type="checkbox"]:disabled.custom-checkbox,
 .custom-checkbox.disabled input[type="checkbox"],
 input[type="checkbox"].custom-checkbox.disabled,
 .disabled input[type="checkbox"].custom-checkbox{
-	&:after{
+	.checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-unchecked-disabled.svg");		
 	}
 }
@@ -325,7 +345,8 @@ input[type="checkbox"]:checked:disabled.custom-checkbox,
 .custom-checkbox.disabled input[type="checkbox"]:checked,
 input[type="checkbox"]:checked.custom-checkbox.disabled,
 .disabled input[type="checkbox"]:checked.custom-checkbox{
-	&:after{
+	.checkbox-icon:after,
+	+ input[type="hidden"] + .checkbox-icon:after{
 		content: url($assets-directory+"/images/svg/checkbox-checked-disabled.svg");		
 	}
 }
