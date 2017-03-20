@@ -88,10 +88,14 @@
       background-color: $bright-blue;
       transition: all 0.35s linear 0s;
       color: #FFF;
-      border-bottom: none;
+      border-bottom: 1px solid transparent;
+      background-clip: padding-box;
       border-radius: 0;
       font-size: 13px;
       margin-bottom: 0;
+      &:hover{
+        border-color: transparent;
+      }
       &.btn{
         border: none;
         font-size: 12pt;

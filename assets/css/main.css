@@ -3103,10 +3103,13 @@ h1 .label {
     background-color: #7da1c4;
     transition: all 0.35s linear 0s;
     color: #FFF;
-    border-bottom: none;
+    border-bottom: 1px solid transparent;
+    background-clip: padding-box;
     border-radius: 0;
     font-size: 13px;
     margin-bottom: 0; }
+    .nav-tabs > li > a:hover {
+      border-color: transparent; }
     .nav-tabs > li > a.btn {
       border: none;
       font-size: 12pt;
