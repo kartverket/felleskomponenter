@@ -1957,7 +1957,11 @@ button.btn {
     text-align: center;
     color: #FFF;
     margin-left: 12px;
-    margin-top: 11px; }
+    margin-top: 11px;
+    line-height: 14px; }
+
+.btn .custom-icon .custom-icon-overlay {
+  margin-top: 8px; }
 
 .custom-icon-sm {
   background-repeat: no-repeat;
