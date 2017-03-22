@@ -2199,6 +2199,16 @@ button.btn {
 .custom-icon.custom-icon-norgeskart-area {
   background-color: #779cfd; }
 
+/* Validation */
+.custom-icon.custom-icon-checked {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checked.svg"); }
+
+.custom-icon.custom-icon-warning {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/warning.svg"); }
+
+.custom-icon.custom-icon-danger {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/danger.svg"); }
+
 .download-form p {
   margin-bottom: 0; }
 

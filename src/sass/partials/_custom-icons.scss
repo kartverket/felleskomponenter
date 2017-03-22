@@ -323,3 +323,16 @@
         background-color: #779cfd;
     }
 }
+
+/* Validation */
+.custom-icon{
+    &.custom-icon-checked{
+        background-image: url($assets-directory+"/images/svg/checked.svg");
+    }
+    &.custom-icon-warning{
+        background-image: url($assets-directory+"/images/svg/warning.svg");
+    }
+    &.custom-icon-danger{
+        background-image: url($assets-directory+"/images/svg/danger.svg");
+    }
+}
