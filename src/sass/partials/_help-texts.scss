@@ -8,6 +8,15 @@
 	&.bg-info{
 		border-left: 8px solid $bright-blue;
 	}
+	&.bg-primary{
+		border-left: 8px solid $orange;
+	}
+	&.bg-warning{
+		border-left: 8px solid $dark-yellow;
+	}
+	&.bg-danger{
+		border-left: 8px solid $dark-red;
+	}
 	&.form-element-help-text{
 		margin: 0px;
 		padding: 6px 10px;
