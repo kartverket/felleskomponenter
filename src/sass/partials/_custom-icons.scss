@@ -61,6 +61,22 @@
     cursor: not-allowed;
 }
 
+.expand-arrow {
+    background-image: url($assets-directory+"/images/svg/arrow-right.svg");
+    width: 11px;
+    height: 12px;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    &.active{
+        background-image: url($assets-directory+"/images/svg/arrow-down.svg");
+    }
+}
+
 /* Info */
 .custom-icon.custom-icon-info {
     background-image: url($assets-directory+"/images/svg/info.svg");
