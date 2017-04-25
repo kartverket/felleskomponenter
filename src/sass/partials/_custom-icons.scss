@@ -35,6 +35,16 @@
     margin-left: 5px !important;
 }
 
+.custom-icon-xl{
+    width: 150px;
+    height: 150px;
+}
+
+.custom-icon-full{
+    width: 100%;
+    height: auto;
+}
+
 .status-icons{
     .custom-icon, .fa, .glyphicon{
         width: 18px!important;
@@ -350,5 +360,23 @@
     }
     &.custom-icon-danger{
         background-image: url($assets-directory+"/images/svg/danger.svg");
+    }
+}
+
+
+
+/* File icons */
+.custom-icon{
+    &.custom-icon-file-xml{
+        background-image: url($assets-directory+"/images/svg/file-xml.svg");
+    }
+}
+
+.disabled{
+    .custom-icon,
+    &.custom-icon{
+        &.custom-icon-file-xml{
+            background-image: url($assets-directory+"/images/svg/file-xml-disabled.svg");
+        }
     }
 }

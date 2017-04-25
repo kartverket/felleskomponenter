@@ -1973,6 +1973,14 @@ button.btn {
   margin-right: 5px !important;
   margin-left: 5px !important; }
 
+.custom-icon-xl {
+  width: 150px;
+  height: 150px; }
+
+.custom-icon-full {
+  width: 100%;
+  height: auto; }
+
 .status-icons .custom-icon, .status-icons .fa, .status-icons .glyphicon {
   width: 18px !important;
   height: 18px;
@@ -2222,6 +2230,13 @@ button.btn {
 
 .custom-icon.custom-icon-danger {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/danger.svg"); }
+
+/* File icons */
+.custom-icon.custom-icon-file-xml {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/file-xml.svg"); }
+
+.disabled .custom-icon.custom-icon-file-xml, .disabled.custom-icon.custom-icon-file-xml {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/file-xml-disabled.svg"); }
 
 .download-form p {
   margin-bottom: 0; }
