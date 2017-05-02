@@ -149,7 +149,7 @@ input[type="checkbox"].input-validation-error {
     left: 40%;
     left: calc(50% - 100px);
     text-align: center;
-    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2);
+    @include box-shadow(0 8px 17px 0 rgba(0,0,0,0.2));
     &:before{
         content: url($assets-directory+"/images/gif/loading.gif");
         display: block;

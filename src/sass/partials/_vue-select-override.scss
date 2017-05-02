@@ -1,6 +1,6 @@
-.custom-select{
-    .v-select{
-        .open-indicator{
+.custom-select {
+    .v-select {
+        .open-indicator {
             display: none;
         }
         .selected-tag {
@@ -8,8 +8,8 @@
             border: none;
             border-radius: 0;
             line-height: 18px;
-            box-shadow: none;
-            font-family: Open Sans,sans-serif;
+            @include box-shadow(none);
+            font-family: Open Sans, sans-serif;
             font-size: 12pt;
             color: #414042;
             height: 25px;
@@ -33,7 +33,7 @@
                 display: inline-block;
                 width: 23px;
                 transition: all .35s linear 0s;
-                &:hover{
+                &:hover {
                     background-color: $orange;
                 }
                 span {
@@ -48,40 +48,47 @@
             padding: 0 8px;
         }
         ul.dropdown-menu {
-            box-shadow: 0 4px 5px rgba(0,0,0,.15);
+            @include box-shadow(0 4px 5px rgba(0, 0, 0, .15));
             padding-left: 16px;
             overflow-x: hidden;
-            >li{
-                &:before{
+            >li {
+                &:before {
                     content: none;
                 }
-                &.highlight, &:hover{
-                    > a{
+                &.highlight,
+                &:hover {
+                    > a {
                         background: none;
                         text-decoration: underline !important;
                     }
                 }
-                &.active, &.active > a{
+                &.active,
+                &.active > a {
                     background: none;
                     color: #968c83 !important;
                 }
-                >a{
+                >a {
                     color: inherit;
                 }
             }
-            >a{
+            >a {
                 padding-left: 15px;
             }
-            >li, >a{
+            >li,
+            >a {
                 color: $dark-blue;
                 font-weight: 400;
                 padding: 0;
                 margin-left: 0;
             }
-            >li, >li>a, >li:hover, >li:hover>a, >li>a:hover{
+            >li,
+            >li>a,
+            >li:hover,
+            >li:hover>a,
+            >li>a:hover {
                 font-size: 13pt!important;
                 line-height: 18pt!important;
-                .area-list-heading{
+                .area-list-heading {
                     color: #414041!important;
                     font-weight: 600!important;
                     text-transform: capitalize!important;

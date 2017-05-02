@@ -12,8 +12,8 @@
         position: absolute;
         top: 5%;
         left: 5%;
-        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
         background-color: #FFF;
+        @include box-shadow(0 6px 10px 0 rgba(0, 0, 0, 0.3));
         iframe {
             position: absolute !important;
             border: none;

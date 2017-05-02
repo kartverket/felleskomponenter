@@ -1989,8 +1989,9 @@ button.btn {
 .chosen-container-multi .chosen-choices:focus {
   border-color: #66AFE9;
   outline: 0px none;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(102, 175, 233, 0.6);
   border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none; }
 
 .chosen-container-multi .chosen-choices li.search-choice {
@@ -1998,6 +1999,8 @@ button.btn {
   border: none;
   border-radius: 0;
   line-height: 1;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none;
   font-family: "Open Sans", sans-serif;
   font-size: 12pt;
@@ -2073,6 +2076,8 @@ button.btn {
   text-decoration: underline; }
 
 .chosen-container-active .chosen-choices {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none; }
 
 .chosen-container .chosen-single,
@@ -2104,6 +2109,8 @@ button.btn {
     font-family: Open Sans, sans-serif; }
 
 .chosen-container-multi .chosen-choices.has-error {
+  -webkit-box-shadow: 0px 0px 4px -2px #A94442 inset;
+  -moz-box-shadow: 0px 0px 4px -2px #A94442 inset;
   box-shadow: 0px 0px 4px -2px #A94442 inset;
   border-color: #A94442; }
 
@@ -2117,6 +2124,8 @@ button.btn {
   border-radius: 0;
   font-size: 14pt;
   padding: 0px 8px !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
   box-shadow: none !important; }
 
 .chosen-container-single.chosen-with-drop .chosen-single {
@@ -2462,8 +2471,10 @@ button.btn {
     position: absolute;
     top: 5%;
     left: 5%;
-    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
-    background-color: #FFF; }
+    background-color: #FFF;
+    -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3); }
     .custom-modal .custom-modal-container iframe {
       position: absolute !important;
       border: none; }
@@ -2526,6 +2537,8 @@ button.btn {
   z-index: 2;
   background: #FFF;
   width: calc(100% - 30px);
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0 0 4px 4px;
@@ -2787,7 +2800,9 @@ input[readonly] {
 .form-control-static {
   padding-top: 4px; }
 
-.form-group.required .control-label:after, .panel-heading.required:after, .panel-heading span.required:after {
+.form-group.required .control-label:after,
+.panel-heading.required:after,
+.panel-heading span.required:after {
   content: " *";
   color: #EE432a; }
 
@@ -2816,15 +2831,16 @@ input[readonly] {
       display: block; } }
 
 .container .input-group .form-control,
-.container .input-group .form-control:not(:first-child):not(:last-child),
-.container .input-group input {
+.container .input-group .form-control:not(:first-child):not(:last-child), .container .input-group input {
   border-top-left-radius: 0;
   -webkit-border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   -webkit-border-bottom-left-radius: 0;
   padding: 0 10px; }
 
-input.form-control, input[type=text], textarea {
+input.form-control,
+input[type=text],
+textarea {
   padding: 0 10px; }
 
 input[type="text"],
@@ -2832,8 +2848,10 @@ textarea,
 input.form-control {
   border-radius: 0;
   border: 1px solid #CFCFCF;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-variant: normal;
   color: #000000;
@@ -2849,9 +2867,12 @@ textarea:focus,
 .form-control:focus {
   border: 1px solid #CFCFCF;
   outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none; }
 
-textarea, textarea.form-control {
+textarea,
+textarea.form-control {
   border: 1px solid #CFCFCF;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
@@ -2859,6 +2880,8 @@ textarea, textarea.form-control {
   padding: 6px 15px;
   width: 100%;
   border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none; }
 
 .custom-select {
@@ -2875,15 +2898,18 @@ textarea, textarea.form-control {
 .custom-select:hover {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-down.svg"); }
 
-.custom-select select, .custom-select select.form-control {
+.custom-select select,
+.custom-select select.form-control {
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
   -o-appearance: none;
   appearance: none;
   border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: none;
   color: #000000;
   font-size: 12pt;
@@ -3300,14 +3326,16 @@ h1 .label {
   .pagination li a {
     height: 34px;
     line-height: 16pt; }
-  .pagination > li > a, .pagination > li > span {
+  .pagination > li > a,
+  .pagination > li > span {
     background-color: #7da1c4;
     border: 1px solid #FFF;
     transition: all 0.35s linear 0s;
     color: #FFF;
     border-radius: 0px !important;
     font-size: 12pt; }
-    .pagination > li > a:hover, .pagination > li > span:hover {
+    .pagination > li > a:hover,
+    .pagination > li > span:hover {
       background-color: #fe5000;
       color: #FFF;
       border: 1px solid #FFF; }
@@ -3328,7 +3356,8 @@ h1 .label {
     background-color: #fe5000;
     color: #FFF; }
 
-.nav-pill-active, .nav-pills > li > a:hover, .nav-pills > li.active > a, .nav-pills > li.active > a :hover, .nav-pills > li.active > a :focus {
+.nav-pill-active, .nav-pills > li > a:hover, .nav-pills > li.active > a, .nav-pills > li.active > a :hover,
+.nav-pills > li.active > a :focus {
   background-color: #fe5000;
   color: #FFF;
   border: 1px solid #FFF;
@@ -3386,7 +3415,8 @@ h1 .label {
         height: 34px;
         display: inline-block;
         width: 100%; }
-      .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover {
+      .nav-tabs > li.active > a,
+      .nav-tabs > li.active > a:hover {
         background-color: #fe5000 !important;
         color: #FFF !important;
         border: none !important; } }
@@ -3407,7 +3437,7 @@ h1 .label {
   .label-list li {
     background-color: #EFEEED;
     line-height: 1;
-    font-family: "Open Sans",sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 12pt;
     color: #414042;
     height: 25px;
@@ -3467,6 +3497,8 @@ ul#thumbnailsCoverage {
 /* Metadata lists */
 @media (max-width: 991px) {
   .metadata-list {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
     box-shadow: none; }
     .metadata-list .metadata-list-item {
       border-left: none;
@@ -3477,7 +3509,8 @@ ul#thumbnailsCoverage {
           font-size: .8em; }
     .metadata-list .metadata-list-item-mobile-row {
       margin-bottom: 6px; }
-      .metadata-list .metadata-list-item-mobile-row .btn, .metadata-list .metadata-list-item-mobile-row .btn-xs {
+      .metadata-list .metadata-list-item-mobile-row .btn,
+      .metadata-list .metadata-list-item-mobile-row .btn-xs {
         font-size: 12pt !important;
         line-height: 16pt;
         height: 34px !important;
@@ -3675,6 +3708,8 @@ input[type="checkbox"].input-validation-error {
   left: 40%;
   left: calc(50% - 100px);
   text-align: center;
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2); }
   .loading-animation:before {
     content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/gif/loading.gif");
@@ -4147,8 +4182,10 @@ a.status-icon-link:hover {
   border: none;
   border-radius: 0;
   line-height: 18px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
   box-shadow: none;
-  font-family: Open Sans,sans-serif;
+  font-family: Open Sans, sans-serif;
   font-size: 12pt;
   color: #414042;
   height: 25px;
@@ -4184,6 +4221,8 @@ a.status-icon-link:hover {
   padding: 0 8px; }
 
 .custom-select .v-select ul.dropdown-menu {
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
   padding-left: 16px;
   overflow-x: hidden; }
@@ -4192,22 +4231,32 @@ a.status-icon-link:hover {
   .custom-select .v-select ul.dropdown-menu > li.highlight > a, .custom-select .v-select ul.dropdown-menu > li:hover > a {
     background: none;
     text-decoration: underline !important; }
-  .custom-select .v-select ul.dropdown-menu > li.active, .custom-select .v-select ul.dropdown-menu > li.active > a {
+  .custom-select .v-select ul.dropdown-menu > li.active,
+  .custom-select .v-select ul.dropdown-menu > li.active > a {
     background: none;
     color: #968c83 !important; }
   .custom-select .v-select ul.dropdown-menu > li > a {
     color: inherit; }
   .custom-select .v-select ul.dropdown-menu > a {
     padding-left: 15px; }
-  .custom-select .v-select ul.dropdown-menu > li, .custom-select .v-select ul.dropdown-menu > a {
+  .custom-select .v-select ul.dropdown-menu > li,
+  .custom-select .v-select ul.dropdown-menu > a {
     color: #3867C8;
     font-weight: 400;
     padding: 0;
     margin-left: 0; }
-  .custom-select .v-select ul.dropdown-menu > li, .custom-select .v-select ul.dropdown-menu > li > a, .custom-select .v-select ul.dropdown-menu > li:hover, .custom-select .v-select ul.dropdown-menu > li:hover > a, .custom-select .v-select ul.dropdown-menu > li > a:hover {
+  .custom-select .v-select ul.dropdown-menu > li,
+  .custom-select .v-select ul.dropdown-menu > li > a,
+  .custom-select .v-select ul.dropdown-menu > li:hover,
+  .custom-select .v-select ul.dropdown-menu > li:hover > a,
+  .custom-select .v-select ul.dropdown-menu > li > a:hover {
     font-size: 13pt !important;
     line-height: 18pt !important; }
-    .custom-select .v-select ul.dropdown-menu > li .area-list-heading, .custom-select .v-select ul.dropdown-menu > li > a .area-list-heading, .custom-select .v-select ul.dropdown-menu > li:hover .area-list-heading, .custom-select .v-select ul.dropdown-menu > li:hover > a .area-list-heading, .custom-select .v-select ul.dropdown-menu > li > a:hover .area-list-heading {
+    .custom-select .v-select ul.dropdown-menu > li .area-list-heading,
+    .custom-select .v-select ul.dropdown-menu > li > a .area-list-heading,
+    .custom-select .v-select ul.dropdown-menu > li:hover .area-list-heading,
+    .custom-select .v-select ul.dropdown-menu > li:hover > a .area-list-heading,
+    .custom-select .v-select ul.dropdown-menu > li > a:hover .area-list-heading {
       color: #414041 !important;
       font-weight: 600 !important;
       text-transform: capitalize !important;
