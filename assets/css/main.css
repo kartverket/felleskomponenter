@@ -1775,7 +1775,10 @@ aside ul li, .container-footer ul li {
 .help-text-toggle,
 .panel-default > .panel-heading .help-text-toggle {
   background-color: #3867C8;
-  transition: all .35s linear 0s; }
+  -moz-transition: all 0.35s linear 0s;
+  -o-transition: all 0.35s linear 0s;
+  -webkit-transition: all 0.35s linear 0s;
+  transition: all 0.35s linear 0s; }
   .help-text-toggle:hover, .help-text-toggle.active,
   .panel-default > .panel-heading .help-text-toggle:hover,
   .panel-default > .panel-heading .help-text-toggle.active {
@@ -1804,6 +1807,9 @@ button.btn {
   background-color: #7da1c4;
   background-position: center;
   color: #FFF;
+  -moz-transition: all 0.35s linear 0s;
+  -o-transition: all 0.35s linear 0s;
+  -webkit-transition: all 0.35s linear 0s;
   transition: all 0.35s linear 0s; }
   .btn:hover, .btn:focus,
   a.btn:hover,
@@ -1981,6 +1987,9 @@ button.btn {
   background-image: none;
   background: none;
   border: 1px solid #CCC;
+  -moz-transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  -o-transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  -webkit-transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
   transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
   border: none;
   border-bottom: 2.5px solid #fe5000;
@@ -2035,6 +2044,9 @@ button.btn {
   height: 25px;
   display: inline-block;
   width: 23px;
+  -moz-transition: all 0.35s linear 0s;
+  -o-transition: all 0.35s linear 0s;
+  -webkit-transition: all 0.35s linear 0s;
   transition: all 0.35s linear 0s; }
 
 .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
@@ -2121,6 +2133,9 @@ button.btn {
 .chosen-container .chosen-single {
   background: none !important;
   border: 1px solid #CCC;
+  -moz-transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  -o-transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  -webkit-transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
   transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
   border: 1px solid #cfcfcf !important;
   border-radius: 0;
@@ -2154,8 +2169,10 @@ button.btn {
   margin-top: 10px; }
 
 #tab-content {
-  transition: opacity .35s linear 0s;
-  -webkit-transition: opacity .35s linear 0s; }
+  -moz-transition: opacity 0.35s linear 0s;
+  -o-transition: opacity 0.35s linear 0s;
+  -webkit-transition: opacity 0.35s linear 0s;
+  transition: opacity 0.35s linear 0s; }
 
 .custom-icon {
   background-repeat: no-repeat;
@@ -2524,7 +2541,10 @@ button.btn {
       opacity: 1;
       right: 0;
       width: 23px;
-      transition: all .35s linear 0s; }
+      -moz-transition: all 0.35s linear 0s;
+      -o-transition: all 0.35s linear 0s;
+      -webkit-transition: all 0.35s linear 0s;
+      transition: all 0.35s linear 0s; }
       .custom-select-list .custom-select-list-input-container .custom-select-list-selected .custom-select-list-remove-button:hover {
         background-color: #fe5000;
         cursor: pointer; }
@@ -3335,6 +3355,9 @@ h1 .label {
   .pagination > li > span {
     background-color: #7da1c4;
     border: 1px solid #FFF;
+    -moz-transition: all 0.35s linear 0s;
+    -o-transition: all 0.35s linear 0s;
+    -webkit-transition: all 0.35s linear 0s;
     transition: all 0.35s linear 0s;
     color: #FFF;
     border-radius: 0px !important;
@@ -3349,6 +3372,9 @@ h1 .label {
     background-color: #fe5000;
     color: #FFF;
     border: 1px solid #FFF;
+    -moz-transition: all 0.35s linear 0s;
+    -o-transition: all 0.35s linear 0s;
+    -webkit-transition: all 0.35s linear 0s;
     transition: all 0.35s linear 0s; }
     .pagination > .active > a:hover {
       background-color: #fe5000;
@@ -3356,6 +3382,9 @@ h1 .label {
       border: 1px solid #FFF; }
 
 .nav > li > a {
+  -moz-transition: all 0.35s linear 0s;
+  -o-transition: all 0.35s linear 0s;
+  -webkit-transition: all 0.35s linear 0s;
   transition: all 0.35s linear 0s; }
   .nav > li > a:hover, .nav > li > a:focus {
     background-color: #fe5000;
@@ -3366,6 +3395,9 @@ h1 .label {
   background-color: #fe5000;
   color: #FFF;
   border: 1px solid #FFF;
+  -moz-transition: all 0.35s linear 0s;
+  -o-transition: all 0.35s linear 0s;
+  -webkit-transition: all 0.35s linear 0s;
   transition: all 0.35s linear 0s; }
 
 .nav-tab-active, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
@@ -3377,6 +3409,9 @@ h1 .label {
   margin-bottom: 10px; }
   .nav-tabs > li > a {
     background-color: #7da1c4;
+    -moz-transition: all 0.35s linear 0s;
+    -o-transition: all 0.35s linear 0s;
+    -webkit-transition: all 0.35s linear 0s;
     transition: all 0.35s linear 0s;
     color: #FFF;
     border-bottom: 1px solid transparent;
@@ -3473,6 +3508,9 @@ h1 .label {
       height: 25px;
       display: inline-block;
       width: 23px;
+      -moz-transition: all 0.35s linear 0s;
+      -o-transition: all 0.35s linear 0s;
+      -webkit-transition: all 0.35s linear 0s;
       transition: all 0.35s linear 0s; }
       .label-list li .label-list-remove:hover {
         text-decoration: none;
@@ -3776,18 +3814,22 @@ header.main-header {
       margin-bottom: 0; }
 
 /* Table view */
-#tableView hr, .table-view hr {
+#tableView hr,
+.table-view hr {
   margin-top: 5px;
   margin-bottom: 5px; }
 
-#tableView .search-results-table-heading, .table-view .search-results-table-heading {
+#tableView .search-results-table-heading,
+.table-view .search-results-table-heading {
   font-size: 12pt;
   text-transform: uppercase;
   color: #414042;
   line-height: 14pt; }
-  #tableView .search-results-table-heading > div, .table-view .search-results-table-heading > div {
+  #tableView .search-results-table-heading > div,
+  .table-view .search-results-table-heading > div {
     height: 60px; }
-    #tableView .search-results-table-heading > div > p, .table-view .search-results-table-heading > div > p {
+    #tableView .search-results-table-heading > div > p,
+    .table-view .search-results-table-heading > div > p {
       position: absolute;
       bottom: 0;
       line-height: inherit;
@@ -3795,12 +3837,14 @@ header.main-header {
       font-size: 12pt;
       line-height: 14pt;
       width: 100%; }
-      #tableView .search-results-table-heading > div > p a, .table-view .search-results-table-heading > div > p a {
+      #tableView .search-results-table-heading > div > p a,
+      .table-view .search-results-table-heading > div > p a {
         font-size: 12pt;
         line-height: 14pt;
         text-decoration: none; }
 
-#tableView .active-orderby .orderby-indicator, .table-view .active-orderby .orderby-indicator {
+#tableView .active-orderby .orderby-indicator,
+.table-view .active-orderby .orderby-indicator {
   width: 10pt;
   height: 10pt;
   padding: 0px;
@@ -3810,47 +3854,122 @@ header.main-header {
   display: inline-block;
   margin-left: 7px; }
 
-#tableView .active-orderby.orderby-desc .orderby-indicator, .table-view .active-orderby.orderby-desc .orderby-indicator {
+#tableView .active-orderby.orderby-desc .orderby-indicator,
+.table-view .active-orderby.orderby-desc .orderby-indicator {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-up.svg"); }
 
-#tableView .active-orderby.orderby-asc .orderby-indicator, .table-view .active-orderby.orderby-asc .orderby-indicator {
+#tableView .active-orderby.orderby-asc .orderby-indicator,
+.table-view .active-orderby.orderby-asc .orderby-indicator {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-down.svg"); }
 
 #tableView .search-results-logo,
 #tableView .search-results-description,
 #tableView .search-results-action-buttons,
 #tableView .search-results-list-image,
-#tableView .search-results-gallery-image, .table-view .search-results-logo,
+#tableView .search-results-gallery-image,
+.table-view .search-results-logo,
 .table-view .search-results-description,
 .table-view .search-results-action-buttons,
 .table-view .search-results-list-image,
 .table-view .search-results-gallery-image {
   display: none; }
 
-#tableView .search-results-action-icons, #tableView .col-actions, .table-view .search-results-action-icons, .table-view .col-actions {
+#tableView .search-results-action-icons,
+#tableView .col-actions,
+.table-view .search-results-action-icons,
+.table-view .col-actions {
   text-align: center; }
-  #tableView .search-results-action-icons .btn, #tableView .search-results-action-icons .col-actions .btn, #tableView .col-actions .btn, #tableView .col-actions .col-actions .btn, .table-view .search-results-action-icons .btn, .table-view .search-results-action-icons .col-actions .btn, .table-view .col-actions .btn, .table-view .col-actions .col-actions .btn {
+  #tableView .search-results-action-icons .btn,
+  #tableView .search-results-action-icons .col-actions .btn,
+  #tableView .col-actions .btn,
+  #tableView .col-actions .col-actions .btn,
+  .table-view .search-results-action-icons .btn,
+  .table-view .search-results-action-icons .col-actions .btn,
+  .table-view .col-actions .btn,
+  .table-view .col-actions .col-actions .btn {
     background: none;
     color: #7da1c4;
     padding: 0;
     font-size: 18pt;
     line-height: 1em;
     text-decoration: none; }
-    #tableView .search-results-action-icons .btn:hover, #tableView .search-results-action-icons .btn:focus, #tableView .search-results-action-icons .col-actions .btn:hover, #tableView .search-results-action-icons .col-actions .btn:focus, #tableView .col-actions .btn:hover, #tableView .col-actions .btn:focus, #tableView .col-actions .col-actions .btn:hover, #tableView .col-actions .col-actions .btn:focus, .table-view .search-results-action-icons .btn:hover, .table-view .search-results-action-icons .btn:focus, .table-view .search-results-action-icons .col-actions .btn:hover, .table-view .search-results-action-icons .col-actions .btn:focus, .table-view .col-actions .btn:hover, .table-view .col-actions .btn:focus, .table-view .col-actions .col-actions .btn:hover, .table-view .col-actions .col-actions .btn:focus {
+    #tableView .search-results-action-icons .btn:hover, #tableView .search-results-action-icons .btn:focus,
+    #tableView .search-results-action-icons .col-actions .btn:hover,
+    #tableView .search-results-action-icons .col-actions .btn:focus,
+    #tableView .col-actions .btn:hover,
+    #tableView .col-actions .btn:focus,
+    #tableView .col-actions .col-actions .btn:hover,
+    #tableView .col-actions .col-actions .btn:focus,
+    .table-view .search-results-action-icons .btn:hover,
+    .table-view .search-results-action-icons .btn:focus,
+    .table-view .search-results-action-icons .col-actions .btn:hover,
+    .table-view .search-results-action-icons .col-actions .btn:focus,
+    .table-view .col-actions .btn:hover,
+    .table-view .col-actions .btn:focus,
+    .table-view .col-actions .col-actions .btn:hover,
+    .table-view .col-actions .col-actions .btn:focus {
       background: none !important;
       color: #fe5000 !important;
       line-height: 1em; }
-      #tableView .search-results-action-icons .btn:hover span, #tableView .search-results-action-icons .btn:hover span:hover, #tableView .search-results-action-icons .btn:focus span, #tableView .search-results-action-icons .btn:focus span:hover, #tableView .search-results-action-icons .col-actions .btn:hover span, #tableView .search-results-action-icons .col-actions .btn:hover span:hover, #tableView .search-results-action-icons .col-actions .btn:focus span, #tableView .search-results-action-icons .col-actions .btn:focus span:hover, #tableView .col-actions .btn:hover span, #tableView .col-actions .btn:hover span:hover, #tableView .col-actions .btn:focus span, #tableView .col-actions .btn:focus span:hover, #tableView .col-actions .col-actions .btn:hover span, #tableView .col-actions .col-actions .btn:hover span:hover, #tableView .col-actions .col-actions .btn:focus span, #tableView .col-actions .col-actions .btn:focus span:hover, .table-view .search-results-action-icons .btn:hover span, .table-view .search-results-action-icons .btn:hover span:hover, .table-view .search-results-action-icons .btn:focus span, .table-view .search-results-action-icons .btn:focus span:hover, .table-view .search-results-action-icons .col-actions .btn:hover span, .table-view .search-results-action-icons .col-actions .btn:hover span:hover, .table-view .search-results-action-icons .col-actions .btn:focus span, .table-view .search-results-action-icons .col-actions .btn:focus span:hover, .table-view .col-actions .btn:hover span, .table-view .col-actions .btn:hover span:hover, .table-view .col-actions .btn:focus span, .table-view .col-actions .btn:focus span:hover, .table-view .col-actions .col-actions .btn:hover span, .table-view .col-actions .col-actions .btn:hover span:hover, .table-view .col-actions .col-actions .btn:focus span, .table-view .col-actions .col-actions .btn:focus span:hover {
+      #tableView .search-results-action-icons .btn:hover span,
+      #tableView .search-results-action-icons .btn:hover span:hover, #tableView .search-results-action-icons .btn:focus span,
+      #tableView .search-results-action-icons .btn:focus span:hover,
+      #tableView .search-results-action-icons .col-actions .btn:hover span,
+      #tableView .search-results-action-icons .col-actions .btn:hover span:hover,
+      #tableView .search-results-action-icons .col-actions .btn:focus span,
+      #tableView .search-results-action-icons .col-actions .btn:focus span:hover,
+      #tableView .col-actions .btn:hover span,
+      #tableView .col-actions .btn:hover span:hover,
+      #tableView .col-actions .btn:focus span,
+      #tableView .col-actions .btn:focus span:hover,
+      #tableView .col-actions .col-actions .btn:hover span,
+      #tableView .col-actions .col-actions .btn:hover span:hover,
+      #tableView .col-actions .col-actions .btn:focus span,
+      #tableView .col-actions .col-actions .btn:focus span:hover,
+      .table-view .search-results-action-icons .btn:hover span,
+      .table-view .search-results-action-icons .btn:hover span:hover,
+      .table-view .search-results-action-icons .btn:focus span,
+      .table-view .search-results-action-icons .btn:focus span:hover,
+      .table-view .search-results-action-icons .col-actions .btn:hover span,
+      .table-view .search-results-action-icons .col-actions .btn:hover span:hover,
+      .table-view .search-results-action-icons .col-actions .btn:focus span,
+      .table-view .search-results-action-icons .col-actions .btn:focus span:hover,
+      .table-view .col-actions .btn:hover span,
+      .table-view .col-actions .btn:hover span:hover,
+      .table-view .col-actions .btn:focus span,
+      .table-view .col-actions .btn:focus span:hover,
+      .table-view .col-actions .col-actions .btn:hover span,
+      .table-view .col-actions .col-actions .btn:hover span:hover,
+      .table-view .col-actions .col-actions .btn:focus span,
+      .table-view .col-actions .col-actions .btn:focus span:hover {
         color: #fe5000 !important; }
-    #tableView .search-results-action-icons .btn.disabled, #tableView .search-results-action-icons .col-actions .btn.disabled, #tableView .col-actions .btn.disabled, #tableView .col-actions .col-actions .btn.disabled, .table-view .search-results-action-icons .btn.disabled, .table-view .search-results-action-icons .col-actions .btn.disabled, .table-view .col-actions .btn.disabled, .table-view .col-actions .col-actions .btn.disabled {
+    #tableView .search-results-action-icons .btn.disabled,
+    #tableView .search-results-action-icons .col-actions .btn.disabled,
+    #tableView .col-actions .btn.disabled,
+    #tableView .col-actions .col-actions .btn.disabled,
+    .table-view .search-results-action-icons .btn.disabled,
+    .table-view .search-results-action-icons .col-actions .btn.disabled,
+    .table-view .col-actions .btn.disabled,
+    .table-view .col-actions .col-actions .btn.disabled {
       opacity: 1;
       color: #cfcfcf !important;
       border: none;
       background: none !important; }
-    #tableView .search-results-action-icons .btn span, #tableView .search-results-action-icons .col-actions .btn span, #tableView .col-actions .btn span, #tableView .col-actions .col-actions .btn span, .table-view .search-results-action-icons .btn span, .table-view .search-results-action-icons .col-actions .btn span, .table-view .col-actions .btn span, .table-view .col-actions .col-actions .btn span {
-      transition: all .35s linear 0s; }
+    #tableView .search-results-action-icons .btn span,
+    #tableView .search-results-action-icons .col-actions .btn span,
+    #tableView .col-actions .btn span,
+    #tableView .col-actions .col-actions .btn span,
+    .table-view .search-results-action-icons .btn span,
+    .table-view .search-results-action-icons .col-actions .btn span,
+    .table-view .col-actions .btn span,
+    .table-view .col-actions .col-actions .btn span {
+      -moz-transition: all 0.35s linear 0s;
+      -o-transition: all 0.35s linear 0s;
+      -webkit-transition: all 0.35s linear 0s;
+      transition: all 0.35s linear 0s; }
 
-#tableView .col-actions, .table-view .col-actions {
+#tableView .col-actions,
+.table-view .col-actions {
   text-align: left !important; }
 
 /* List view */
@@ -3959,7 +4078,8 @@ header.main-header {
   padding: 15px 0; }
 
 /* Register */
-.table-heading .sorted-asc:after, .table-heading .sorted-desc:after {
+.table-heading .sorted-asc:after,
+.table-heading .sorted-desc:after {
   content: "";
   width: 10pt;
   height: 10pt;
@@ -4096,7 +4216,7 @@ a.status-icon-link:hover {
 
 .ui-datepicker {
   border-radius: 0;
-  font-family: Open Sans,sans-serif; }
+  font-family: Open Sans, sans-serif; }
 
 .ui-widget-header {
   background: none;
@@ -4109,7 +4229,10 @@ a.status-icon-link:hover {
   color: #FFF;
   border: 1px solid #FFF;
   border-radius: 0;
-  transition: all .35s linear 0s;
+  -moz-transition: all 0.35s linear 0s;
+  -o-transition: all 0.35s linear 0s;
+  -webkit-transition: all 0.35s linear 0s;
+  transition: all 0.35s linear 0s;
   height: 34px;
   padding: 5px 10px; }
   .ui-datepicker-header .ui-corner-all:hover {
@@ -4126,14 +4249,16 @@ a.status-icon-link:hover {
   left: 2px;
   top: 2px; }
 
-.ui-corner-all .ui-icon.ui-icon-circle-triangle-e, .ui-corner-all .ui-icon.ui-icon-circle-triangle-w {
+.ui-corner-all .ui-icon.ui-icon-circle-triangle-e,
+.ui-corner-all .ui-icon.ui-icon-circle-triangle-w {
   font-size: 0;
   text-indent: 0;
   line-height: 16pt;
   text-align: center;
   background: none; }
 
-.ui-corner-all .ui-corner-all .ui-icon.ui-icon-circle-triangle-e:before, .ui-corner-all .ui-icon.ui-icon-circle-triangle-w:before {
+.ui-corner-all .ui-corner-all .ui-icon.ui-icon-circle-triangle-e:before,
+.ui-corner-all .ui-icon.ui-icon-circle-triangle-w:before {
   font: normal normal normal 12pt/1 FontAwesome;
   color: #FFF;
   font-weight: normal; }
@@ -4150,9 +4275,13 @@ a.status-icon-link:hover {
   background-color: #7da1c4;
   color: #FFF;
   border: 1px solid #FFF;
-  transition: all .35s linear 0s; }
+  -moz-transition: all 0.35s linear 0s;
+  -o-transition: all 0.35s linear 0s;
+  -webkit-transition: all 0.35s linear 0s;
+  transition: all 0.35s linear 0s; }
 
-.ui-widget-content .ui-state-default.ui-state-active, .ui-widget-content .ui-state-default:hover {
+.ui-widget-content .ui-state-default.ui-state-active,
+.ui-widget-content .ui-state-default:hover {
   background-color: #fe5000;
   color: #FFF;
   border: 1px solid #FFF; }
@@ -4215,7 +4344,10 @@ a.status-icon-link:hover {
     height: 25px;
     display: inline-block;
     width: 23px;
-    transition: all .35s linear 0s; }
+    -moz-transition: all 0.35s linear 0s;
+    -o-transition: all 0.35s linear 0s;
+    -webkit-transition: all 0.35s linear 0s;
+    transition: all 0.35s linear 0s; }
     .custom-select .v-select .selected-tag .close:hover {
       background-color: #fe5000; }
     .custom-select .v-select .selected-tag .close span {

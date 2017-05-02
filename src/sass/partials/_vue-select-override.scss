@@ -32,7 +32,7 @@
                 height: 25px;
                 display: inline-block;
                 width: 23px;
-                transition: all .35s linear 0s;
+                @include transition(all .35s linear 0s);
                 &:hover {
                     background-color: $orange;
                 }

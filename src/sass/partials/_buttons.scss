@@ -14,7 +14,7 @@ button.btn {
     background-color: $bright-blue;
     background-position: center;
     color: #FFF;
-    transition: all 0.35s linear 0s;
+    @include transition(all 0.35s linear 0s);
     &:hover, 
     &:focus{
         background-color: $orange;

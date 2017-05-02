@@ -11,7 +11,7 @@
         > span {
             background-color: $bright-blue;
             border: 1px solid #FFF;
-            transition: all 0.35s linear 0s;
+            @include transition(all 0.35s linear 0s);
             color: #FFF;
             border-radius: 0px !important;
             font-size: 12pt;
@@ -28,7 +28,7 @@
             background-color: $orange;
             color: #FFF;
             border: 1px solid #FFF;
-            transition: all 0.35s linear 0s;
+            @include transition(all 0.35s linear 0s);
             &:hover {
                 background-color: $orange;
                 color: #FFF;
@@ -41,7 +41,7 @@
 .nav {
     > li {
         > a {
-            transition: all 0.35s linear 0s;
+            @include transition(all 0.35s linear 0s);
             &:hover,
             &:focus {
                 background-color: $orange;
@@ -55,7 +55,7 @@
     background-color: $orange;
     color: #FFF;
     border: 1px solid #FFF;
-    transition: all 0.35s linear 0s;
+    @include transition(all 0.35s linear 0s);
 }
 
 .nav-pills {
@@ -88,7 +88,7 @@
     > li {
         > a {
             background-color: $bright-blue;
-            transition: all 0.35s linear 0s;
+            @include transition(all 0.35s linear 0s);
             color: #FFF;
             border-bottom: 1px solid transparent;
             background-clip: padding-box;
@@ -218,7 +218,7 @@
             height: 25px;
             display: inline-block;
             width: 23px;
-            transition: all 0.35s linear 0s;
+            @include transition(all 0.35s linear 0s);
             &:hover {
                 text-decoration: none;
                 color: #FFF;

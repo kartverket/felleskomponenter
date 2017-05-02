@@ -57,7 +57,7 @@
     background-image: none;
     background: none;
     border: 1px solid #CCC;
-    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    @include transition(border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s);
     border: none;
     border-bottom: 2.5px solid $orange;
     border: 1px solid #cfcfcf;
@@ -112,7 +112,7 @@
     height: 25px;
     display: inline-block;
     width: 23px;
-    transition: all 0.35s linear 0s;
+    @include transition(all 0.35s linear 0s);
 }
 
 .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
@@ -210,7 +210,7 @@
 .chosen-container .chosen-single {
     background: none !important;
     border: 1px solid #CCC;
-    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    @include transition(border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s);
     border: 1px solid #cfcfcf !important;
     border-radius: 0;
     font-size: 14pt;

@@ -1,8 +1,7 @@
 .search-filter-wrapper {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 #tab-content {
-	transition: opacity .35s linear 0s;
-	-webkit-transition: opacity .35s linear 0s;
+    @include transition(opacity .35s linear 0s);
 }
