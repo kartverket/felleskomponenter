@@ -1,69 +1,67 @@
 {
-	"paths": {
-		"vendorStyles": [
-			"bower_components/bootstrap/dist/css/bootstrap.css",
-			"bower_components/jquery-ui/themes/base/core.css",
-			"bower_components/jquery-ui/themes/base/datepicker.css",
-			"bower_components/jquery-ui/themes/base/theme.css",
-			"bower_components/components-font-awesome/css/font-awesome.min.css",
-			"bower_components/chosen/chosen.css"
-		],
-		"vendorScripts": [
-			"bower_components/angular/angular.js",
-			"bower_components/jquery/dist/jquery.min.js",
-			"bower_components/bootstrap/dist/js/bootstrap.min.js",
-			"bower_components/angular-bootstrap/ui-bootstrap.min.js",
-			"bower_components/jquery-ui/ui/widgets/datepicker.js",
-			"bower_components/jquery-ui/ui/minified/i18n/datepicker-nb.js",
-			"bower_components/js-cookie/src/js.cookie.js",
-			"bower_components/chosen/chosen.jquery.js"
-		],
-		"vendorFonts": [
-			"bower_components/bootstrap/fonts/**/*.{ttf,woff,woff2,eot,svg}",
-			"bower_components/components-font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg,otf}",
-			"bower_components/openSans/**/*.{ttf,woff,woff2,eot,svg,otf}",
-			"bower_components/raleway/**/*.{ttf,woff,woff2,eot,svg,otf}"
-		],
-		"vendorFontsStyles": [
-			"bower_components/openSans/**/*.css",
-			"bower_components/raleway/**/*.css"
-		],
-		"vendorImages": [
-			{
-				"src": "bower_components/jquery-ui/themes/base/images/*.png",
-				"dest": "./assets/css/images/"
-			},
-			{
-				"src": "bower_components/chosen/*.png",
-				"dest": "./assets/css/"
-			}
-		],
-		"styles": [
-			"src/sass/**/*.scss"
-		],
-		"scripts": [
-			"src/js/init.js",
-			"src/js/geonorge-app.js",
-			"src/js/geonorge-searchoptions.js",
-			"src/js/geonorge-searchTopController.js",
-			"src/js/geonorge-baseUrl.js",
-			"src/js/geonorge-common.js",
-			"src/js/geonorge-menuTopController.js",
-			"src/js/shopping-cart.js",
-			"src/js/helpers.js"
-		],
-		"fonts": [
-			"src/fonts/**/*.{ttf,woff,woff2,eot,svg}"
-		],
-		"images": [
-			"src/images/**/*.{png,svg,gif,jpg}"
-		],
-		"html": [
-			"src/partials/*.html"
-		],
-		"cshtml": [
-			"src/partials/*.cshtml"
-		]
-		
-	}
+    "paths": {
+        "vendorStyles": [
+            "bower_components/bootstrap/dist/css/bootstrap.css",
+            "bower_components/jquery-ui/themes/base/core.css",
+            "bower_components/jquery-ui/themes/base/datepicker.css",
+            "bower_components/jquery-ui/themes/base/theme.css",
+            "bower_components/components-font-awesome/css/font-awesome.min.css",
+            "bower_components/chosen/chosen.css"
+        ],
+        "vendorScripts": [
+            "bower_components/angular/angular.js",
+            "bower_components/jquery/dist/jquery.min.js",
+            "bower_components/bootstrap/dist/js/bootstrap.min.js",
+            "bower_components/angular-bootstrap/ui-bootstrap.min.js",
+            "bower_components/jquery-ui/ui/widgets/datepicker.js",
+            "bower_components/jquery-ui/ui/minified/i18n/datepicker-nb.js",
+            "bower_components/js-cookie/src/js.cookie.js",
+            "bower_components/chosen/chosen.jquery.js"
+        ],
+        "vendorFonts": [
+            "bower_components/bootstrap/fonts/**/*.{ttf,woff,woff2,eot,svg}",
+            "bower_components/components-font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg,otf}",
+            "bower_components/openSans/**/*.{ttf,woff,woff2,eot,svg,otf}",
+            "bower_components/raleway/**/*.{ttf,woff,woff2,eot,svg,otf}"
+        ],
+        "vendorFontsStyles": [
+            "bower_components/openSans/**/*.css",
+            "bower_components/raleway/**/*.css"
+        ],
+        "vendorImages": [{
+            "src": "bower_components/jquery-ui/themes/base/images/*.png",
+            "dest": "./assets/css/images/"
+        }, {
+            "src": "bower_components/chosen/*.png",
+            "dest": "./assets/css/"
+        }],
+        "styles": [
+            "src/sass/**/*.scss"
+        ],
+        "scripts": [
+            "src/js/init.js",
+            "src/js/geonorge-app.js",
+            "src/js/geonorge-searchoptions.js",
+            "src/js/geonorge-searchTopController.js",
+            "src/js/geonorge-baseUrl.js",
+            "src/js/geonorge-common.js",
+            "src/js/geonorge-menuTopController.js",
+            "src/js/shopping-cart.js",
+            "src/js/helpers.js",
+            "src/js/custom-select-list.js"
+        ],
+        "fonts": [
+            "src/fonts/**/*.{ttf,woff,woff2,eot,svg}"
+        ],
+        "images": [
+            "src/images/**/*.{png,svg,gif,jpg}"
+        ],
+        "html": [
+            "src/partials/*.html"
+        ],
+        "cshtml": [
+            "src/partials/*.cshtml"
+        ]
+
+    }
 }
