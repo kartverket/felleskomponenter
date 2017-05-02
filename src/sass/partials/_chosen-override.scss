@@ -36,7 +36,7 @@
 }
 
 .chosen-input-group {
-    width: calc(100% - 37px);
+    @include calc(width, "100%-37px");
 }
 
 .chosen-input-group .chosen-container .chosen-choices {

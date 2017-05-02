@@ -41,7 +41,7 @@ input[readonly] {
 
 .upload-group {
 	.bootstrap-filestyle {
-		width: calc(100% - 93px);
+		@include calc(width, "100%-93px");
 		display: inline-table;
 		@media (max-width: 480px) {
 			display: table;
