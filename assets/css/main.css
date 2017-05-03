@@ -2517,9 +2517,9 @@ button.btn {
     background: #efeeed;
     line-height: 18px;
     height: auto;
-    max-width: -moz-calc(100%-20px);
-    max-width: -webkit-calc(100%-20px);
-    max-width: calc(100%-20px);
+    max-width: -moz-calc(100% - 20px);
+    max-width: -webkit-calc(100% - 20px);
+    max-width: calc(100% - 20px);
     font-family: "Open Sans", sans-serif;
     color: #414042;
     padding: .2em 2em .3em .6em;
@@ -2560,9 +2560,9 @@ button.btn {
   position: absolute;
   z-index: 2;
   background: #FFF;
-  width: -moz-calc(100%-30px);
-  width: -webkit-calc(100%-30px);
-  width: calc(100%-30px);
+  width: -moz-calc(100% - 30px);
+  width: -webkit-calc(100% - 30px);
+  width: calc(100% - 30px);
   -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
@@ -2842,9 +2842,9 @@ input[readonly] {
   margin-right: 10px; }
 
 .upload-group .bootstrap-filestyle {
-  width: -moz-calc(100%-93px);
-  width: -webkit-calc(100%-93px);
-  width: calc(100%-93px);
+  width: -moz-calc(100% - 93px);
+  width: -webkit-calc(100% - 93px);
+  width: calc(100% - 93px);
   display: inline-table; }
   @media (max-width: 480px) {
     .upload-group .bootstrap-filestyle {
@@ -3749,9 +3749,9 @@ input[type="checkbox"].input-validation-error {
   margin: auto;
   display: block;
   left: 40%;
-  left: -moz-calc(50%-100px);
-  left: -webkit-calc(50%-100px);
-  left: calc(50%-100px);
+  left: -moz-calc(50% - 100px);
+  left: -webkit-calc(50% - 100px);
+  left: calc(50% - 100px);
   text-align: center;
   -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);

@@ -147,7 +147,7 @@ input[type="checkbox"].input-validation-error {
     margin: auto;
     display: block;
     left: 40%;
-    @include calc(left, "50%-100px");
+    @include calc(left, "50% - 100px");
     text-align: center;
     @include box-shadow(0 8px 17px 0 rgba(0,0,0,0.2));
     &:before{

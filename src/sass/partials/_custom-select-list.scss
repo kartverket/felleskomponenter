@@ -13,7 +13,7 @@
             background: #efeeed;
             line-height: 18px;
             height: auto;
-            @include calc(max-width, "100%-20px");
+            @include calc(max-width, "100% - 20px");
             font-family: $normal-font;
             color: #414042;
             padding: .2em 2em .3em .6em;
@@ -56,7 +56,7 @@
         position: absolute;
         z-index: 2;
         background: #FFF;
-        @include calc(width, "100%-30px");
+        @include calc(width, "100% - 30px");
         @include box-shadow(0 4px 5px rgba(0, 0, 0, .15));
         border: 1px solid rgba(0, 0, 0, .15);
         border-radius: 0 0 4px 4px;
