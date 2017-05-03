@@ -1968,9 +1968,9 @@ button.btn {
   padding: 0 6px; }
 
 .chosen-input-group {
-  width: -moz-calc(100%-37px);
-  width: -webkit-calc(100%-37px);
-  width: calc(100%-37px); }
+  width: -moz-calc(100% - 37px);
+  width: -webkit-calc(100% - 37px);
+  width: calc(100% - 37px); }
 
 .chosen-input-group .chosen-container .chosen-choices {
   border-top-right-radius: 0px !important;
