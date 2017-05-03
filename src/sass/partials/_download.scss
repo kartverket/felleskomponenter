@@ -26,7 +26,7 @@
     .orderline {
         padding: 12px;
         &.orderline-master {
-            border-bottom: 2px solid #fe5000;
+            border-bottom: 2px solid $orange;
             background: #f1f2f2;
         }
         &:nth-child(odd) {

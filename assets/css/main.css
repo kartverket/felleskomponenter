@@ -1945,7 +1945,7 @@ button.btn {
 
 .chosen-container.chosen-disabled,
 .custom-select.disabled .chosen-container {
-  background-color: #cfcfcf;
+  background-color: #CFCFCF;
   opacity: 0.5; }
 
 .chosen-container.chosen-disabled .chosen-choices:hover {
@@ -2594,7 +2594,7 @@ button.btn {
     .custom-select-list .custom-select-list-dropdown .custom-select-list-options li:before {
       content: none; }
     .custom-select-list .custom-select-list-dropdown .custom-select-list-options li.is-selected {
-      color: #cfcfcf; }
+      color: #CFCFCF; }
       .custom-select-list .custom-select-list-dropdown .custom-select-list-options li.is-selected:hover {
         cursor: default;
         text-decoration: none; }
@@ -3729,7 +3729,7 @@ input[type="checkbox"].input-validation-error {
   .toggle-content h2:after {
     left: 40px; }
   .toggle-content h2 .toggle-icon:before {
-    color: #3867c8;
+    color: #3867C8;
     font-size: .5em;
     vertical-align: text-top;
     line-height: 39pt; }
@@ -3952,7 +3952,7 @@ header.main-header {
     .table-view .col-actions .btn.disabled,
     .table-view .col-actions .col-actions .btn.disabled {
       opacity: 1;
-      color: #cfcfcf !important;
+      color: #CFCFCF !important;
       border: none;
       background: none !important; }
     #tableView .search-results-action-icons .btn span,

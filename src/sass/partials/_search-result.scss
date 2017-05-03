@@ -134,7 +134,7 @@
             }
             &.disabled {
                 opacity: 1;
-                color: #cfcfcf !important;
+                color: $disabled-color !important;
                 border: none;
                 background: none !important;
             }

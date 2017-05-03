@@ -93,7 +93,7 @@
                     content: none;
                 }
                 &.is-selected {
-                    color: #cfcfcf;
+                    color: $disabled-color;
                     &:hover {
                         cursor: default;
                         text-decoration: none;

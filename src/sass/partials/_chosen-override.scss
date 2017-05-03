@@ -6,7 +6,7 @@
 
 .chosen-container.chosen-disabled,
 .custom-select.disabled .chosen-container {
-    background-color: #cfcfcf;
+    background-color: $disabled-color;
     opacity: 0.5;
 }
 

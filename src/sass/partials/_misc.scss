@@ -123,7 +123,7 @@ input[type="checkbox"].input-validation-error {
         }
         .toggle-icon{
             &:before{
-                color: #3867c8;
+                color: $dark-blue;
                 font-size: .5em;
                 vertical-align: text-top;
                 line-height: 39pt;
