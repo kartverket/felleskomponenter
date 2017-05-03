@@ -20,7 +20,7 @@
         }
     }
     .indicator {
-        background-image: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-right.svg);
+        background-image: url($assets-directory+"/images/svg/arrow-right.svg");
         width: 11px;
         height: 12px;
         padding: 0;
@@ -30,7 +30,7 @@
         display: inline-block;
         margin-right: 2px;
         &.active {
-            background-image: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-down.svg);
+            background-image: url($assets-directory+"/images/svg/arrow-down.svg");
         }
         &.no-indicator {
             background: none;
@@ -45,7 +45,7 @@
             height: 13pt;
             line-height: 12pt;
             vertical-align: middle;
-            content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-unchecked.svg);
+            content: url($assets-directory+"/images/svg/checkbox-unchecked.svg");
         }
     }
     .is-empty {
@@ -53,7 +53,7 @@
         .facet-checkbox {
             color: $disabled-color;
             .facet-checkbox-icon:before {
-                content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-unchecked-disabled.svg);
+                content: url($assets-directory+"/images/svg/checkbox-unchecked-disabled.svg");
             }
             .text-muted {
                 color: $disabled-color;
@@ -64,7 +64,7 @@
         display: block;
         .facet-checkbox {
             .facet-checkbox-icon:before {
-                content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked.svg);
+                content: url($assets-directory+"/images/svg/checkbox-checked.svg");
             }
         }
     }
@@ -72,7 +72,7 @@
         display: block;
         .facet-checkbox {
             .facet-checkbox-icon:before {
-                content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked-disabled.svg);
+                content: url($assets-directory+"/images/svg/checkbox-checked-disabled.svg");
             }
         }
     }

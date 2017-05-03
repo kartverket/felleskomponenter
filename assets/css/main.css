@@ -2767,7 +2767,7 @@ button.btn {
       margin-left: 10pt; }
 
 .facet-filter .indicator {
-  background-image: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-right.svg);
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-right.svg");
   width: 11px;
   height: 12px;
   padding: 0;
@@ -2777,7 +2777,7 @@ button.btn {
   display: inline-block;
   margin-right: 2px; }
   .facet-filter .indicator.active {
-    background-image: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-down.svg); }
+    background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-down.svg"); }
   .facet-filter .indicator.no-indicator {
     background: none; }
 
@@ -2790,26 +2790,26 @@ button.btn {
     height: 13pt;
     line-height: 12pt;
     vertical-align: middle;
-    content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-unchecked.svg); }
+    content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-unchecked.svg"); }
 
 .facet-filter .is-empty {
   display: none; }
   .facet-filter .is-empty .facet-checkbox {
     color: #CFCFCF; }
     .facet-filter .is-empty .facet-checkbox .facet-checkbox-icon:before {
-      content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-unchecked-disabled.svg); }
+      content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-unchecked-disabled.svg"); }
     .facet-filter .is-empty .facet-checkbox .text-muted {
       color: #CFCFCF; }
 
 .facet-filter .selected {
   display: block; }
   .facet-filter .selected .facet-checkbox .facet-checkbox-icon:before {
-    content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked.svg); }
+    content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked.svg"); }
 
 .facet-filter .is-empty.selected {
   display: block; }
   .facet-filter .is-empty.selected .facet-checkbox .facet-checkbox-icon:before {
-    content: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked-disabled.svg); }
+    content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked-disabled.svg"); }
 
 input[readonly] {
   cursor: default !important; }
