@@ -27,7 +27,7 @@
         padding: 12px;
         &.orderline-master {
             border-bottom: 2px solid $orange;
-            background: #f1f2f2;
+            background-color: #fff!important;
         }
         &:nth-child(odd) {
             background-color: #fbfcfc;
@@ -117,7 +117,14 @@
 /* Nedlastingskvittering */
 
 .download-list {
-    .list-group-item {
+    .download-list-item {
+        padding: 12px;
+        &:nth-child(odd) {
+            background-color: #fbfcfc;
+        }
+        &:nth-child(even) {
+            background-color: #f7f8f8;
+        }
         a {
             color: $dark-blue;
             text-decoration: none;
@@ -131,10 +138,6 @@
                 height: 24px;
             }
             &.download-list-item-name {
-                display: inline-block;
-                vertical-align: middle;
-                font-size: 14pt;
-                line-height: 16pt;
                 small {
                     display: block;
                     margin: 0;
