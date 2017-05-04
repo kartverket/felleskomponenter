@@ -2640,51 +2640,65 @@ button.btn {
 .download-form p {
   margin-bottom: 0; }
 
-#orderlist h2 {
+#orderlist h2,
+#responseList h2 {
   margin-top: 0;
   display: inline-block;
   font-size: 18pt;
   line-height: 31pt;
   cursor: pointer;
   margin-bottom: 0; }
-  #orderlist h2:after {
+  #orderlist h2:after,
+  #responseList h2:after {
     content: none; }
 
-#orderlist a {
+#orderlist a,
+#responseList a {
   text-decoration: none; }
 
-#orderlist ul li {
+#orderlist ul li,
+#responseList ul li {
   font-style: normal; }
 
-#orderlist .orderlines {
+#orderlist .orderlines,
+#responseList .orderlines {
   margin-bottom: 22px; }
 
-#orderlist .orderline {
+#orderlist .orderline,
+#responseList .orderline {
   padding: 12px; }
-  #orderlist .orderline.orderline-master {
+  #orderlist .orderline.orderline-master,
+  #responseList .orderline.orderline-master {
     border-bottom: 2px solid #fe5000;
     background-color: #fff !important; }
-  #orderlist .orderline:nth-child(odd) {
+  #orderlist .orderline:nth-child(odd),
+  #responseList .orderline:nth-child(odd) {
     background-color: #fbfcfc; }
-  #orderlist .orderline:nth-child(even) {
+  #orderlist .orderline:nth-child(even),
+  #responseList .orderline:nth-child(even) {
     background-color: #f7f8f8; }
-  #orderlist .orderline > .readonly p {
+  #orderlist .orderline > .readonly p,
+  #responseList .orderline > .readonly p {
     display: none; }
-  #orderlist .orderline > .readonly .orderline-fields {
+  #orderlist .orderline > .readonly .orderline-fields,
+  #responseList .orderline > .readonly .orderline-fields {
     margin-left: 0;
     margin-right: 0;
     display: inline-block; }
-  #orderlist .orderline .orderline-field-counter {
+  #orderlist .orderline .orderline-field-counter,
+  #responseList .orderline .orderline-field-counter {
     height: 34px;
     display: inline-block;
     vertical-align: top;
     margin-right: 6px;
     padding-right: 6px;
     border-right: 1px solid #eaebeb; }
-    #orderlist .orderline .orderline-field-counter .custom-icon-warning {
+    #orderlist .orderline .orderline-field-counter .custom-icon-warning,
+    #responseList .orderline .orderline-field-counter .custom-icon-warning {
       margin-top: 3px;
       cursor: pointer; }
-    #orderlist .orderline .orderline-field-counter .custom-icon-checked {
+    #orderlist .orderline .orderline-field-counter .custom-icon-checked,
+    #responseList .orderline .orderline-field-counter .custom-icon-checked {
       margin-top: 5px; }
 
 .orderline-errors .custom-icon {
