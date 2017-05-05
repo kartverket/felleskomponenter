@@ -6,7 +6,7 @@ button.btn {
     font-size: 12pt;
     font-style: normal;
     margin-bottom: 7px;
-    border: none;
+    border: 1px solid transparent;
     border-radius: 0;
     height: 34px;
     line-height: 16pt;
@@ -19,7 +19,7 @@ button.btn {
     &:focus {
         background-color: $orange;
         color: #FFFFFF!important;
-        border: none;
+        border: 1px solid transparent;
         font-style: normal;
         font-size: 12pt;
         line-height: 16pt;
@@ -35,6 +35,7 @@ button.btn {
         opacity: 1;
         cursor: not-allowed;
         &:hover {
+            border: 1px solid $disabled-color;
             color: $disabled-color;
             span {
                 color: $disabled-color;
@@ -46,6 +47,7 @@ button.btn {
             }
         }
         &:focus {
+            border: 1px solid $disabled-color;
             color: $disabled-color!important;
             span {
                 color: $disabled-color!important;
