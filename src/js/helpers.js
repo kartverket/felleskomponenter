@@ -127,3 +127,19 @@ function disableLastBreadcrumb() {
 $("document").ready(function() {
     disableLastBreadcrumb();
 });
+
+
+/* Alerts */
+function showAlert(message, colorClass) {
+    $('#feedback-alert').attr('class', 'alert alert-dismissible alert-' + colorClass);
+    $('#feedback-alert .message').html($('#feedback-alert .message').html() + message + "<br/>");
+    $('#feedback-alert').show();
+}
+
+function clearAlertMessage() {
+    $('#feedback-alert .message').html("");
+}
+
+function hideAlert() {
+    $('#feedback-alert').hide();
+}
