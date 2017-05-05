@@ -42,22 +42,21 @@ h1 .label {
     border-color: #968c84;
 }
 
-.label-danger{
+.label-danger {
     border-color: $dark-red;
 }
 
-.label-warning{
+.label-warning {
     border-color: $dark-yellow;
 }
 
-.label-success{
+.label-success {
     border-color: $dark-green;
 }
 
-.label-info{
+.label-info {
     border-color: $bright-blue;
 }
-
 
 .required-indicator::after,
 .form-group.required .control-label::after,

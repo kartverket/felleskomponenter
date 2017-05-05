@@ -59,6 +59,6 @@ function updateShoppingCartCookie() {
 }
 
 
-$(window).load(function () {
+$(window).load(function() {
     updateShoppingCart();
 });

@@ -18,11 +18,9 @@
     background-image: url($assets-directory+"/images/svg/breadcrumb-arrow.svg");
 }
 
-
 .tooltip-inner {
     min-width: 100px;
 }
-
 
 .progress {
     height: 30px;
@@ -36,6 +34,7 @@
 
 
 /* styles for validation helpers */
+
 .field-validation-error {
     color: $dark-red;
 }
@@ -58,13 +57,11 @@ input[type="checkbox"].input-validation-error {
     border-left: 8px solid $dark-red;
     border-radius: 0;
     background-color: #FFF;
-    
 }
 
 .validation-summary-valid {
     display: none;
 }
-
 
 .service-layer-info {
     margin-bottom: 20px;
@@ -76,7 +73,7 @@ input[type="checkbox"].input-validation-error {
     border-style: solid;
 }
 
-.has-error{
+.has-error {
     &.checkbox-inline label,
     &.checkbox label,
     &.radio-inline label,
@@ -87,20 +84,21 @@ input[type="checkbox"].input-validation-error {
     .help-block,
     .radio,
     .radio-inline,
-    .form-control-feedback{
+    .form-control-feedback {
         color: $dark-red;
     }
 }
 
-.toggle-content{
+.toggle-content {
     text-decoration: none;
     color: #3867c8;
-    &:hover, &:focus{
+    &:hover,
+    &:focus {
         text-decoration: none;
         color: #3867c8;
     }
-    .toggle-icon{
-        &:before{
+    .toggle-icon {
+        &:before {
             font-family: Glyphicons Halflings;
             content: "−";
             display: inline-block;
@@ -110,19 +108,19 @@ input[type="checkbox"].input-validation-error {
             -moz-osx-font-smoothing: grayscale;
         }
     }
-    &.show-content{
-        .toggle-icon{
-            &:before{
+    &.show-content {
+        .toggle-icon {
+            &:before {
                 content: "+";
             }
         }
     }
-    h2{
-        &:after{
+    h2 {
+        &:after {
             left: 40px;
         }
-        .toggle-icon{
-            &:before{
+        .toggle-icon {
+            &:before {
                 color: $dark-blue;
                 font-size: .5em;
                 vertical-align: text-top;
@@ -132,7 +130,7 @@ input[type="checkbox"].input-validation-error {
     }
 }
 
-.loading-animation{
+.loading-animation {
     z-index: 15;
     position: fixed;
     background-repeat: no-repeat;
@@ -149,24 +147,24 @@ input[type="checkbox"].input-validation-error {
     left: 40%;
     @include calc(left, "50% - 100px");
     text-align: center;
-    @include box-shadow(0 8px 17px 0 rgba(0,0,0,0.2));
-    &:before{
+    @include box-shadow(0 8px 17px 0 rgba(0, 0, 0, 0.2));
+    &:before {
         content: url($assets-directory+"/images/gif/loading.gif");
         display: block;
     }
 }
 
-header.main-header{
+header.main-header {
     z-index: 5;
     position: relative;
 }
 
-.container-top-menu{
+.container-top-menu {
     z-index: 5;
     position: static;
 }
 
-.menu-separator{
+.menu-separator {
     z-index: 1;
     position: relative;
 }

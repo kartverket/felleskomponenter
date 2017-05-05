@@ -1,7 +1,7 @@
-.container .shopping-cart{
+.container .shopping-cart {
     top: initial;
     bottom: 0;
-    img{
+    img {
         max-width: none;
     }
 }
@@ -23,8 +23,8 @@
 @media (max-width: 768px) {
     .container .shopping-cart {
         right: 11px;
-        img{
-        	height: 34px;
+        img {
+            height: 34px;
         }
     }
     #orderitem-count {

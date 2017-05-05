@@ -1,99 +1,108 @@
 @font-face {
-  font-family: 'statusicon';
-  src: url($assets-directory + '/fonts/statusicon.eot?pjbxg9');
-  src: url($assets-directory + '/fonts/statusicon.eot?#iefixpjbxg9') format('embedded-opentype'), url($assets-directory + '/fonts/statusicon.woff?pjbxg9') format('woff'), url($assets-directory + '/fonts/statusicon.ttf?pjbxg9') format('truetype'), url($assets-directory + '/fonts/statusicon.svg?pjbxg9#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'statusicon';
+    src: url($assets-directory + '/fonts/statusicon.eot?pjbxg9');
+    src: url($assets-directory + '/fonts/statusicon.eot?#iefixpjbxg9') format('embedded-opentype'), url($assets-directory + '/fonts/statusicon.woff?pjbxg9') format('woff'), url($assets-directory + '/fonts/statusicon.ttf?pjbxg9') format('truetype'), url($assets-directory + '/fonts/statusicon.svg?pjbxg9#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-a.status-icon-link:hover{
-  text-decoration: none;
+a.status-icon-link:hover {
+    text-decoration: none;
 }
 
 [class^="statusIcon-"],
 [class*=" statusIcon-"] {
-  font-family: 'statusicon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  margin: 2px 4px;
-  display: inline-block;
-  vertical-align: bottom;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-[class^="statusIcon-"]:before,
-[class*=" statusIcon-"]:before {
-  content: "\e600";
-  color: #777;
-}
-.statusIcon-vedtatt:after, .statusIcon-Valid:after {
-  content: "\e600";
-  color: $dark-green;
-}
-.statusIcon-vedtatt:before, .statusIcon-Valid:before {
-  content: "";
+    font-family: 'statusicon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    margin: 2px 4px;
+    display: inline-block;
+    vertical-align: bottom;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-.statusIcon-vedtatt:after, .statusIcon-Sosi-valid:after {
-  content: "\e600";
-  color: $dark-green;
+[class^="statusIcon-"]:before,
+[class*=" statusIcon-"]:before {
+    content: "\e600";
+    color: #777;
 }
-.statusIcon-vedtatt:before, .statusIcon-Sosi-valid:before {
-  content: "";
+
+.statusIcon-vedtatt:after,
+.statusIcon-Valid:after {
+    content: "\e600";
+    color: $dark-green;
+}
+
+.statusIcon-vedtatt:before,
+.statusIcon-Valid:before {
+    content: "";
+}
+
+.statusIcon-vedtatt:after,
+.statusIcon-Sosi-valid:after {
+    content: "\e600";
+    color: $dark-green;
+}
+
+.statusIcon-vedtatt:before,
+.statusIcon-Sosi-valid:before {
+    content: "";
 }
 
 .statusIcon-avvist:after {
-  content: "\e600";
-  color: $dark-red;
+    content: "\e600";
+    color: $dark-red;
 }
+
 .statusIcon-avvist:before {
-  content: "";
+    content: "";
 }
 
 .statusIcon-underarbeid:after {
-  content: "\e602";
-  color: $dark-yellow;
-  margin-left: -1em;
-  display: inline-block;
+    content: "\e602";
+    color: $dark-yellow;
+    margin-left: -1em;
+    display: inline-block;
 }
 
-.statusIcon-InProgress:after{
-  content:"\e601";
-  color: $dark-green;
-  margin-left: -1em;
-  display: inline-block;
+.statusIcon-InProgress:after {
+    content: "\e601";
+    color: $dark-green;
+    margin-left: -1em;
+    display: inline-block;
 }
 
-.statusIcon-Superseded:after{
-  content: "\e600";
-  color: $dark-yellow;
-  margin-left: -1em;
-  display: inline-block;
+.statusIcon-Superseded:after {
+    content: "\e600";
+    color: $dark-yellow;
+    margin-left: -1em;
+    display: inline-block;
 }
 
-
-.statusIcon-Candidate:after, .statusIcon-Draft:after {
-  content: "\e602";
-  color: $dark-green;
-  margin-left: -1em;
-  display: inline-block;
+.statusIcon-Candidate:after,
+.statusIcon-Draft:after {
+    content: "\e602";
+    color: $dark-green;
+    margin-left: -1em;
+    display: inline-block;
 }
 
 .statusIcon-Accepted:after {
-  content: "\e600";
-  color: $dark-green;
+    content: "\e600";
+    color: $dark-green;
 }
 
 .statusIcon-Accepted:before {
-  content: "";
+    content: "";
 }
 
 .statusIcon-Proposal:before {
-  content: "\e600";
-  color: #777;
+    content: "\e600";
+    color: #777;
 }

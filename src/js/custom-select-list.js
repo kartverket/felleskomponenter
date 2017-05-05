@@ -18,6 +18,7 @@ $(document).on('blur', '.custom-select-list-input', function() {
     }, 1000);
 });
 
+
 $(document).on('click', '.custom-select-list-input-container', function() {
     $(this).find('.custom-select-list-input').focus();
 });

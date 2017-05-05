@@ -15,49 +15,49 @@ button.btn {
     background-position: center;
     color: #FFF;
     @include transition(all 0.35s linear 0s);
-    &:hover, 
-    &:focus{
+    &:hover,
+    &:focus {
         background-color: $orange;
         color: #FFFFFF!important;
         border: none;
         font-style: normal;
         font-size: 12pt;
         line-height: 16pt;
-        span{
+        span {
             color: #FFFFFF;
         }
     }
     &.disabled,
-    &[disabled]{
+    &[disabled] {
         background-color: #FFFFFF;
         color: $disabled-color;
         border: 1px solid $disabled-color;
         opacity: 1;
         cursor: not-allowed;
-        &:hover{
+        &:hover {
             color: $disabled-color;
-            span{
+            span {
                 color: $disabled-color;
             }
         }
-        span{
-            &:hover{
+        span {
+            &:hover {
                 color: $disabled-color;
             }
         }
-        &:focus{
+        &:focus {
             color: $disabled-color!important;
-            span{
+            span {
                 color: $disabled-color!important;
             }
         }
     }
-    span{
-        &:hover{
+    span {
+        &:hover {
             color: #FFFFFF;
         }
     }
-    &.btn-purple{
+    &.btn-purple {
         background-color: $purple;
     }
 }
@@ -82,13 +82,12 @@ button.btn {
     }
 }
 
-
 .btn-xs {
     font-size: 10pt !important;
     padding: 3px 9px;
     height: 25px !important;
     line-height: 14pt;
-    &:hover{
+    &:hover {
         line-height: 16pt!important;
         font-size: 10pt;
     }
@@ -103,10 +102,9 @@ button.btn {
     float: none !important;
 }
 
-
 .btn-table-row-5 {
     margin: -2px;
-    &:after{
+    &:after {
         clear: both;
         display: block;
         content: "";
@@ -121,16 +119,16 @@ button.btn {
             width: 100%;
             margin: 0;
         }
-        @media(max-width:1199px){
+        @media(max-width:1199px) {
             width: 25%;
         }
-        @media(max-width:991px){
+        @media(max-width:991px) {
             width: 33.333%;
         }
-        @media(max-width:720px){
+        @media(max-width:720px) {
             width: 50%;
         }
-        @media(max-width:400px){
+        @media(max-width:400px) {
             width: 100%;
         }
     }

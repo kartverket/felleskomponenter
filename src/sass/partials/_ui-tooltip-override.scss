@@ -1,25 +1,25 @@
 .ui-tooltip {
-	min-width: 100px;
-	max-width: 200px;
-	padding: 3px 8px;
-	color: #fff;
-	text-align: center;
-	background: none;
-	background-color: #000;
-	border-radius: 4px;
-	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-	font-size: 12px;
-	opacity: .9;
-	position: absolute;
-	z-index: 5;
+    min-width: 100px;
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    background: none;
+    background-color: #000;
+    border-radius: 4px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    opacity: .9;
+    position: absolute;
+    z-index: 5;
 }
 
 .ui-tooltip:before {
-	border-width: 0 5px 5px;
-	border-bottom-color: #000;
-	border-style: solid;
-	content: "";
-	position: absolute;
-	top: -5px;
-	color: transparent;
+    border-width: 0 5px 5px;
+    border-bottom-color: #000;
+    border-style: solid;
+    content: "";
+    position: absolute;
+    top: -5px;
+    color: transparent;
 }

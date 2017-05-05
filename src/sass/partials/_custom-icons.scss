@@ -5,7 +5,7 @@
     height: 25px;
     display: inline-block;
     vertical-align: middle;
-    .custom-icon-overlay{
+    .custom-icon-overlay {
         background-color: $orange;
         border-radius: 50%;
         height: 15px;
@@ -20,7 +20,7 @@
     }
 }
 
-.btn .custom-icon .custom-icon-overlay{
+.btn .custom-icon .custom-icon-overlay {
     margin-top: 8px;
 }
 
@@ -35,24 +35,25 @@
     margin-left: 5px !important;
 }
 
-.custom-icon-l{
+.custom-icon-l {
     width: 100px;
     height: 100px;
 }
 
-
-.custom-icon-xl{
+.custom-icon-xl {
     width: 150px;
     height: 150px;
 }
 
-.custom-icon-full{
+.custom-icon-full {
     width: 100%;
     height: auto;
 }
 
-.status-icons{
-    .custom-icon, .fa, .glyphicon{
+.status-icons {
+    .custom-icon,
+    .fa,
+    .glyphicon {
         width: 18px!important;
         height: 18px;
         line-height: 16px;
@@ -72,7 +73,6 @@
     height: 16pt;
 }
 
-
 .disabled .custom-icon {
     cursor: not-allowed;
 }
@@ -88,12 +88,14 @@
     display: inline-block;
     margin-right: 2px;
     margin-bottom: 2px;
-    &.active{
+    &.active {
         background-image: url($assets-directory+"/images/svg/arrow-down.svg");
     }
 }
 
+
 /* Info */
+
 .custom-icon.custom-icon-info {
     background-image: url($assets-directory+"/images/svg/info.svg");
 }
@@ -109,7 +111,9 @@
     background-image: url($assets-directory+"/images/svg/info-disabled.svg");
 }
 
+
 /* Kartmarkoer */
+
 .custom-icon.custom-icon-kartmarkoer {
     background-image: url($assets-directory+"/images/svg/kartmarkoer.svg");
 }
@@ -121,7 +125,6 @@
 .disabled .custom-icon.custom-icon-kartmarkoer {
     background-image: url($assets-directory+"/images/svg/kartmarkoer-disabled.svg");
 }
-
 
 .custom-icon.custom-icon-kartmarkoer-warning {
     background-image: url($assets-directory+"/images/svg/kartmarkoer-warning.svg");
@@ -159,7 +162,9 @@
     background-image: url($assets-directory+"/images/svg/kartmarkoer-unavailable-disabled.svg");
 }
 
+
 /* Checkboxes */
+
 .custom-icon.custom-icon-checkbox-checked {
     background-image: url($assets-directory+"/images/svg/checkbox-checked.svg");
 }
@@ -180,6 +185,7 @@
 
 
 /* Radio buttons */
+
 .custom-icon.custom-icon-radio-checked {
     background-image: url($assets-directory+"/images/svg/radio-checked.svg");
 }
@@ -200,9 +206,11 @@
 
 
 /* Handlekurv */
+
 .custom-icon.custom-icon-handlekurv {
     background-image: url($assets-directory+"/images/svg/handlekurv.svg");
 }
+
 .added .custom-icon.custom-icon-handlekurv {
     background-image: url($assets-directory+"/images/svg/handlekurv-added.svg");
 }
@@ -210,6 +218,7 @@
 .btn .custom-icon.custom-icon-handlekurv {
     background-image: url($assets-directory+"/images/svg/handlekurv-white.svg");
 }
+
 .btn.added .custom-icon.custom-icon-handlekurv {
     background-image: url($assets-directory+"/images/svg/handlekurv-white-added.svg");
 }
@@ -225,6 +234,7 @@
 
 
 /* Last ned */
+
 .custom-icon.custom-icon-lastned {
     background-image: url($assets-directory+"/images/svg/lastned.svg");
 }
@@ -237,8 +247,11 @@
     background-image: url($assets-directory+"/images/svg/lastned-disabled.svg");
 }
 
+
 /* Ekstern link */
-.custom-icon.custom-icon-eksternlink, .custom-icon-sm.custom-icon-eksternlink {
+
+.custom-icon.custom-icon-eksternlink,
+.custom-icon-sm.custom-icon-eksternlink {
     background-image: url($assets-directory+"/images/svg/eksternlink.svg");
 }
 
@@ -250,43 +263,49 @@
     background-image: url($assets-directory+"/images/svg/eksternlink-disabled.svg");
 }
 
+
 /* Smileys */
-.custom-icon{
-    &.custom-icon-smile-green{
+
+.custom-icon {
+    &.custom-icon-smile-green {
         background-image: url($assets-directory+"/images/svg/smile-green.svg");
     }
-    &.custom-icon-smile-yellow{
+    &.custom-icon-smile-yellow {
         background-image: url($assets-directory+"/images/svg/smile-yellow.svg");
     }
-    &.custom-icon-smile-red{
+    &.custom-icon-smile-red {
         background-image: url($assets-directory+"/images/svg/smile-red.svg");
     }
 }
 
+
 /* Tabelltopp ikoner */
-.custom-icon{
-    &.custom-icon-dekningskart{
+
+.custom-icon {
+    &.custom-icon-dekningskart {
         background-image: url($assets-directory+"/images/svg/dekningskart.svg");
     }
-    &.custom-icon-produktark{
+    &.custom-icon-produktark {
         background-image: url($assets-directory+"/images/svg/produktark.svg");
     }
-    &.custom-icon-wfs{
+    &.custom-icon-wfs {
         background-image: url($assets-directory+"/images/svg/wfs.svg");
     }
-    &.custom-icon-seksjonstegn{
+    &.custom-icon-seksjonstegn {
         background-image: url($assets-directory+"/images/svg/seksjonstegn.svg");
     }
-    &.custom-icon-sosi{
+    &.custom-icon-sosi {
         background-image: url($assets-directory+"/images/svg/sosi.svg");
     }
-    &.custom-icon-gml{
+    &.custom-icon-gml {
         background-image: url($assets-directory+"/images/svg/gml.svg");
     }
 }
 
+
 /* Open data */
-.custom-icon{
+
+.custom-icon {
     &.custom-icon-hengelaas-open-green {
         background-image: url($assets-directory+"/images/svg/hengelaas-aapen-green.svg");
         width: 30px;
@@ -325,6 +344,7 @@
         background-image: url($assets-directory+"/images/svg/hengelaas-lukket-white.svg");
     }
 }
+
 .disabled {
     .custom-icon.custom-icon-hengelaas-open-green,
     .custom-icon.custom-icon-hengelaas-open-red,
@@ -338,50 +358,54 @@
     }
 }
 
+
 /* Norgeskart legend */
-.norgeskart-legend{
-    .custom-icon{
+
+.norgeskart-legend {
+    .custom-icon {
         width: 25px!important;
         height: 25px;
     }
 }
 
-.custom-icon{
+.custom-icon {
     &.custom-icon-norgeskart-marker {
         background-image: url(/Content/bower_components/kartverket-felleskomponenter/assets/images/png/norgeskart-marker.png);
         background-size: 100%;
     }
-    &.custom-icon-norgeskart-area{
+    &.custom-icon-norgeskart-area {
         background-color: #779cfd;
     }
 }
 
+
 /* Validation */
-.custom-icon{
-    &.custom-icon-checked{
+
+.custom-icon {
+    &.custom-icon-checked {
         background-image: url($assets-directory+"/images/svg/checked.svg");
     }
-    &.custom-icon-warning{
+    &.custom-icon-warning {
         background-image: url($assets-directory+"/images/svg/warning.svg");
     }
-    &.custom-icon-danger{
+    &.custom-icon-danger {
         background-image: url($assets-directory+"/images/svg/danger.svg");
     }
 }
 
 
-
 /* File icons */
-.custom-icon{
-    &.custom-icon-file-xml{
+
+.custom-icon {
+    &.custom-icon-file-xml {
         background-image: url($assets-directory+"/images/svg/file-xml.svg");
     }
 }
 
-.disabled{
+.disabled {
     .custom-icon,
-    &.custom-icon{
-        &.custom-icon-file-xml{
+    &.custom-icon {
+        &.custom-icon-file-xml {
             background-image: url($assets-directory+"/images/svg/file-xml-disabled.svg");
         }
     }

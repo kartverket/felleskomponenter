@@ -1769,7 +1769,8 @@ a {
 .control-text {
   padding-top: 7px; }
 
-aside ul li, .container-footer ul li {
+aside ul li,
+.container-footer ul li {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arrow-right.svg"); }
 
 .help-text-toggle,
@@ -2219,7 +2220,9 @@ button.btn {
   width: 100%;
   height: auto; }
 
-.status-icons .custom-icon, .status-icons .fa, .status-icons .glyphicon {
+.status-icons .custom-icon,
+.status-icons .fa,
+.status-icons .glyphicon {
   width: 18px !important;
   height: 18px;
   line-height: 16px;
@@ -2228,7 +2231,9 @@ button.btn {
   text-align: center;
   vertical-align: bottom; }
   @media (max-width: 1199px) {
-    .status-icons .custom-icon, .status-icons .fa, .status-icons .glyphicon {
+    .status-icons .custom-icon,
+    .status-icons .fa,
+    .status-icons .glyphicon {
       margin: 2px 1px; } }
 
 .btn .custom-icon {
@@ -2364,7 +2369,8 @@ button.btn {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/lastned-disabled.svg"); }
 
 /* Ekstern link */
-.custom-icon.custom-icon-eksternlink, .custom-icon-sm.custom-icon-eksternlink {
+.custom-icon.custom-icon-eksternlink,
+.custom-icon-sm.custom-icon-eksternlink {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/eksternlink.svg"); }
 
 .btn .custom-icon.custom-icon-eksternlink {
@@ -2646,7 +2652,6 @@ button.btn {
   display: inline-block;
   font-size: 18pt;
   line-height: 31pt;
-  cursor: pointer;
   margin-bottom: 0; }
   #orderlist h2:after,
   #responseList h2:after {
@@ -3163,9 +3168,10 @@ input[type="radio"]:checked.custom-radio.disabled:after,
 .disabled input[type="radio"]:checked.custom-radio:after {
   content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/radio-checked-disabled.svg") !important; }
 
-.help-page h1, .help-page .h1 {
+.help-page h1,
+.help-page .h1 {
   font-size: 24pt;
-  font-family: Raleway,sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 300;
   color: #5d4777; }
 
@@ -3234,7 +3240,8 @@ input[type="radio"]:checked.custom-radio.disabled:after,
   .help-page-table td {
     padding: 10px 15px;
     vertical-align: top; }
-  .help-page-table pre, .help-page-table p {
+  .help-page-table pre,
+  .help-page-table p {
     margin: 0px;
     padding: 0px;
     font-family: inherit;
@@ -3291,6 +3298,9 @@ input[type="radio"]:checked.custom-radio.disabled:after,
 
 .text-left {
   text-align: left !important; }
+
+.clickable {
+  cursor: pointer !important; }
 
 @media (max-width: 991px) {
   span.hypernation {
@@ -4172,18 +4182,22 @@ a.status-icon-link:hover {
   content: "\e600";
   color: #777; }
 
-.statusIcon-vedtatt:after, .statusIcon-Valid:after {
+.statusIcon-vedtatt:after,
+.statusIcon-Valid:after {
   content: "\e600";
   color: #36c545; }
 
-.statusIcon-vedtatt:before, .statusIcon-Valid:before {
+.statusIcon-vedtatt:before,
+.statusIcon-Valid:before {
   content: ""; }
 
-.statusIcon-vedtatt:after, .statusIcon-Sosi-valid:after {
+.statusIcon-vedtatt:after,
+.statusIcon-Sosi-valid:after {
   content: "\e600";
   color: #36c545; }
 
-.statusIcon-vedtatt:before, .statusIcon-Sosi-valid:before {
+.statusIcon-vedtatt:before,
+.statusIcon-Sosi-valid:before {
   content: ""; }
 
 .statusIcon-avvist:after {
@@ -4211,7 +4225,8 @@ a.status-icon-link:hover {
   margin-left: -1em;
   display: inline-block; }
 
-.statusIcon-Candidate:after, .statusIcon-Draft:after {
+.statusIcon-Candidate:after,
+.statusIcon-Draft:after {
   content: "\e602";
   color: #36c545;
   margin-left: -1em;
@@ -4309,7 +4324,7 @@ a.status-icon-link:hover {
   background: none;
   background-color: #000;
   border-radius: 4px;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 12px;
   opacity: .9;
   position: absolute;
