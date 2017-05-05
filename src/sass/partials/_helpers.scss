@@ -36,6 +36,10 @@
 	text-align: left!important;
 }
 
+.clickable {
+	cursor: pointer!important;
+}
+
 span.hypernation{
 	@media (max-width: 991px) {
 		display: none;
