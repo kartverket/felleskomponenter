@@ -146,4 +146,16 @@
             }
         }
     }
+    .download-list-subitem {
+        padding: 4px 12px 4px 20px;
+        min-height: 42px;
+        a {
+            margin-bottom: 0;
+        }
+        .icon-col {
+            @media (min-width: 768px) {
+                text-align: center;
+            }
+        }
+    }
 }
