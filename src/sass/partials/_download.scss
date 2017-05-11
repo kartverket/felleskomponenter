@@ -116,46 +116,21 @@
 
 /* Nedlastingskvittering */
 
-.download-list {
-    .download-list-item {
-        padding: 12px;
-        &:nth-child(odd) {
-            background-color: #fbfcfc;
-        }
-        &:nth-child(even) {
-            background-color: #f7f8f8;
-        }
-        a {
-            color: $dark-blue;
-            text-decoration: none;
-        }
-        span {
-            padding-right: 10px;
-            margin-right: 5px;
-            &.custom-icon {
-                display: inline-block;
-                width: 24px;
-                height: 24px;
-            }
-            &.download-list-item-name {
-                small {
-                    display: block;
-                    margin: 0;
-                    line-height: 1;
-                }
-            }
-        }
-    }
     .download-list-subitem {
-        padding: 4px 12px 4px 20px;
-        min-height: 42px;
-        a {
+        padding: 0 12px;
+        line-height: 24pt;
+        a.btn, a.btn:hover, a:btn:focus {
+            line-height: 17pt;
             margin-bottom: 0;
+            height: 25px;
+            width: 100%;
+            padding: 0;
         }
         .icon-col {
-            @media (min-width: 768px) {
-                text-align: center;
+            text-align: center;
+            a{
+                margin-bottom: 0;
             }
         }
     }
-}
+
