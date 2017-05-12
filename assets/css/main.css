@@ -2667,12 +2667,12 @@ button.btn {
 #responseList ul li {
   font-style: normal; }
 
-#orderlist .intro.text,
-#responseList .intro.text {
+#orderlist .intro-text,
+#responseList .intro-text {
   background-color: #f7f8f8;
   padding: 16px; }
-  #orderlist .intro.text p,
-  #responseList .intro.text p {
+  #orderlist .intro-text p,
+  #responseList .intro-text p {
     font-size: 12pt;
     line-height: 16pt; }
 
