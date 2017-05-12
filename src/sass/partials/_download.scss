@@ -20,6 +20,14 @@
     ul li {
         font-style: normal;
     }
+    .intro.text {
+        background-color: #f7f8f8;
+        padding: 16px;
+        p {
+            font-size: 12pt;
+            line-height: 16pt;
+        }
+    }
     .orderlines {
         margin-bottom: 22px;
     }
@@ -58,6 +66,17 @@
             }
             .custom-icon-checked {
                 margin-top: 5px;
+            }
+        }
+        .help-text {
+            p {
+                font-size: 12pt;
+                line-height: 16pt;
+                margin: 0;
+                margin-bottom: 12px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
             }
         }
     }
@@ -116,21 +135,22 @@
 
 /* Nedlastingskvittering */
 
-    .download-list-subitem {
-        padding: 0 12px;
-        line-height: 24pt;
-        a.btn, a.btn:hover, a:btn:focus {
-            line-height: 17pt;
+.download-list-subitem {
+    padding: 0 12px;
+    line-height: 24pt;
+    a.btn,
+    a.btn:hover,
+    a:btn:focus {
+        line-height: 17pt;
+        margin-bottom: 0;
+        height: 25px;
+        width: 100%;
+        padding: 0;
+    }
+    .icon-col {
+        text-align: center;
+        a {
             margin-bottom: 0;
-            height: 25px;
-            width: 100%;
-            padding: 0;
-        }
-        .icon-col {
-            text-align: center;
-            a{
-                margin-bottom: 0;
-            }
         }
     }
-
+}
