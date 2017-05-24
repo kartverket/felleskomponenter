@@ -286,3 +286,24 @@ ul#thumbnailsCoverage {
         }
     }
 }
+
+
+/* Striped list */
+
+.striped-list {
+    h2 {
+        font-size: 18pt;
+        line-height: 31pt;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .list-item {
+        padding: 12px;
+        &:nth-child(odd) {
+            background-color: #fbfcfc;
+        }
+        &:nth-child(even) {
+            background-color: #f7f8f8;
+        }
+    }
+}
