@@ -1,6 +1,8 @@
 .btn,
 a.btn,
-button.btn {
+button.btn,
+input[type="button"].btn,
+input[type="submit"].btn {
     font-family: $normal-font;
     font-weight: normal;
     font-size: 12pt;
