@@ -1,176 +1,176 @@
 input[readonly] {
-    cursor: default !important;
+  cursor: default !important;
 }
 
 .form-horizontal {
-    .has-feedback {
-        .form-control-feedback {
-            right: -15px;
-        }
+  .has-feedback {
+    .form-control-feedback {
+      right: -15px;
     }
-    .form-group {
-        padding-bottom: 10px;
-    }
-    .control-label {
-        padding-top: 2px;
-    }
+  }
+  .form-group {
+    padding-bottom: 10px;
+  }
+  .control-label {
+    padding-top: 2px;
+  }
 }
 
 .form-control-static {
-    padding-top: 4px;
+  padding-top: 4px;
 }
 
 .form-group.required .control-label:after,
 .panel-heading.required:after,
 .panel-heading span.required:after {
-    content: " *";
-    color: $dark-red;
+  content: " *";
+  color: $dark-red;
 }
 
 .form-group.has-feedback .form-control-feedback {
-    display: none;
+  display: none;
 }
 
 .form-group.has-feedback.has-error .form-control-feedback {
-    display: block;
+  display: block;
 }
 
 .checkbox-inline {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .upload-group {
-    .bootstrap-filestyle {
-        @include calc(width, "100% - 93px");
-        display: inline-table;
-        @media (max-width: 480px) {
-            display: table;
-            width: auto;
-        }
+  .bootstrap-filestyle {
+    @include calc(width, "100% - 93px");
+    display: inline-table;
+    @media (max-width: 480px) {
+      display: table;
+      width: auto;
     }
-    .upload-btn {
-        position: relative;
-        top: -9.5px;
-        @media (max-width: 480px) {
-            display: block;
-        }
+  }
+  .upload-btn {
+    position: relative;
+    top: -9.5px;
+    @media (max-width: 480px) {
+      display: block;
     }
+  }
 }
 
 .container {
-    .input-group {
-        .form-control,
-        .form-control:not(:first-child):not(:last-child), input {
-            border-top-left-radius: 0;
-            -webkit-border-top-left-radius: 0;
-            border-bottom-left-radius: 0;
-            -webkit-border-bottom-left-radius: 0;
-            padding: 0 10px;
-        }
+  .input-group {
+    .form-control,
+    .form-control:not(:first-child):not(:last-child), input {
+      border-top-left-radius: 0;
+      -webkit-border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      -webkit-border-bottom-left-radius: 0;
+      padding: 0 10px;
     }
+  }
 }
 
 input.form-control,
 input[type=text],
 textarea {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 input[type="text"],
 textarea,
 input.form-control {
-    border-radius: 0;
-    border: 1px solid #CFCFCF;
-    @include box-shadow(none);
-    font-family: "Open Sans", sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    color: #000000;
-    font-size: 12pt !important;
-    font-weight: 400;
-    min-height: 30px;
-    width: 100%;
-    min-height: 34px;
-    padding: 0px 15px;
+  border-radius: 0;
+  border: 1px solid #CFCFCF;
+  @include box-shadow(none);
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  color: #000000;
+  font-size: 12pt !important;
+  font-weight: 400;
+  min-height: 30px;
+  width: 100%;
+  min-height: 34px;
+  padding: 0px 15px;
 }
 
 input:focus,
 textarea:focus,
 .form-control:focus {
-    border: 1px solid #CFCFCF;
-    outline: none;
-    @include box-shadow(none);
+  border: 1px solid #CFCFCF;
+  outline: none;
+  @include box-shadow(none);
 }
 
 textarea,
 textarea.form-control {
-    border: 1px solid #CFCFCF;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12pt;
-    min-height: 180px;
-    padding: 6px 15px;
-    width: 100%;
-    border-radius: 0;
-    @include box-shadow(none);
+  border: 1px solid #CFCFCF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  min-height: 180px;
+  padding: 6px 15px;
+  width: 100%;
+  border-radius: 0;
+  @include box-shadow(none);
 }
 
 .custom-select {
-    background-color: #FFF;
-    content: "";
-    background-repeat: no-repeat;
-    background-image: url($assets-directory+"/images/svg/arrow-down.svg");
-    background-size: 16px 16px;
-    background-position: right 8px center;
-    border-radius: 0;
-    .input-group-btn {
-        width: 0;
-    }
+  background-color: #FFF;
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url($assets-directory+"/images/svg/arrow-down.svg");
+  background-size: 16px 16px;
+  background-position: right 8px center;
+  border-radius: 0;
+  .input-group-btn {
+    width: 0;
+  }
 }
 
 .custom-select:hover {
-    background-image: url($assets-directory+"/images/svg/arrow-down.svg");
+  background-image: url($assets-directory+"/images/svg/arrow-down.svg");
 }
 
 .custom-select select,
 .custom-select select.form-control {
-    border: none;
-    font-family: "Open Sans", sans-serif;
-    background: none;
-    color: #000000;
-    font-size: 12pt;
-    padding: 0 15px;
-    height: 34px;
-    border: 1px solid #CFCFCF;
-    border-radius: 0;
-    margin-bottom: 10px;
-    @include box-shadow(none);
-    @include appearance(none);
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  background: none;
+  color: #000000;
+  font-size: 12pt;
+  padding: 0 15px;
+  height: 34px;
+  border: 1px solid #CFCFCF;
+  border-radius: 0;
+  margin-bottom: 10px;
+  @include box-shadow(none);
+  @include appearance(none);
 }
 
 .custom-select select::-ms-expand {
-    display: none;
+  display: none;
 }
 
 .custom-select.input-group select {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .input-group {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .input-group-addon {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 .form-horizontal {
-    .form-group {
-        margin-right: 0;
-        margin-left: 0;
-        .control-label {
-            @include word-wrap();
-        }
+  .form-group {
+    margin-right: 0;
+    margin-left: 0;
+    .control-label {
+      @include word-wrap();
     }
+  }
 }
 
 .custom-checkbox input[type="checkbox"],
@@ -181,143 +181,143 @@ input[type="checkbox"]:checked.custom-checkbox,
 input[type="radio"].custom-radio,
 .custom-radio input[type="radio"]:checked,
 input[type="radio"]:checked.custom-radio {
-    @include appearance(none);
+  @include appearance(none);
+  outline: none;
+  border: none;
+  &:focus {
     outline: none;
     border: none;
-    &:focus {
-        outline: none;
-        border: none;
+  }
+  + .checkbox-icon,
+  + input[type="hidden"] + .checkbox-icon {
+    cursor: pointer;
+    &:after {
+      display: inline-block;
+      width: 16px;
+      height: 19px;
+      vertical-align: middle;
     }
-    + .checkbox-icon,
-    + input[type="hidden"] + .checkbox-icon {
-        cursor: pointer;
-        &:after {
-            display: inline-block;
-            width: 16px;
-            height: 19px;
-            vertical-align: middle;
-        }
-    }
+  }
 }
 
 .custom-checkbox input[type="checkbox"],
 input[type="checkbox"].custom-checkbox {
-    display: none;
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-unchecked.svg");
-    }
+  display: none;
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-unchecked.svg");
+  }
 }
 
 .custom-checkbox input[type="checkbox"]:checked,
 input[type="checkbox"]:checked.custom-checkbox {
-    display: none;
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-checked.svg");
-    }
+  display: none;
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-checked.svg");
+  }
 }
 
 
 /* Default checkbox */
 
 .custom-checkbox.custom-checkbox-0 input[type="checkbox"] {
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-unchecked-default.svg");
-    }
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-unchecked-default.svg");
+  }
 }
 
 .custom-checkbox.custom-checkbox-0 input[type="checkbox"]:checked {
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-checked-default.svg");
-    }
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-checked-default.svg");
+  }
 }
 
 
 /* Red checkbox */
 
 .custom-checkbox.custom-checkbox-1 input[type="checkbox"] {
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-unchecked-red.svg");
-    }
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-unchecked-red.svg");
+  }
 }
 
 .custom-checkbox.custom-checkbox-1 input[type="checkbox"]:checked {
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-checked-red.svg");
-    }
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-checked-red.svg");
+  }
 }
 
 
 /* Orange checkbox */
 
 .custom-checkbox.custom-checkbox-2 input[type="checkbox"] {
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-unchecked-orange.svg");
-    }
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-unchecked-orange.svg");
+  }
 }
 
 .custom-checkbox.custom-checkbox-2 input[type="checkbox"]:checked {
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-checked-orange.svg");
-    }
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-checked-orange.svg");
+  }
 }
 
 
 /* Yellow checkbox */
 
 .custom-checkbox.custom-checkbox-3 input[type="checkbox"] {
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-unchecked-yellow.svg");
-    }
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-unchecked-yellow.svg");
+  }
 }
 
 .custom-checkbox.custom-checkbox-3 input[type="checkbox"]:checked {
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-checked-yellow.svg");
-    }
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-checked-yellow.svg");
+  }
 }
 
 
 /* Lime checkbox */
 
 .custom-checkbox.custom-checkbox-4 input[type="checkbox"] {
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-unchecked-lime.svg");
-    }
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-unchecked-lime.svg");
+  }
 }
 
 .custom-checkbox.custom-checkbox-4 input[type="checkbox"]:checked {
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-checked-lime.svg");
-    }
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-checked-lime.svg");
+  }
 }
 
 
 /* Green checkbox */
 
 .custom-checkbox.custom-checkbox-5 input[type="checkbox"] {
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-unchecked-green.svg");
-    }
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-unchecked-green.svg");
+  }
 }
 
 .custom-checkbox.custom-checkbox-5 input[type="checkbox"]:checked {
-    + .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-checked-green.svg");
-    }
+  + .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-checked-green.svg");
+  }
 }
 
 .custom-checkbox input[type="checkbox"]:disabled,
@@ -325,10 +325,10 @@ input[type="checkbox"]:disabled.custom-checkbox,
 .custom-checkbox.disabled input[type="checkbox"],
 input[type="checkbox"].custom-checkbox.disabled,
 .disabled input[type="checkbox"].custom-checkbox {
-    .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-unchecked-disabled.svg");
-    }
+  .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-unchecked-disabled.svg");
+  }
 }
 
 .custom-checkbox input[type="checkbox"]:checked:disabled,
@@ -336,24 +336,24 @@ input[type="checkbox"]:checked:disabled.custom-checkbox,
 .custom-checkbox.disabled input[type="checkbox"]:checked,
 input[type="checkbox"]:checked.custom-checkbox.disabled,
 .disabled input[type="checkbox"]:checked.custom-checkbox {
-    .checkbox-icon:after,
-    + input[type="hidden"] + .checkbox-icon:after {
-        content: url($assets-directory+"/images/svg/checkbox-checked-disabled.svg");
-    }
+  .checkbox-icon:after,
+  + input[type="hidden"] + .checkbox-icon:after {
+    content: url($assets-directory+"/images/svg/checkbox-checked-disabled.svg");
+  }
 }
 
 .custom-radio input[type="radio"],
 input[type="radio"].custom-radio {
-    &:after {
-        content: url($assets-directory+"/images/svg/radio-unchecked.svg");
-    }
+  &:after {
+    content: url($assets-directory+"/images/svg/radio-unchecked.svg");
+  }
 }
 
 .custom-radio input[type="radio"]:checked,
 input[type="radio"]:checked.custom-radio {
-    &:after {
-        content: url($assets-directory+"/images/svg/radio-checked.svg");
-    }
+  &:after {
+    content: url($assets-directory+"/images/svg/radio-checked.svg");
+  }
 }
 
 .custom-radio input[type="radio"]:disabled,
@@ -361,9 +361,9 @@ input[type="radio"]:disabled.custom-radio,
 .custom-radio.disabled input[type="radio"],
 input[type="radio"].custom-radio.disabled,
 .disabled input[type="radio"].custom-radio {
-    &:after {
-        content: url($assets-directory+"/images/svg/radio-unchecked-disabled.svg")!important;
-    }
+  &:after {
+    content: url($assets-directory+"/images/svg/radio-unchecked-disabled.svg")!important;
+  }
 }
 
 .custom-radio input[type="radio"]:checked:disabled,
@@ -371,7 +371,29 @@ input[type="radio"]:checked:disabled.custom-radio,
 .custom-radio.disabled input[type="radio"]:checked,
 input[type="radio"]:checked.custom-radio.disabled,
 .disabled input[type="radio"]:checked.custom-radio {
-    &:after {
-        content: url($assets-directory+"/images/svg/radio-checked-disabled.svg")!important;
+  &:after {
+    content: url($assets-directory+"/images/svg/radio-checked-disabled.svg")!important;
+  }
+}
+
+/* 'Save as'-dropdown */
+.save-as-menu {
+  label {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  .save-as-dropdown {
+    padding-left: 0;
+    display: inline-block;
+    .custom-select {
+      width: 218px;
     }
+  }
+  .save-as-buttons {
+    padding-left: 5px;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+  }
 }
