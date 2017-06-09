@@ -189,8 +189,11 @@ input[type="radio"]:checked.custom-radio {
     border: none;
   }
   + .checkbox-icon,
-  + input[type="hidden"] + .checkbox-icon {
+  + .radio-icon,
+  + input[type="hidden"] + .checkbox-icon
+  + input[type="hidden"] + .radio-icon {
     cursor: pointer;
+    line-height: 12pt;
     &:after {
       display: inline-block;
       width: 16px;
@@ -325,7 +328,7 @@ input[type="checkbox"]:disabled.custom-checkbox,
 .custom-checkbox.disabled input[type="checkbox"],
 input[type="checkbox"].custom-checkbox.disabled,
 .disabled input[type="checkbox"].custom-checkbox {
-  .checkbox-icon:after,
+  + .checkbox-icon:after,
   + input[type="hidden"] + .checkbox-icon:after {
     content: url($assets-directory+"/images/svg/checkbox-unchecked-disabled.svg");
   }
@@ -336,7 +339,7 @@ input[type="checkbox"]:checked:disabled.custom-checkbox,
 .custom-checkbox.disabled input[type="checkbox"]:checked,
 input[type="checkbox"]:checked.custom-checkbox.disabled,
 .disabled input[type="checkbox"]:checked.custom-checkbox {
-  .checkbox-icon:after,
+  + .checkbox-icon:after,
   + input[type="hidden"] + .checkbox-icon:after {
     content: url($assets-directory+"/images/svg/checkbox-checked-disabled.svg");
   }
@@ -344,14 +347,16 @@ input[type="checkbox"]:checked.custom-checkbox.disabled,
 
 .custom-radio input[type="radio"],
 input[type="radio"].custom-radio {
-  &:after {
+  + .radio-icon:after,
+  + input[type="hidden"] + .radio-icon:after {
     content: url($assets-directory+"/images/svg/radio-unchecked.svg");
   }
 }
 
 .custom-radio input[type="radio"]:checked,
 input[type="radio"]:checked.custom-radio {
-  &:after {
+  + .radio-icon:after,
+  + input[type="hidden"] + .radio-icon:after {
     content: url($assets-directory+"/images/svg/radio-checked.svg");
   }
 }
@@ -361,7 +366,8 @@ input[type="radio"]:disabled.custom-radio,
 .custom-radio.disabled input[type="radio"],
 input[type="radio"].custom-radio.disabled,
 .disabled input[type="radio"].custom-radio {
-  &:after {
+  + .radio-icon:after,
+  + input[type="hidden"] + .radio-icon:after {
     content: url($assets-directory+"/images/svg/radio-unchecked-disabled.svg")!important;
   }
 }
@@ -371,7 +377,8 @@ input[type="radio"]:checked:disabled.custom-radio,
 .custom-radio.disabled input[type="radio"]:checked,
 input[type="radio"]:checked.custom-radio.disabled,
 .disabled input[type="radio"]:checked.custom-radio {
-  &:after {
+  + .radio-icon:after,
+  + input[type="hidden"] + .radio-icon:after {
     content: url($assets-directory+"/images/svg/radio-checked-disabled.svg")!important;
   }
 }

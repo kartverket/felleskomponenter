@@ -3077,38 +3077,55 @@ input[type="radio"]:checked.custom-radio {
     outline: none;
     border: none; }
   .custom-checkbox input[type="checkbox"] + .checkbox-icon,
-  .custom-checkbox input[type="checkbox"] + input[type="hidden"] + .checkbox-icon,
+  .custom-checkbox input[type="checkbox"] + .radio-icon,
+  .custom-checkbox input[type="checkbox"] + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon,
   input[type="checkbox"].custom-checkbox + .checkbox-icon,
-  input[type="checkbox"].custom-checkbox + input[type="hidden"] + .checkbox-icon,
+  input[type="checkbox"].custom-checkbox + .radio-icon,
+  input[type="checkbox"].custom-checkbox + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon,
   .custom-checkbox input[type="checkbox"]:checked + .checkbox-icon,
-  .custom-checkbox input[type="checkbox"]:checked + input[type="hidden"] + .checkbox-icon,
+  .custom-checkbox input[type="checkbox"]:checked + .radio-icon,
+  .custom-checkbox input[type="checkbox"]:checked + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon,
   input[type="checkbox"]:checked.custom-checkbox + .checkbox-icon,
-  input[type="checkbox"]:checked.custom-checkbox + input[type="hidden"] + .checkbox-icon,
+  input[type="checkbox"]:checked.custom-checkbox + .radio-icon,
+  input[type="checkbox"]:checked.custom-checkbox + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon,
   .custom-radio input[type="radio"] + .checkbox-icon,
-  .custom-radio input[type="radio"] + input[type="hidden"] + .checkbox-icon,
+  .custom-radio input[type="radio"] + .radio-icon,
+  .custom-radio input[type="radio"] + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon,
   input[type="radio"].custom-radio + .checkbox-icon,
-  input[type="radio"].custom-radio + input[type="hidden"] + .checkbox-icon,
+  input[type="radio"].custom-radio + .radio-icon,
+  input[type="radio"].custom-radio + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon,
   .custom-radio input[type="radio"]:checked + .checkbox-icon,
-  .custom-radio input[type="radio"]:checked + input[type="hidden"] + .checkbox-icon,
+  .custom-radio input[type="radio"]:checked + .radio-icon,
+  .custom-radio input[type="radio"]:checked + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon,
   input[type="radio"]:checked.custom-radio + .checkbox-icon,
-  input[type="radio"]:checked.custom-radio + input[type="hidden"] + .checkbox-icon {
-    cursor: pointer; }
+  input[type="radio"]:checked.custom-radio + .radio-icon,
+  input[type="radio"]:checked.custom-radio + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon {
+    cursor: pointer;
+    line-height: 12pt; }
     .custom-checkbox input[type="checkbox"] + .checkbox-icon:after,
-    .custom-checkbox input[type="checkbox"] + input[type="hidden"] + .checkbox-icon:after,
+    .custom-checkbox input[type="checkbox"] + .radio-icon:after,
+    .custom-checkbox input[type="checkbox"] + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon:after,
     input[type="checkbox"].custom-checkbox + .checkbox-icon:after,
-    input[type="checkbox"].custom-checkbox + input[type="hidden"] + .checkbox-icon:after,
+    input[type="checkbox"].custom-checkbox + .radio-icon:after,
+    input[type="checkbox"].custom-checkbox + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon:after,
     .custom-checkbox input[type="checkbox"]:checked + .checkbox-icon:after,
-    .custom-checkbox input[type="checkbox"]:checked + input[type="hidden"] + .checkbox-icon:after,
+    .custom-checkbox input[type="checkbox"]:checked + .radio-icon:after,
+    .custom-checkbox input[type="checkbox"]:checked + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon:after,
     input[type="checkbox"]:checked.custom-checkbox + .checkbox-icon:after,
-    input[type="checkbox"]:checked.custom-checkbox + input[type="hidden"] + .checkbox-icon:after,
+    input[type="checkbox"]:checked.custom-checkbox + .radio-icon:after,
+    input[type="checkbox"]:checked.custom-checkbox + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon:after,
     .custom-radio input[type="radio"] + .checkbox-icon:after,
-    .custom-radio input[type="radio"] + input[type="hidden"] + .checkbox-icon:after,
+    .custom-radio input[type="radio"] + .radio-icon:after,
+    .custom-radio input[type="radio"] + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon:after,
     input[type="radio"].custom-radio + .checkbox-icon:after,
-    input[type="radio"].custom-radio + input[type="hidden"] + .checkbox-icon:after,
+    input[type="radio"].custom-radio + .radio-icon:after,
+    input[type="radio"].custom-radio + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon:after,
     .custom-radio input[type="radio"]:checked + .checkbox-icon:after,
-    .custom-radio input[type="radio"]:checked + input[type="hidden"] + .checkbox-icon:after,
+    .custom-radio input[type="radio"]:checked + .radio-icon:after,
+    .custom-radio input[type="radio"]:checked + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon:after,
     input[type="radio"]:checked.custom-radio + .checkbox-icon:after,
-    input[type="radio"]:checked.custom-radio + input[type="hidden"] + .checkbox-icon:after {
+    input[type="radio"]:checked.custom-radio + .radio-icon:after,
+    input[type="radio"]:checked.custom-radio + input[type="hidden"] + .checkbox-icon + input[type="hidden"] + .radio-icon:after {
       display: inline-block;
       width: 16px;
       height: 19px;
@@ -3186,50 +3203,64 @@ input[type="checkbox"]:checked.custom-checkbox {
 .custom-checkbox.custom-checkbox-5 input[type="checkbox"]:checked + input[type="hidden"] + .checkbox-icon:after {
   content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked-green.svg"); }
 
-.custom-checkbox input[type="checkbox"]:disabled .checkbox-icon:after,
+.custom-checkbox input[type="checkbox"]:disabled + .checkbox-icon:after,
 .custom-checkbox input[type="checkbox"]:disabled + input[type="hidden"] + .checkbox-icon:after,
-input[type="checkbox"]:disabled.custom-checkbox .checkbox-icon:after,
+input[type="checkbox"]:disabled.custom-checkbox + .checkbox-icon:after,
 input[type="checkbox"]:disabled.custom-checkbox + input[type="hidden"] + .checkbox-icon:after,
-.custom-checkbox.disabled input[type="checkbox"] .checkbox-icon:after,
+.custom-checkbox.disabled input[type="checkbox"] + .checkbox-icon:after,
 .custom-checkbox.disabled input[type="checkbox"] + input[type="hidden"] + .checkbox-icon:after,
-input[type="checkbox"].custom-checkbox.disabled .checkbox-icon:after,
+input[type="checkbox"].custom-checkbox.disabled + .checkbox-icon:after,
 input[type="checkbox"].custom-checkbox.disabled + input[type="hidden"] + .checkbox-icon:after,
-.disabled input[type="checkbox"].custom-checkbox .checkbox-icon:after,
+.disabled input[type="checkbox"].custom-checkbox + .checkbox-icon:after,
 .disabled input[type="checkbox"].custom-checkbox + input[type="hidden"] + .checkbox-icon:after {
   content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-unchecked-disabled.svg"); }
 
-.custom-checkbox input[type="checkbox"]:checked:disabled .checkbox-icon:after,
+.custom-checkbox input[type="checkbox"]:checked:disabled + .checkbox-icon:after,
 .custom-checkbox input[type="checkbox"]:checked:disabled + input[type="hidden"] + .checkbox-icon:after,
-input[type="checkbox"]:checked:disabled.custom-checkbox .checkbox-icon:after,
+input[type="checkbox"]:checked:disabled.custom-checkbox + .checkbox-icon:after,
 input[type="checkbox"]:checked:disabled.custom-checkbox + input[type="hidden"] + .checkbox-icon:after,
-.custom-checkbox.disabled input[type="checkbox"]:checked .checkbox-icon:after,
+.custom-checkbox.disabled input[type="checkbox"]:checked + .checkbox-icon:after,
 .custom-checkbox.disabled input[type="checkbox"]:checked + input[type="hidden"] + .checkbox-icon:after,
-input[type="checkbox"]:checked.custom-checkbox.disabled .checkbox-icon:after,
+input[type="checkbox"]:checked.custom-checkbox.disabled + .checkbox-icon:after,
 input[type="checkbox"]:checked.custom-checkbox.disabled + input[type="hidden"] + .checkbox-icon:after,
-.disabled input[type="checkbox"]:checked.custom-checkbox .checkbox-icon:after,
+.disabled input[type="checkbox"]:checked.custom-checkbox + .checkbox-icon:after,
 .disabled input[type="checkbox"]:checked.custom-checkbox + input[type="hidden"] + .checkbox-icon:after {
   content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/checkbox-checked-disabled.svg"); }
 
-.custom-radio input[type="radio"]:after,
-input[type="radio"].custom-radio:after {
+.custom-radio input[type="radio"] + .radio-icon:after,
+.custom-radio input[type="radio"] + input[type="hidden"] + .radio-icon:after,
+input[type="radio"].custom-radio + .radio-icon:after,
+input[type="radio"].custom-radio + input[type="hidden"] + .radio-icon:after {
   content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/radio-unchecked.svg"); }
 
-.custom-radio input[type="radio"]:checked:after,
-input[type="radio"]:checked.custom-radio:after {
+.custom-radio input[type="radio"]:checked + .radio-icon:after,
+.custom-radio input[type="radio"]:checked + input[type="hidden"] + .radio-icon:after,
+input[type="radio"]:checked.custom-radio + .radio-icon:after,
+input[type="radio"]:checked.custom-radio + input[type="hidden"] + .radio-icon:after {
   content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/radio-checked.svg"); }
 
-.custom-radio input[type="radio"]:disabled:after,
-input[type="radio"]:disabled.custom-radio:after,
-.custom-radio.disabled input[type="radio"]:after,
-input[type="radio"].custom-radio.disabled:after,
-.disabled input[type="radio"].custom-radio:after {
+.custom-radio input[type="radio"]:disabled + .radio-icon:after,
+.custom-radio input[type="radio"]:disabled + input[type="hidden"] + .radio-icon:after,
+input[type="radio"]:disabled.custom-radio + .radio-icon:after,
+input[type="radio"]:disabled.custom-radio + input[type="hidden"] + .radio-icon:after,
+.custom-radio.disabled input[type="radio"] + .radio-icon:after,
+.custom-radio.disabled input[type="radio"] + input[type="hidden"] + .radio-icon:after,
+input[type="radio"].custom-radio.disabled + .radio-icon:after,
+input[type="radio"].custom-radio.disabled + input[type="hidden"] + .radio-icon:after,
+.disabled input[type="radio"].custom-radio + .radio-icon:after,
+.disabled input[type="radio"].custom-radio + input[type="hidden"] + .radio-icon:after {
   content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/radio-unchecked-disabled.svg") !important; }
 
-.custom-radio input[type="radio"]:checked:disabled:after,
-input[type="radio"]:checked:disabled.custom-radio:after,
-.custom-radio.disabled input[type="radio"]:checked:after,
-input[type="radio"]:checked.custom-radio.disabled:after,
-.disabled input[type="radio"]:checked.custom-radio:after {
+.custom-radio input[type="radio"]:checked:disabled + .radio-icon:after,
+.custom-radio input[type="radio"]:checked:disabled + input[type="hidden"] + .radio-icon:after,
+input[type="radio"]:checked:disabled.custom-radio + .radio-icon:after,
+input[type="radio"]:checked:disabled.custom-radio + input[type="hidden"] + .radio-icon:after,
+.custom-radio.disabled input[type="radio"]:checked + .radio-icon:after,
+.custom-radio.disabled input[type="radio"]:checked + input[type="hidden"] + .radio-icon:after,
+input[type="radio"]:checked.custom-radio.disabled + .radio-icon:after,
+input[type="radio"]:checked.custom-radio.disabled + input[type="hidden"] + .radio-icon:after,
+.disabled input[type="radio"]:checked.custom-radio + .radio-icon:after,
+.disabled input[type="radio"]:checked.custom-radio + input[type="hidden"] + .radio-icon:after {
   content: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/radio-checked-disabled.svg") !important; }
 
 /* 'Save as'-dropdown */
