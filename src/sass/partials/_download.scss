@@ -59,13 +59,16 @@
             vertical-align: top;
             margin-right: 6px;
             padding-right: 6px;
-            border-right: 1px solid #eaebeb;
             .custom-icon-danger {
                 margin-top: 5px;
                 cursor: pointer;
             }
             .custom-icon-warning {
                 margin-top: 3px;
+                cursor: pointer;
+            }
+            .custom-icon-info {
+                margin-top: 5px;
                 cursor: pointer;
             }
             .custom-icon-checked {

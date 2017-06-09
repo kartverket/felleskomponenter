@@ -2749,8 +2749,7 @@ input[type="submit"].btn {
     display: inline-block;
     vertical-align: top;
     margin-right: 6px;
-    padding-right: 6px;
-    border-right: 1px solid #eaebeb; }
+    padding-right: 6px; }
     #orderlist .orderline .orderline-field-counter .custom-icon-danger,
     #responseList .orderline .orderline-field-counter .custom-icon-danger {
       margin-top: 5px;
@@ -2758,6 +2757,10 @@ input[type="submit"].btn {
     #orderlist .orderline .orderline-field-counter .custom-icon-warning,
     #responseList .orderline .orderline-field-counter .custom-icon-warning {
       margin-top: 3px;
+      cursor: pointer; }
+    #orderlist .orderline .orderline-field-counter .custom-icon-info,
+    #responseList .orderline .orderline-field-counter .custom-icon-info {
+      margin-top: 5px;
       cursor: pointer; }
     #orderlist .orderline .orderline-field-counter .custom-icon-checked,
     #responseList .orderline .orderline-field-counter .custom-icon-checked {
