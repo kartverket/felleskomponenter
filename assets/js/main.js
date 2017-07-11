@@ -112,8 +112,25 @@ $(window).load(function() {
     doc.setAttribute('data-useragent', navigator.userAgent);
 });
 
-
 function setMainSearchApiUrl(apiUrl, environment){
+    environmentIsSet = false;
+    if (typeof environment !== 'undefined'){
+        if (environment == 'dev' || environment == 'test' || environment == 'prod'){
+            environmentIsSet = true;
+        }else{
+            console.error("incorrect value for environment. Use 'dev', 'test' or 'prod'");
+        }
+    }
+    if (environmentIsSet){
+        searchOptionsArray[environment].api = "//kartkatalog."+ environment +".geonorge.no/" + apiUrl;
+    }else{
+        searchOptionsArray.dev.api = "//kartkatalog.dev.geonorge.no/" + apiUrl;
+        searchOptionsArray.test.api = "//kartkatalog.test.geonorge.no/" + apiUrl;
+        searchOptionsArray.prod.api = "//kartkatalog.prod.geonorge.no/" + apiUrl;
+    }
+}
+
+function setMainSearchApiAbsoluteUrl(apiUrl, environment){
     environmentIsSet = false;
     if (typeof environment !== 'undefined'){
         if (environment == 'dev' || environment == 'test' || environment == 'prod'){
@@ -130,6 +147,7 @@ function setMainSearchApiUrl(apiUrl, environment){
         searchOptionsArray.prod.api = apiUrl;
     }
 }
+
 angular.module('geonorge', ['ui.bootstrap']);
 
 angular.module('geonorge').config(["$sceDelegateProvider", function ($sceDelegateProvider) {
