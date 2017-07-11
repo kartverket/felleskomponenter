@@ -326,7 +326,7 @@ var baseurl_local = searchOption.baseUrl;
                       for (var x = 0; x < list.length; x++) {
                         var item = {};
                         var curr = list[x];
-                        if (curr.data.Results.length === 0) continue;
+                        if (curr.data == null || curr.data.Results.length === 0) continue;
                         item.type = curr.Section;
 
                         item.title = curr.SectionName;
