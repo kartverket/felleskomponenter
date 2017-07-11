@@ -111,3 +111,22 @@ $(window).load(function() {
     var doc = document.documentElement;
     doc.setAttribute('data-useragent', navigator.userAgent);
 });
+
+
+function setMainSearchApiUrl(apiUrl, environment){
+    environmentIsSet = false;
+    if (typeof environment !== 'undefined'){
+        if (environment == 'dev' || environment == 'test' || environment == 'prod'){
+            environmentIsSet = true;
+        }else{
+            console.error("incorrect value for environment. Use 'dev', 'test' or 'prod'");
+        }
+    }
+    if (environmentIsSet){
+        searchOptionsArray[environment].api = apiUrl;
+    }else{
+        searchOptionsArray.dev.api = apiUrl;
+        searchOptionsArray.test.api = apiUrl;
+        searchOptionsArray.prod.api = apiUrl;
+    }
+}
