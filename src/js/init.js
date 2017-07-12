@@ -13,6 +13,16 @@ if (authenticationData !== {}) {
 
 var geonorgeUrl = (applicationEnvironment === "") ? "https://www.geonorge.no/" : "https://www.test.geonorge.no/";
 
+// Check if string contains parameters
+function containsParameters(string) {
+    return string.length && string.indexOf("?") > -1 ? true : false;
+}
+
+// Check active URL contains parameters
+function urlContainsParameters() {
+    return containsParameters(window.location.search);
+}
+
 
 /* Loading animation */
 function showLoadingAnimation(loadingMessage) {

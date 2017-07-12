@@ -32,8 +32,8 @@ var baseurl_local = searchOption.baseUrl;
     }
 
     function performSearch(query, filters, limit, section) {
-
-      var menuService = encodeURI(searchOption.api + '?limit=5&facets[1]name=type&facets[1]value=dataset' + '&text=' + query);
+      var parameterSeparator = containsParameters(searchOption.api) ? "&" : "?";
+      var menuService = encodeURI(searchOption.api + parameterSeparator + 'limit=5&facets[1]name=type&facets[1]value=dataset' + '&text=' + query);
       var request = $http({
         method: 'GET',
         url: menuService,
@@ -45,9 +45,10 @@ var baseurl_local = searchOption.baseUrl;
       });
 
       function getSearchParameters(facetValue, query){
+        var parameterSeparator = containsParameters(searchOption.api) ? "&" : "?";
         var facetParameters = 'facets[1]name=type&facets[1]value=' + facetValue;
         var queryParameters = 'text=' + query;
-        return '?limit=5&' + facetParameters + '&' + queryParameters;
+        return parameterSeparator + 'limit=5&' + facetParameters + '&' + queryParameters;
       }
 
       var menuService1 = encodeURI(searchOption.api + getSearchParameters('servicelayer', query));
