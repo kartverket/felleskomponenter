@@ -73,16 +73,18 @@
     height: 16pt;
 }
 
-.btn .custom-icon,
-.btn .glyphicon,
-.btn .fa{
-    margin: 0 4px;
+.btn {
+    .custom-icon,
+    .glyphicon,
+    .fa{
+        margin: 0 4px;
+    }
 }
 
 .btn.icon-btn{
-    .btn .custom-icon,
-    .btn .glyphicon,
-    .btn .fa{
+    .custom-icon,
+    .glyphicon,
+    .fa{
         margin: 0;
     }    
 }
