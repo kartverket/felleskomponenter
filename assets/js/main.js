@@ -853,10 +853,20 @@ function removeFromArray(array, undesirableItems) {
     }
 }
 
+function orderItemHasMetadata(orderItemUuid){
+    var orderItemHasMetadata = localStorage.getItem(orderItemUuid + ".metadata") !== null ? true : false;
+    return orderItemHasMetadata;
+}
+
 function removeBrokenOrderItems() {
     var orderItems = JSON.parse(localStorage.getItem("orderItems"));
     if (orderItems !== null){
         removeFromArray(orderItems, [null, undefined, "null", {}, ""]);
+        orderItems.forEach(function (orderItem) {
+            if (!orderItemHasMetadata(orderItem)) {
+                removeSingleItemFromArray(orderItems, orderItem);
+            }
+        });
         localStorage.setItem('orderItems', JSON.stringify(orderItems));
     }
 }
