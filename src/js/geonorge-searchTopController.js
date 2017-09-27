@@ -360,7 +360,7 @@ var baseurl_local = searchOption.baseUrl;
                         }
                         $scope.autoCompleteResult.push(item);
                       }
-
+                      
                     }
                   }
 
@@ -381,17 +381,18 @@ var baseurl_local = searchOption.baseUrl;
                   }
 
                   function getUrl(type) {
+                    var baseUrl = searchOption.baseUrl;
                     switch (type) {
                       case "dataset":
-                      return "search";
+                      return baseUrl + "/search";
                       case "servicelayer":
-                      return "apier-og-tjenester";
+                      return baseUrl + "/apier-og-tjenester";
                       case "service":
-                      return "apier-og-tjenester";
+                      return baseUrl + "/apier-og-tjenester";
                       case "dimensionGroup":
-                      return "search";
+                      return baseUrl + "/search";
                       case "software":
-                      return "kartlosninger";
+                      return baseUrl + "/kartlosninger";
                       default:
                     }
                   }
