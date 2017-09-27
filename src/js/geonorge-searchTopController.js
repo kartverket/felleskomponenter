@@ -348,8 +348,7 @@ var baseurl_local = searchOption.baseUrl;
                           var currResult = curr.data.Results[y];
 
                           item.title = getType(currResult.Type);
-                          item.url = searchOption.url;
-
+                          item.url = getUrl(currResult.Type);
 
                           item.list.push({
                             externalId: curr.SectionName + '_' + curr.Section + '_' + y,
@@ -377,6 +376,22 @@ var baseurl_local = searchOption.baseUrl;
                       return "Datapakker";
                       case "software":
                       return "Applikasjon";
+                      default:
+                    }
+                  }
+
+                  function getUrl(type) {
+                    switch (type) {
+                      case "dataset":
+                      return "search";
+                      case "servicelayer":
+                      return "apier-og-tjenester";
+                      case "service":
+                      return "apier-og-tjenester";
+                      case "dimensionGroup":
+                      return "search";
+                      case "software":
+                      return "kartlosninger";
                       default:
                     }
                   }
