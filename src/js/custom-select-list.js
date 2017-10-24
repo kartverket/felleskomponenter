@@ -37,7 +37,7 @@ $(document).on('keyup', '.custom-select-list', function(){
   filterDropdownList(inputElement, $(this));
 });
 
-$("document").ready(function () {
+function initCustomSelectList(){
   if ($('.custom-select-list').length){
     $(document).on('click', function(e){
       var insideContainer = false;
@@ -63,5 +63,9 @@ $("document").ready(function () {
       });
     });
   }
+}
+
+$("document").ready(function () {
+  initCustomSelectList();
 });
 
