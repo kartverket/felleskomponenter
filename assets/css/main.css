@@ -2471,6 +2471,9 @@ input[type="submit"].btn {
 .custom-icon.custom-icon-arealplan {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/arealplan.svg"); }
 
+.custom-icon.custom-icon-den-norske-loeve {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/den-norske-loeve.svg"); }
+
 /* Open data */
 .custom-icon.custom-icon-hengelaas-open-green {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/hengelaas-aapen-green.svg");
