@@ -2456,6 +2456,9 @@ input[type="submit"].btn {
 .custom-icon.custom-icon-seksjonstegn {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/seksjonstegn.svg"); }
 
+.custom-icon.custom-icon-seksjonstegn-circle {
+  background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/seksjonstegn-circle.svg"); }
+
 .custom-icon.custom-icon-sosi {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/sosi.svg"); }
 

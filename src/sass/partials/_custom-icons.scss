@@ -310,6 +310,9 @@
     &.custom-icon-seksjonstegn {
         background-image: url($assets-directory+"/images/svg/seksjonstegn.svg");
     }
+    &.custom-icon-seksjonstegn-circle {
+        background-image: url($assets-directory+"/images/svg/seksjonstegn-circle.svg");
+    }
     &.custom-icon-sosi {
         background-image: url($assets-directory+"/images/svg/sosi.svg");
     }
@@ -324,6 +327,9 @@
     }
     &.custom-icon-arealplan {
         background-image: url($assets-directory+"/images/svg/arealplan.svg");
+    }
+    &.custom-icon-den-norske-loeve {
+        background-image: url($assets-directory+"/images/svg/den-norske-loeve.svg");
     }
 }
 
