@@ -2462,10 +2462,10 @@ input[type="submit"].btn {
 .custom-icon.custom-icon-gml {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/gml.svg"); }
 
-.custom-icon.inspire {
+.custom-icon.custom-icon-inspire {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/inspire.svg"); }
 
-.custom-icon.norge-digitalt {
+.custom-icon.custom-icon-norge-digitalt {
   background-image: url("/Content/bower_components/kartverket-felleskomponenter/assets/images/svg/norge-digitalt.svg"); }
 
 /* Open data */
