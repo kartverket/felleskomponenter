@@ -37,6 +37,7 @@ var baseurl_local = searchOption.baseUrl;
       var request = $http({
         method: 'GET',
         url: menuService,
+        withCredentials: true,
         headers: {
           'Content-Type': 'application/json; charset=utf-8',
           'accept': '*/*'
@@ -55,6 +56,7 @@ var baseurl_local = searchOption.baseUrl;
       var request1 = $http({
         method: 'GET',
         url: menuService1,
+        withCredentials: true,
         headers: {
           'Content-Type': 'application/json; charset=utf-8',
           'accept': '*/*'
@@ -66,6 +68,7 @@ var baseurl_local = searchOption.baseUrl;
       var request2 = $http({
         method: 'GET',
         url: menuService2,
+        withCredentials: true,
         headers: {
           'Content-Type': 'application/json; charset=utf-8',
           'accept': '*/*'
@@ -77,6 +80,7 @@ var baseurl_local = searchOption.baseUrl;
       var request3 = $http({
         method: 'GET',
         url: menuService3,
+        withCredentials: true,
         headers: {
           'Content-Type': 'application/json; charset=utf-8',
           'accept': '*/*'
@@ -88,6 +92,7 @@ var baseurl_local = searchOption.baseUrl;
       var request4 = $http({
         method: 'GET',
         url: menuService4,
+        withCredentials: true,
         headers: {
           'Content-Type': 'application/json; charset=utf-8',
           'accept': '*/*'
