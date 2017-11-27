@@ -387,7 +387,7 @@ var baseurl_local = searchOption.baseUrl;
     $rootScope.activePageUrl = "//" + window.location.host + window.location.pathname + window.location.search; 
 
     // Values based on selected language
-    if (cultureData === undefined || cultureData.currentCulture === undefined || cultureData.currentCulture == 'no') {
+    if (cultureData.currentCulture === undefined || cultureData.currentCulture === '' || cultureData.currentCulture == 'no') {
       $rootScope.showAllText = "Vis alle treff...";
       $rootScope.noResultsText = "Søket gir ingen treff";
       $rootScope.loadingContentText = "Henter innhold";
@@ -655,7 +655,7 @@ var baseurl_local = searchOption.baseUrl;
                   }
 
                   function getType(type) {
-                    if (cultureData.currentCulture === undefined || cultureData.currentCulture == 'no') {
+                    if (cultureData.currentCulture === undefined || cultureData.currentCulture == '' || cultureData.currentCulture == 'no') {
                       switch (type) {
                         case "dataset":
                         return "Datasett";
