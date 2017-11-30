@@ -9,13 +9,8 @@
      
       function handleSuccess(respons) {
 
-        localStorage.setItem('menuItems', JSON.stringify(respons));
-        var date = new Date();
-        var minutes = 3;
-        date.setTime(date.getTime() + (minutes * 60 * 1000));
-        Cookies.set('expire', "menu", { expires: date });
+          $scope.menuItems = respons.data;
 
-        $scope.menuItems = respons.data;
       }
 
       function handleError() {
@@ -24,9 +19,10 @@
 
       $scope.getMenuData = function getMenuData() {
 
-        if (!Cookies.get('expire') || !localStorage.getItem('menuItems')) {
-
-          var menuService = baseurl + '/api/menu';
+          var language = "";
+          if (cultureData.currentCulture == "en")
+              language = '/en';
+          var menuService = baseurl + language + '/api/menu';
           var request = $http({
             method: 'GET',
             url: menuService,
@@ -36,14 +32,6 @@
             data: {}
           });
           return request.then(handleSuccess, handleError);
-
-
-        }
-        else
-        {
-          response = JSON.parse(localStorage.getItem('menuItems'));
-          $scope.menuItems = response.data;
-        }
       };
       
     }]);
