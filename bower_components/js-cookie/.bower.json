@@ -16,12 +16,12 @@
     ".travis.yml"
   ],
   "homepage": "https://github.com/js-cookie/js-cookie",
-  "version": "2.1.4",
-  "_release": "2.1.4",
+  "version": "2.2.0",
+  "_release": "2.2.0",
   "_resolution": {
     "type": "version",
-    "tag": "v2.1.4",
-    "commit": "8b70250875f7e07445b6a457f9c2474ead4cba44"
+    "tag": "v2.2.0",
+    "commit": "34f056cd261982828072b84a9bbdcd8c3d9931ad"
   },
   "_source": "https://github.com/js-cookie/js-cookie.git",
   "_target": "^2.1.0",
