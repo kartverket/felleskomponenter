@@ -23,19 +23,23 @@ h1 .label {
     vertical-align: middle;
 }
 
-.label-datasett {
+.label-datasett,
+.label-dataset {
     border-color: #5d4777;
 }
 
-.label-applikasjon {
+.label-applikasjon,
+.label-application {
     border-color: $bright-blue;
 }
 
-.label-tjeneste {
+.label-tjeneste,
+.label-service {
     border-color: #a9c47f;
 }
 
-.label-tjenestelag {
+.label-tjenestelag,
+.label-servicelayer {
     border-color: #f0b323;
 }
 
