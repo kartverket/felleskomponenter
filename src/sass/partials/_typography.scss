@@ -47,6 +47,12 @@ a {
         color: $dark-blue;
         cursor: pointer;
     }
+    &.disabled {
+        color: $disabled-color;
+        &:hover {
+            color: $disabled-color;
+        }
+    }
 }
 
 .control-text {
