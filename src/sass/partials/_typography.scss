@@ -51,6 +51,7 @@ a {
         color: $disabled-color;
         &:hover {
             color: $disabled-color;
+            cursor: not-allowed;
         }
     }
 }
