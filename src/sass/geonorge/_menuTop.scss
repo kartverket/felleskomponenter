@@ -233,6 +233,7 @@
             -moz-box-shadow: none;
             -webkit-box-shadow: none;
             box-shadow: none;
+            display: none; // Hide menu before loaded
         }
 
         .navbar-nav .dropdown .dropdown-menu > li > ul > li > a { font-size: 14pt; }

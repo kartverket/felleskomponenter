@@ -1398,7 +1398,8 @@ iframe {
   .navbar-nav-container {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
-    box-shadow: none; }
+    box-shadow: none;
+    display: none; }
   .navbar-nav .dropdown .dropdown-menu > li > ul > li > a {
     font-size: 14pt; }
   .navbar-nav .dropdown .dropdown-menu ul {
