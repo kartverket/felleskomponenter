@@ -19,3 +19,13 @@
 	background-color: $orange;
 	color: #fff;
 }
+
+/* Filter tabs */
+.nav-tabs > li > a .badge {
+    background-color: #fff;
+    color: #333;
+}
+.nav-tabs > li.active > a .badge {
+    background-color: #fe5000;
+    color: #FFF;
+}
