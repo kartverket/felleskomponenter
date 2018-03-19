@@ -36,12 +36,8 @@
         ],
         "scripts": [
             "src/js/init.js",
-            "src/js/geonorge-app.js",
-            "src/js/geonorge-searchoptions.js",
-            "src/js/geonorge-searchTopController.js",
             "src/js/geonorge-baseUrl.js",
             "src/js/geonorge-common.js",
-            "src/js/geonorge-menuTopController.js",
             "src/js/shopping-cart.js",
             "src/js/helpers.js",
             "src/js/custom-select-list.js"
