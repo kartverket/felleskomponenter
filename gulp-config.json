@@ -1,7 +1,6 @@
 {
     "paths": {
         "vendorStyles": [
-            "bower_components/bootstrap/dist/css/bootstrap.css",
             "bower_components/jquery-ui/themes/base/core.css",
             "bower_components/jquery-ui/themes/base/datepicker.css",
             "bower_components/jquery-ui/themes/base/theme.css",
@@ -9,9 +8,7 @@
             "bower_components/chosen/chosen.css"
         ],
         "vendorScripts": [
-            "bower_components/angular/angular.js",
             "bower_components/jquery/dist/jquery.min.js",
-            "bower_components/bootstrap/dist/js/bootstrap.min.js",
             "bower_components/angular-bootstrap/ui-bootstrap.min.js",
             "bower_components/jquery-ui/ui/widgets/datepicker.js",
             "bower_components/jquery-ui/ui/minified/i18n/datepicker-nb.js",
@@ -19,7 +16,6 @@
             "bower_components/chosen/chosen.jquery.js"
         ],
         "vendorFonts": [
-            "bower_components/bootstrap/fonts/**/*.{ttf,woff,woff2,eot,svg}",
             "bower_components/components-font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg,otf}",
             "bower_components/openSans/**/*.{ttf,woff,woff2,eot,svg,otf}",
             "bower_components/raleway/**/*.{ttf,woff,woff2,eot,svg,otf}"
