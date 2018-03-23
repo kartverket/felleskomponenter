@@ -1,22 +1,16 @@
-body {
-    font-size: 12pt;
-    font-family: $normal-font;
-    background-image: none;
-}
-
 .no-border-radius {
-    border-radius: 0;
+	border-radius: 0;
 }
 
 .help-text {
-    @extend .no-border-radius;
-    background-color: #FFF;
+	@extend .no-border-radius;
+	background-color: #FFF;
 }
 
 .panel {
-    @extend .no-border-radius;
+	@extend .no-border-radius;
 }
 
 .panel-heading {
-    @extend .no-border-radius;
+	@extend .no-border-radius;
 }
