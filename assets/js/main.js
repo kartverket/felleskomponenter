@@ -127,7 +127,7 @@ $(document).ready(function() {
 
 });
 
-$(window).load(function() {
+document.addEventListener("DOMContentLoaded", function (event) {
     var options = {
         disable_search_threshold: 10,
         search_contains: true
@@ -325,7 +325,7 @@ function updateShoppingCartCookie() {
 }
 
 
-$(window).load(function () {
+document.addEventListener("DOMContentLoaded", function (event) {
     removeBrokenOrderItems();
     updateShoppingCart();
 });
