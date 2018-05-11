@@ -370,6 +370,20 @@
     &.custom-icon-hengelaas-closed-yellow {
         background-image: url($assets-directory+"/images/svg/hengelaas-lukket-yellow.svg");
     }
+    &.custom-icon-tjenestestatus {
+        background-image: url($assets-directory+"/images/svg/tjenestestatus.svg");
+    }
+    &.custom-icon-spatialdataservice {
+        background-image: url($assets-directory+"/images/svg/spatialdataservice.svg");
+    }
+&.custom-icon-netverkstjeneste {
+        background-image: url($assets-directory+"/images/svg/netverkstjeneste.svg");
+    }
+    &.custom-icon-metadata-i-soketjeneste {
+        background-image: url($assets-directory+"/images/svg/metadata-i-soketjeneste.svg");
+    }
+    
+
 }
 
 .btn {
