@@ -5,6 +5,7 @@
   "files": [
     "src"
   ],
+  "style": "src/sass/base.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
