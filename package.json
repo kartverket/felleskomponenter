@@ -1,8 +1,10 @@
 {
   "name": "geonorge-base",
-  "version": "9.0.0",
+  "version": "9.0.1",
   "description": "Felleskomponenter for Geonorge",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
