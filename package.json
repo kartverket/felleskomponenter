@@ -1,8 +1,8 @@
 {
-  "name": "felleskomponenter",
-  "version": "1.0.0",
+  "name": "geonorge-base",
+  "version": "9.0.0",
   "description": "Felleskomponenter for Geonorge",
-  "main": "Gulpfile.js",
+  "files": ["src"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

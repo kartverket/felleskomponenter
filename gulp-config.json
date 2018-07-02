@@ -32,7 +32,7 @@
             "dest": "./assets/css/"
         }],
         "styles": [
-            "src/sass/**/*.scss"
+            "src/sass/all.scss"
         ],
         "scripts": [
             "src/js/init.js",
