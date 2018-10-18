@@ -38,5 +38,9 @@
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
     "jshint": "^2.9.1"
+  },
+  "dependencies": {
+    "geonorge-shared-partials": "^0.0.62",
+    "http-server": "^0.11.1"
   }
 }
