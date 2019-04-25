@@ -295,6 +295,12 @@
     }
 }
 
+.custom-icon {
+    &.custom-icon-status-not-set {
+        background-image: url($assets-directory+"/images/svg/status-not-set.svg");
+    }
+}
+
 
 /* Tabelltopp ikoner */
 
