@@ -1,6 +1,6 @@
 {
   "name": "geonorge-base",
-  "version": "9.0.3",
+  "version": "9.0.4",
   "description": "Felleskomponenter for Geonorge",
   "files": [
     "src"
