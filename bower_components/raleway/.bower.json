@@ -8,7 +8,7 @@
     "Content-Type": "application/octet-stream",
     "Content-Disposition": "attachment; filename=raleway.zip"
   },
-  "_source": "https://google-fonts.azurewebsites.net/googleFonts/Raleway?family=Raleway:400,100,300,500,600,700",
+  "_source": "https://google-fonts.azurewebsites.net/googleFonts/Raleway?family=Raleway:400,100,300,500,600,700&subset=latin-ext",
   "_target": "*",
-  "_originalSource": "https://google-fonts.azurewebsites.net/googleFonts/Raleway?family=Raleway:400,100,300,500,600,700"
+  "_originalSource": "https://google-fonts.azurewebsites.net/googleFonts/Raleway?family=Raleway:400,100,300,500,600,700&subset=latin-ext"
 }
