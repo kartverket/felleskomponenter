@@ -1,34 +1,34 @@
 {
     "paths": {
         "vendorStyles": [
-            "bower_components/jquery-ui/themes/base/core.css",
-            "bower_components/jquery-ui/themes/base/datepicker.css",
-            "bower_components/jquery-ui/themes/base/theme.css",
-            "bower_components/components-font-awesome/css/font-awesome.min.css",
-            "bower_components/chosen/chosen.css"
+            "node_modules/components-jqueryui/themes/base/core.css",
+            "node_modules/components-jqueryui/themes/base/datepicker.css",
+            "node_modules/components-jqueryui/themes/base/theme.css",
+            "node_modules/components-font-awesome/css/fontawesome.min.css",
+            "node_modules/chosen-js/chosen.css"
         ],
         "vendorScripts": [
-            "bower_components/jquery/dist/jquery.min.js",
-            "bower_components/angular-bootstrap/ui-bootstrap.min.js",
-            "bower_components/jquery-ui/ui/widgets/datepicker.js",
-            "bower_components/jquery-ui/ui/minified/i18n/datepicker-nb.js",
-            "bower_components/js-cookie/src/js.cookie.js",
-            "bower_components/chosen/chosen.jquery.js"
+            "node_modules/jquery/dist/jquery.min.js",
+            "node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js",
+            "node_modules/components-jqueryui/ui/widgets/datepicker.js",
+            "node_modules/components-jqueryui/ui/minified/i18n/datepicker-nb.js",
+            "node_modules/js-cookie/src/js.cookie.js",
+            "node_modules/chosen-js/chosen.jquery.js"
         ],
         "vendorFonts": [
-            "bower_components/components-font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg,otf}",
-            "bower_components/openSans/**/*.{ttf,woff,woff2,eot,svg,otf}",
-            "bower_components/raleway/**/*.{ttf,woff,woff2,eot,svg,otf}"
+            "node_modules/components-font-awesome/fonts/**/*.{ttf,woff,woff2,eot,svg,otf}",
+            "node_modules/typeface-open-sans/files/*.{ttf,woff,woff2,eot,svg,otf}",
+            "node_modules/typeface-raleway/files/*.{ttf,woff,woff2,eot,svg,otf}"
         ],
         "vendorFontsStyles": [
-            "bower_components/openSans/**/*.css",
-            "bower_components/raleway/**/*.css"
+            "node_modules/typeface-open-sans/*.css",
+            "node_modules/typeface-raleway/*.css"
         ],
         "vendorImages": [{
-            "src": "bower_components/jquery-ui/themes/base/images/*.png",
+            "src": "node_modules/components-jqueryui/themes/base/images/*.png",
             "dest": "./assets/css/images/"
         }, {
-            "src": "bower_components/chosen/*.png",
+            "src": "node_modules/chosen-js/*.png",
             "dest": "./assets/css/"
         }],
         "styles": [
