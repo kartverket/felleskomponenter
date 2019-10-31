@@ -43,7 +43,7 @@ gulp.task('vendor-fonts', function () {
 gulp.task('vendor-fonts-styles', function () {
   return gulp.src(config.paths.vendorFontsStyles)
     .pipe(concat('vendorfonts.css'))
-    .pipe(replace("url(", "url(../fonts/"))
+    .pipe(replace("url('./files", "url('../fonts"))
     .pipe(gulp.dest('./assets/css/'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(postcss({ discardUnused: { fontFace: false } }))
