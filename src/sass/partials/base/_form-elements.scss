@@ -194,6 +194,17 @@ input[type="checkbox"]:checked.custom-checkbox{
       height: 19px;
       vertical-align: middle;
     }
+    &.large{
+      &:after {
+        width: 24px;
+        height: 22px;
+      }
+      .checkbox-character {
+        position: relative;
+        right: -15px;
+        top: 1px;
+      }
+    }
   }
 }
 
