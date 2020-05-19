@@ -3,7 +3,8 @@
   "version": "9.0.11",
   "description": "Felleskomponenter for Geonorge",
   "files": [
-    "src"
+    "src",
+    "assets"
   ],
   "style": "src/sass/base.scss",
   "main": "src/js/index.js",
